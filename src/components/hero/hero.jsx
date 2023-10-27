@@ -7,7 +7,7 @@ import CTA from "C/CTA";
 import Form from "C/hero/form/form";
 
 const Hero = ({ content }) => {
-    const { subtitle, title, desc, img, form } = content;
+    const { subtitle, title, desc, img, form, page } = content;
     return (
         <section>
             <div className="pt-[120px]">

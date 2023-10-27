@@ -33,7 +33,7 @@ const Header = () => {
             <li className="lg:h-full lg:flex lg:items-center group relative">
                 <button href="/" className="text-lg font-normal leading-10 text-white lg:text-black flex items-center gap-3">
                     Services
-                    <Image src={down} alt="down" onClick={() => setOpenSubMenu((prev) => !prev)} />
+                    <Image src={down} alt="down" onClick={() => setOpenSubMenu((prev) => !prev)} className="brightness-0 invert lg:invert-0" />
                 </button>
                 <div className="lg:absolute lg:flex lg:opacity-0 lg:invisible group-hover:visible group-hover:opacity-100 top-full w-full lg:w-[600px] lg:justify-between lg:left-[-200px]  xl:left-[-100px] rounded-2xl right-0 bg-white lg:p-3 lg:mt-[-20px]">
                     <ul className="hidden lg:block w-1/2">
