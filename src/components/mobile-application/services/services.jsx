@@ -27,8 +27,8 @@ const Services = () => {
                             css="hover:bg-light-yellow"
                         />
                         <CTA
-                            text="(855) 888-8399"
-                            href="tel:(855)888-8399"
+                            text="(516) 748-9707"
+                            href="tel:5167489707"
                             bg="bg-red"
                             css="hover:bg-light-yellow"
                         />

@@ -5,7 +5,7 @@ import Link from "next/link";
 import Sidebuttons from "../sidebuttons/sidebuttons";
 import { usePathname } from "next/navigation";
 // Import Images
-import logo from "media/logo.svg";
+import logo from "media/logo-light.png";
 import mapmarker from "media/mapmarker.svg";
 import telephone from "media/telephone.svg";
 import envelope from "media/envelope.svg";
@@ -15,7 +15,6 @@ import instagram from "media/social/instagram.svg";
 import linkedin from "media/social/linkedin.svg";
 import cards from "media/footer/cards.svg";
 import certification from "media/footer/certification.svg";
-import logo2 from "media/landing-pages/website-design-develop/logo.svg";
 
 const Footer = () => {
     const path = usePathname();
@@ -101,8 +100,8 @@ const Footer = () => {
             icon: mapmarker
         },
         {
-            text: "(855) 888-8399",
-            link: "tel:(855)888-8399",
+            text: "(516) 748-9707",
+            link: "tel:5167489707",
             icon: telephone
         },
         {
@@ -136,7 +135,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 pb-10 xl:pb-20 border-b-[1px] border-[#707070] flex-wrap lg:flex-nowrap justify-between gap-y-5 lg:gap-y-0">
                         <div className="basis-full sm:basis-[48%] lg:basis-[30%]">
                             <Link href="/" className="mb-5 block">
-                                {path !== "/website-design-develop-landing" ? <Image src={logo} alt="logo" /> : <Image src={logo2} alt="logo2" />}
+                                <Image src={logo} alt="logo" />
                             </Link>
                             <p className="text-sm xl:text-base font-normal text-white">Creative Logo Designs excels in making custom logos, responsive website design and development. Our expert UI/UX designers contribute to your brand’s success with visually stunning and functional designs.</p>
                             <Image src={certification} alt="certification" className="mt-3" />

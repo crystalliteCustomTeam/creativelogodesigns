@@ -65,7 +65,7 @@ const contact = () => {
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                                         GIVE US A CALL!
                                     </h2>
-                                    <div dangerouslySetInnerHTML={{ __html: `<a href="tel:(855)888-8399" class="text-[18px] font-medium text-[#ffffffc4]">(855) 888-8399</a>` }} />
+                                    <div dangerouslySetInnerHTML={{ __html: `<a href="tel:5167489707" class="text-[18px] font-medium text-[#ffffffc4]">(516) 748-9707</a>` }} />
                                 </div>
                                 <div>
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">

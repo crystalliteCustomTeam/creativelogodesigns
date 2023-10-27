@@ -7,7 +7,7 @@ import Button from "@/components/button/button";
 import { usePathname } from "next/navigation";
 import CTA from "C/CTA";
 // Import Images
-import logo from "media/logo.svg";
+import logo from "media/logo.png";
 import logoDesign from "media/menu/logoDesign.png";
 import creativeCopywriting from "media/menu/creativeCopywriting.png";
 import digitalMarketing from "media/menu/digitalMarketing.png";
@@ -20,7 +20,6 @@ import seoServices from "media/menu/seoServices.png";
 import websiteDevelopment from "media/menu/websiteDevelopment.png";
 import down from "media/menu/down.png";
 import { useState } from "react";
-import logo2 from "media/landing-pages/website-design-develop/logo.svg";
 
 const Header = () => {
     const [openNav, setOpenNav] = useState(false);
@@ -137,122 +136,12 @@ const Header = () => {
                 <div className="container">
                     <div className="flex items-center h-24">
                         <Link href="/">
-                            {(() => {
-                                switch (router) {
-                                    case '/website-design-develop-landing':
-                                        return <Image src={logo2} alt="logo2" />
-                                    default:
-                                        return <Image src={logo} alt="logo" className="brightness-0" />
-                                }
-                            })()}
+                            <Image src={logo} alt="logo" />
                         </Link>
                         <div className="hidden lg:flex ml-auto xl:m-auto h-full items-center">
                             {navList}
                         </div>
                         <div className="hidden xl:flex items-center gap-3">
-                            {/* <Button text="Start Live Chat"
-                                icon={true}
-                                color={`${(() => {
-                                    switch (router) {
-                                        case '/logo-design-company':
-                                            return "bg-[#7598F2]"
-                                        case '/creative-copywriting-company':
-                                            return "bg-[#768DF1]"
-                                        case '/digital-marketing-company':
-                                            return "bg-[#8A6EA5]"
-                                        case '/ecommerce-solutions':
-                                            return "bg-[#005368]"
-                                        case '/website-development-company':
-                                            return "bg-[#283C3C]"
-                                        case '/motion-graphic-design-company':
-                                            return "bg-[#195A47]"
-                                        case '/illustration-design-company':
-                                            return "bg-[#A4637A]"
-                                        case '/marketing-collateral-company':
-                                            return "bg-[#223C5A]"
-                                        case '/mobile-app-design-company':
-                                            return "bg-[#7AAF60]"
-                                        case '/seo-company':
-                                            return "bg-[#577981]"
-                                        case '/contact-us':
-                                            return "bg-[#005368]"
-                                        case '/pricing':
-                                            return "bg-[#8A6EA5]"
-                                        case '/website-design-develop-landing':
-                                            return "bg-[#3283FF] pl-4 pr-4"
-                                        default:
-                                            return "bg-[#9E7DE9]"
-                                    }
-                                })()} text-white`}
-                                hover="hover:bg-[#000000]"
-                                link="javascript:$zopim.livechat.window.show();" />
-                            <Button text="(855) 888-8399"
-                                color="bg-transparent text-white"
-                                border={`border-2 ${(() => {
-                                    switch (router) {
-                                        case '/logo-design-company':
-                                            return "border-[#7598F2]"
-                                        case '/creative-copywriting-company':
-                                            return "border-[#768DF1]"
-                                        case '/digital-marketing-company':
-                                            return "border-[#8A6EA5]"
-                                        case '/ecommerce-solutions':
-                                            return "border-[#005368]"
-                                        case '/website-development-company':
-                                            return "border-[#283C3C]"
-                                        case '/motion-graphic-design-company':
-                                            return "border-[#195A47]"
-                                        case '/illustration-design-company':
-                                            return "border-[#A4637A]"
-                                        case '/marketing-collateral-company':
-                                            return "border-[#223C5A]"
-                                        case '/mobile-app-design-company':
-                                            return "border-[#7AAF60]"
-                                        case '/seo-company':
-                                            return "border-[#577981]"
-                                        case '/contact-us':
-                                            return "border-[#005368]"
-                                        case '/pricing':
-                                            return "border-[#8A6EA5]"
-                                        case '/website-design-develop-landing':
-                                            return "border-[#00FFEF] pl-4 pr-4"
-                                        default:
-                                            return " border-[#9E7DE9]"
-                                    }
-                                })()}`}
-                                hover={`${(() => {
-                                    switch (router) {
-                                        case '/logo-design-company':
-                                            return "hover:bg-[#7598F2]"
-                                        case '/creative-copywriting-company':
-                                            return "hover:bg-[#768DF1]"
-                                        case '/digital-marketing-company':
-                                            return "hover:bg-[#8A6EA5]"
-                                        case '/ecommerce-solutions':
-                                            return "hover:bg-[#005368]"
-                                        case '/website-development-company':
-                                            return "hover:bg-[#283C3C]"
-                                        case '/motion-graphic-design-company':
-                                            return "hover:bg-[#195A47]"
-                                        case '/illustration-design-company':
-                                            return "hover:bg-[#A4637A]"
-                                        case '/marketing-collateral-company':
-                                            return "hover:bg-[#223C5A]"
-                                        case '/mobile-app-design-company':
-                                            return "hover:bg-[#7AAF60]"
-                                        case '/seo-company':
-                                            return "hover:bg-[#577981]"
-                                        case '/contact-us':
-                                            return "hover:bg-[#005368]"
-                                        case '/pricing':
-                                            return "hover:bg-[#8A6EA5]"
-                                        case '/website-design-develop-landing':
-                                            return "hover:bg-[#00FFEF]"
-                                        default:
-                                            return "hover:bg-[#9E7DE9]"
-                                    }
-                                })()}`}
-                                link="tel:(855)888-8399" rounded="rounded-[100px]" /> */}
                             <CTA
                                 text="Start Live Chat"
                                 href="javascript:$zopim.livechat.window.show();"
@@ -261,8 +150,8 @@ const Header = () => {
                                 css="hover:bg-light-yellow"
                             />
                             <CTA
-                                text="(855) 888-8399"
-                                href="tel:(855)888-8399"
+                                text="(516) 748-9707"
+                                href="tel:5167489707"
                                 bg="bg-red"
                                 css="hover:bg-light-yellow"
                             />
