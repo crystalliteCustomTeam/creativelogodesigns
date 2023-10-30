@@ -32,12 +32,11 @@ const Select = ({
                     readOnly
                     value={inputValue}
                     placeholder={placeholder}
-                    onChange={handle}
                     className={`cursor-pointer focus-visible:outline-none w-full ${padding} ${border} text-[15px] text-gr placeholder:text-white ${bg} ${color} font-medium ${height} ${css}`}
-                    onClick={() => setOpen((prev) => !prev)}
+                    onClick={handle}
                 />
                 <div className={`absolute top-0 right-[0.5rem] bottom-0 flex items-center brightness-0 invert`}>
-                    <Image src="/landing-page-3/icons/down.png" width={16} height={16} alt="down" />
+                    <Image src="/landing-page-3/icons/down.png" width={16} height={16} alt="down" onClick={() => setOpen((prev) => !prev)} className="cursor-pointer" />
                 </div>
             </div>
             <ul className={`${open ? "block" : "hidden"} flex flex-col gap-1 bg-white p-2 rounded-md shadow-lg shadow-blue-gray-500/10 absolute top-full left-0 right-0 z-30`}>

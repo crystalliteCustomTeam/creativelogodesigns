@@ -25,8 +25,8 @@ const SmallBanner = ({ content }) => {
                                 css="hover:bg-light-yellow"
                             />
                             <CTA
-                                text="(516) 748-9707"
-                                href="tel:5167489707"
+                                text="(347) 607-3636"
+                                href="tel:3476073636"
                                 bg="bg-red"
                                 css="hover:bg-light-yellow"
                             />
@@ -66,11 +66,11 @@ export default SmallBanner;
 //                                     color={`${btnBg ?? "bg-transparent"} text-white`}
 //                                     hover="hover:bg-[#000000]"
 //                                     link="javascript:$zopim.livechat.window.show();" />
-//                                 <Button text="(516) 748-9707"
+//                                 <Button text="(347) 607-3636"
 //                                     color={`${btnColor ?? "text-white"} bg-transparent`}
 //                                     border={`border-2 ${btnBorder ?? "border-[#ffffff]"}`}
 //                                     hover={`hover:text-white ${btnHover ?? "hover:bg-transparent"}`}
-//                                     link="tel:5167489707" />
+//                                     link="tel:3476073636" />
 //                             </div>
 //                         </div>
 //                     </div>

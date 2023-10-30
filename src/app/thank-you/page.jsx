@@ -7,22 +7,25 @@ import Script from "next/script";
 const Page = () => {
     return (
         <main>
-            <Script id="tacking-code-gtag">
+            <Script id="tacking-code-gtag" strategy="lazyOnload">
                 {`
-                    gtag('event', 'conversion', {'send_to': 'AW-11337170041/esMKCNTj5uEYEPn4_Z0q'});
+                    gtag('event', 'conversion', {
+                        'send_to': 'AW-11394693744/rBtFCKjJlvIYEPD0tLkq',
+                        'transaction_id': ''
+                    });
                 `}
             </Script>
             <Header />
             <section>
-                <div className="__homeHeroGradientBg h-screen flex items-center">
+                <div className="h-screen flex items-center">
                     <div className="container">
-                        <h1 className="text-4xl sm:text-5xl xl:text-5xl 2xl:text-6xl font-sans text-white font-bold leading-none mb-5">
+                        <h1 className="text-4xl sm:text-5xl xl:text-5xl 2xl:text-6xl font-sans text-black font-bold leading-none mb-5">
                             Dear Customer,
                         </h1>
-                        <p className="text-base font-medium font-sans text-white mb-5">
+                        <p className="text-base font-medium font-sans text-black mb-5">
                             Thank you for submitting the Form on our website. We appreciate your interest
                         </p>
-                        <Link href="/" className="w-max px-10 rounded-xl h-[50px] block bg-[#0d3163] text-[#ffffff] text-[18px] font-sans font-semibold hover:ring-2 hover:bg-transparent ring-[#9E7DE9] leading-[50px]">
+                        <Link href="/" className="w-max px-10 rounded-xl h-[50px] block bg-red text-[#ffffff] text-[18px] font-sans font-semibold hover:ring-2 hover:bg-light-yellow ring-light-yellow leading-[50px]">
                             Back to Home
                         </Link>
                     </div>

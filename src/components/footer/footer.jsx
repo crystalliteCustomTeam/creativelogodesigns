@@ -100,8 +100,8 @@ const Footer = () => {
             icon: mapmarker
         },
         {
-            text: "(516) 748-9707",
-            link: "tel:5167489707",
+            text: "(347) 607-3636",
+            link: "tel:3476073636",
             icon: telephone
         },
         {

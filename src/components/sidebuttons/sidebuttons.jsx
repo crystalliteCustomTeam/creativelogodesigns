@@ -13,7 +13,6 @@ const Sidebuttons = () => {
         phone: "",
         email: "",
         message: "",
-        services: "Not Selected",
         pageURL: usePathname()
     });
     const handleDataChange = (e) => {
@@ -113,9 +112,10 @@ const Sidebuttons = () => {
                 <img src="/chatIcon.svg" alt="chat" />
                 <span class="text-white font-semibold text-lg block">Start Live Chat</span>
             </a>`}} />
-            <div className="translate-x-[75%] hover:translate-x-[1%] bg-[#cab99a] rounded-tl-[50px] rounded-bl-[50px] fixed top-[33%] right-0 z-50" dangerouslySetInnerHTML={{__html: `<a href="tel:5167489707" class="cursor-pointer hidden lg:flex items-center py-2 px-4 gap-4">
+            <div className="translate-x-[75%] hover:translate-x-[1%] bg-[#cab99a] rounded-tl-[50px] rounded-bl-[50px] fixed top-[33%] right-0 z-50" dangerouslySetInnerHTML={{
+                __html: `<a href="tel:3476073636" class="cursor-pointer hidden lg:flex items-center py-2 px-4 gap-4">
                 <img src="/callIcon.svg" alt="call" />
-                <span class="text-white font-semibold text-lg">(516) 748-9707</span>
+                <span class="text-white font-semibold text-lg">(347) 607-3636</span>
             </a>`}} />
             <div className="cursor-pointer hidden lg:flex items-center translate-x-[100%] hover:translate-x-[1%] fixed top-[43%] right-0 z-50">
                 <span className="text-white font-normal text-lg bg-[#cab99a] tracking-wide rotate-[-90deg] absolute top-[45%] left-[-137px] rounded-tr-[30px] rounded-tl-[30px] py-2 px-3 ">60% off on all services</span>
@@ -124,7 +124,7 @@ const Sidebuttons = () => {
                         <div className="mb-2">
                             <Input label="Name" type="text" onChange={handleDataChange} name="name" />
                             {
-                                errors.name && <span className="text-[12px] block p-2 font-medium text-red-600">
+                                errors.name && <span className="text-[12px] block p-2 font-medium text-red">
                                     {errors.name}
                                 </span>
                             }
@@ -132,7 +132,7 @@ const Sidebuttons = () => {
                         <div className="mb-2">
                             <Input label="Telephone Number" type="tel" onChange={handleDataChange} name="phone" />
                             {
-                                errors.phone && <span className="text-[12px] block p-2 font-medium text-red-600">
+                                errors.phone && <span className="text-[12px] block p-2 font-medium text-red">
                                     {errors.phone}
                                 </span>
                             }
@@ -140,7 +140,7 @@ const Sidebuttons = () => {
                         <div className="mb-2">
                             <Input label="Email" type="email" onChange={handleDataChange} name="email" />
                             {
-                                errors.email && <span className="text-[12px] block p-2 font-medium text-red-600">
+                                errors.email && <span className="text-[12px] block p-2 font-medium text-red">
                                     {errors.email}
                                 </span>
                             }

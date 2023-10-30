@@ -11,12 +11,12 @@ export const metadata = {
     title: "Top Web Design Company - Creative Logo Designs",
     description: "Creative Logo Designs is an award-winning top web design company with a team of professional web designers, and online strategists, delivering cutting-edge websites for businesses.",
     // Google Varification
-    verification: {
-        google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
-        other: {
-            "facebook-domain-verification": ['rfth5fqyv2is1cegfmcloebw46z7nz'],
-        },
-    },
+    // verification: {
+    //     google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
+    //     other: {
+    //         "facebook-domain-verification": ['rfth5fqyv2is1cegfmcloebw46z7nz'],
+    //     },
+    // },
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io',
@@ -28,15 +28,19 @@ export default function RootLayout({ children }) {
     const GTM_ID_2 = 'GTM-WH5N73ZB';
     return (
         <html lang="en">
-            <Script id="ze-snippet"
+            <Script
+                id="ze-snippet"
                 src="https://static.zdassets.com/ekr/snippet.js?key=f8df8f7a-97b8-4ca4-bbeb-c5d6ea51968e"
-                strategy="lazyOnload">
+                strategy="lazyOnload"
+            >
             </Script>
-            <Script id="google-tag-manager-two"
-                src="https://www.googletagmanager.com/gtag/js?id=AW-11337170041"
-                strategy="lazyOnload">
+            <Script
+                id="google-tag-manager"
+                src="https://www.googletagmanager.com/gtag/js?id=AW-11394693744"
+                strategy="lazyOnload"
+            >
             </Script>
-            <Script id="google-tag-manager-one" strategy="lazyOnload">
+            {/* <Script id="google-tag-manager-one" strategy="lazyOnload">
                 {`
                     (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -53,8 +57,8 @@ export default function RootLayout({ children }) {
                     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                     })(window,document,'script','dataLayer','${GTM_ID_2}');
                 `}
-            </Script>
-            <Script id="facebook-manager" strategy="lazyOnload">
+            </Script> */}
+            {/* <Script id="facebook-manager" strategy="lazyOnload">
                 {`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -67,13 +71,13 @@ export default function RootLayout({ children }) {
                     fbq('init', '3301562960147657');
                     fbq('track', 'PageView');
                 `}
-            </Script>
+            </Script> */}
             <Script id="google-tag-manager-three" strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', 'AW-11337170041');
+                    gtag('config', 'AW-11394693744');
                 `}
             </Script>
             <body className={`${primary.variable} ${integralCF.variable}`}>
