@@ -113,15 +113,15 @@ const Footer = () => {
     const socialLinks = [
         {
             icon: facebook,
-            link: "https://www.facebook.com/creativelogodesignsofficial/"
+            link: "/contact-us"
         },
         {
             icon: twitter,
-            link: "https://twitter.com/creativelogodesigns_"
+            link: "/contact-us"
         },
         {
             icon: instagram,
-            link: "https://www.instagram.com/creativelogodesignsofficial"
+            link: "/contact-us"
         },
         {
             icon: linkedin,

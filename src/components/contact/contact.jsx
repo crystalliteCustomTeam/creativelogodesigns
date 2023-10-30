@@ -52,21 +52,19 @@ const Contact = () => {
             }
 
             let bodyContent = JSON.stringify(data);
-            // let reqOptions = {
-            //     url: "/api/email",
-            //     method: "POST",
-            //     headers: headersList,
-            //     data: JSON.stringify(bodyContent),
-            // }
-            // await Axios.request(reqOptions);
-            // setFormStatus("Submit Form");
-            // window.location.href = "/thank-you";
-            console.log(bodyContent);
+            let reqOptions = {
+                url: "/api/email",
+                method: "POST",
+                headers: headersList,
+                data: bodyContent,
+            }
+            await Axios.request(reqOptions);
+            window.location.href = "/thank-you";
         } else {
             // setFormStatus("Failed...");
         }
     }
-    let servicesArray = ["SEO", "PPC Marketing", "Social Media Management", "Reputation Management", "Content Marketing", "Web Design Development", "Other"];
+    let servicesArray = ["Web Design Development", "Logo Design", "SEO", "PPC Marketing", "Social Media Management", "Reputation Management", "Content Marketing", "Other"];
     return (
         <section>
             <div className="py-[50px] lg:py-[100px] bg-red">
