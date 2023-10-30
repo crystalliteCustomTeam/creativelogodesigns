@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <Script
                 id="ze-snippet"
-                src="https://static.zdassets.com/ekr/snippet.js?key=f8df8f7a-97b8-4ca4-bbeb-c5d6ea51968e"
+                src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
                 strategy="lazyOnload"
             >
             </Script>

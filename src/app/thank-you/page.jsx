@@ -9,9 +9,8 @@ const Page = () => {
         <main>
             <Script id="tacking-code-gtag" strategy="lazyOnload">
                 {`
-                    gtag('event', 'conversion', {
-                        'send_to': 'AW-11394693744/rBtFCKjJlvIYEPD0tLkq',
-                        'transaction_id': ''
+                    gtag('event', 'conversion', { 
+                        'send_to': 'AW-11394693744/NK6wCK3QpfIYEPD0tLkq', 'value': 1.0, 'currency': 'USD' 
                     });
                 `}
             </Script>
