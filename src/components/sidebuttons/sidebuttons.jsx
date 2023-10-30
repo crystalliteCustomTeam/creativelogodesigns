@@ -13,6 +13,7 @@ const Sidebuttons = () => {
         phone: "",
         email: "",
         message: "",
+        services: "Not Selected",
         pageURL: usePathname()
     });
     const handleDataChange = (e) => {

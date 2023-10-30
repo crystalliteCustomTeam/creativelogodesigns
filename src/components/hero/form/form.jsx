@@ -12,7 +12,7 @@ const Form = () => {
         name: "",
         phone: "",
         email: "",
-        services: "",
+        services: "Not Selected",
         message: "",
         pageURL: usePathname()
     });
