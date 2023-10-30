@@ -1,5 +1,4 @@
 "use client"
-
 import Input from "C/Input";
 import Select from "C/Select";
 import Button from "C/Button";
@@ -7,7 +6,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Axios from "axios";
 
-const contact = () => {
+const Contact = () => {
     const [data, setData] = useState({
         name: "",
         phone: "",
@@ -19,7 +18,7 @@ const contact = () => {
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Submit Form");
+    // const [formStatus, setFormStatus] = useState("Submit Form");
     const [errors, setErrors] = useState({});
     const formValidateHandle = () => {
         let errors = {};
@@ -41,7 +40,7 @@ const contact = () => {
     };
     const handleFormSubmit = async (e) => {
         e.preventDefault();
-        setFormStatus("Processing...");
+        // setFormStatus("Processing...");
 
         const errors = formValidateHandle();
         setErrors(errors);
@@ -64,7 +63,7 @@ const contact = () => {
             // window.location.href = "/thank-you";
             console.log(bodyContent);
         } else {
-            setFormStatus("Failed...");
+            // setFormStatus("Failed...");
         }
     }
     let servicesArray = ["SEO", "PPC Marketing", "Social Media Management", "Reputation Management", "Content Marketing", "Web Design Development", "Other"];
@@ -170,4 +169,4 @@ const contact = () => {
     )
 }
 
-export default contact;
+export default Contact;
