@@ -23,7 +23,7 @@ const Reviews = ({ content }) => {
                                     Jennifer Mitchell
                                 </h4>
                                 <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-white font-normal">
-                                    "Creative Logo Designs created a special and eye-catching custom logo <br /> design that perfectly shows what our financial consulting firm is <br /> about. Our team and clients love it, thanks to their amazing logo <br /> design skills."
+                                    " Creative Logo Designs created a special and eye-catching custom logo <br /> design that perfectly shows what our financial consulting firm is <br /> about. Our team and clients love it, thanks to their amazing logo <br /> design skills. "
                                 </p>
                             </div>
                             <div className="relative text-right group">
@@ -32,7 +32,7 @@ const Reviews = ({ content }) => {
                                     John Lennon
                                 </h4>
                                 <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-white font-normal">
-                                    I am glad I chose Creative Logo Designs for character animation <br /> services. They were ideal for the animated figures we  required <br /> for our educational materials program. Our audience likes <br /> the cartoons because they are engaging and attractive. Their <br /> crew is unmatched in terms of talent and professionalism.
+                                    " I am glad I chose Creative Logo Designs for character animation <br /> services. They were ideal for the animated figures we  required <br /> for our educational materials program. Our audience likes <br /> the cartoons because they are engaging and attractive. Their <br /> crew is unmatched in terms of talent and professionalism. "
                                 </p>
                             </div>
                             <div className="relative group">
@@ -41,7 +41,7 @@ const Reviews = ({ content }) => {
                                     Emily Parker
                                 </h4>
                                 <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-white font-normal">
-                                    “Hiring Creative Logo Designs for our tech startup web design and <br /> development has been one of the best decisions. It's not just <br /> about aesthetics; the functionality and user experience they <br /> delivered are nothing short of exceptional.”
+                                    " Hiring Creative Logo Designs for our tech startup web design and <br /> development has been one of the best decisions. It's not just <br /> about aesthetics; the functionality and user experience they <br /> delivered are nothing short of exceptional. "
                                 </p>
                             </div>
                             <div className="relative text-right group">
@@ -50,7 +50,7 @@ const Reviews = ({ content }) => {
                                     Sarah Johnson
                                 </h4>
                                 <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-white font-normal" >
-                                    “Their UI/UX web design service has significantly improved the <br /> visual appeal and functionality of our ecommerce website across <br /> devices. The user engagement on our website has increased a lot <br /> as well. Creative Logo Designs is the best web design company I have <br /> ever worked with.”
+                                    " Their UI/UX web design service has significantly improved the <br /> visual appeal and functionality of our ecommerce website across <br /> devices. The user engagement on our website has increased a lot <br /> as well. Creative Logo Designs is the best web design company I have <br /> ever worked with. "
                                 </p>
                             </div>
                         </div>
