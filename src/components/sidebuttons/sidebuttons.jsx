@@ -3,23 +3,34 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Input, ThemeProvider } from "@material-tailwind/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Axios from "axios";
 
 const Sidebuttons = () => {
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+    // For Page
+    let page = usePathname();
     const [data, setData] = useState({
         name: "",
         phone: "",
         email: "",
-        message: "",
         services: "Not Selected",
-        pageURL: usePathname()
+        message: "",
+        pageURL: page,
     });
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Submit Form");
+    const [formStatus, setFormStatus] = useState("Get A Free Quote");
     const [errors, setErrors] = useState({});
     const formValidateHandle = () => {
         let errors = {};
@@ -52,18 +63,50 @@ const Sidebuttons = () => {
                 "Content-Type": "application/json"
             }
 
-            let bodyContent = data;
+            let bodyContent = JSON.stringify(data);
             let reqOptions = {
                 url: "/api/email",
                 method: "POST",
                 headers: headersList,
-                data: JSON.stringify(bodyContent),
+                data: bodyContent,
             }
             await Axios.request(reqOptions);
-            setFormStatus("Submit Form");
-            window.location.href = "/thank-you";
         } else {
             setFormStatus("Failed...");
+        }
+
+        if (Object.keys(errors).length === 0) {
+            // For Date
+            let newDate = new Date();
+            let date = newDate.getDate();
+            let month = newDate.getMonth() + 1;
+            let year = newDate.getFullYear();
+            // For Time
+            let today = new Date();
+            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+            let headersList = {
+                "Accept": "*/*",
+                "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+                "Content-Type": "application/json"
+            }
+
+            let bodyContent = JSON.stringify({
+                "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                "Brand": "Creative Logo Designs",
+                "Page": `${page}`,
+                "Date": `${month < 10 ? `0${month}` : `${month}`}-${date}-${year}`,
+                "Time": time,
+                "JSON": data
+            });
+            let reqOptions = {
+                url: "https://sheetdb.io/api/v1/1ownp6p7a9xpi",
+                method: "POST",
+                headers: headersList,
+                data: bodyContent,
+            }
+            await Axios.request(reqOptions);
+            window.location.href = "/thank-you";
         }
     }
     const theme = {
@@ -116,7 +159,7 @@ const Sidebuttons = () => {
             <div className="translate-x-[75%] hover:translate-x-[1%] bg-[#cab99a] rounded-tl-[50px] rounded-bl-[50px] fixed top-[33%] right-0 z-50" dangerouslySetInnerHTML={{
                 __html: `<a href="tel:3476073636" class="cursor-pointer hidden lg:flex items-center py-2 px-4 gap-4">
                 <img src="/callIcon.svg" alt="call" />
-                <span class="text-white font-semibold text-lg">(347) 607-3636</span>
+                <span class="text-white font-semibold text-lg">(516) 748-9707</span>
             </a>`}} />
             <div className="cursor-pointer hidden lg:flex items-center translate-x-[100%] hover:translate-x-[1%] fixed top-[43%] right-0 z-50">
                 <span className="text-white font-normal text-lg bg-[#cab99a] tracking-wide rotate-[-90deg] absolute top-[45%] left-[-137px] rounded-tr-[30px] rounded-tl-[30px] py-2 px-3 ">60% off on all services</span>

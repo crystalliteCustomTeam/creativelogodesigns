@@ -2,23 +2,34 @@
 import Input from "C/Input";
 import Select from "C/Select";
 import Button from "C/Button";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Axios from "axios";
 
 const Contact = () => {
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+    // For Page
+    let page = usePathname();
     const [data, setData] = useState({
         name: "",
         phone: "",
         email: "",
         services: "Not Selected",
         message: "",
-        pageURL: usePathname()
+        pageURL: page,
     });
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    // const [formStatus, setFormStatus] = useState("Submit Form");
+    const [formStatus, setFormStatus] = useState("Get A Free Quote");
     const [errors, setErrors] = useState({});
     const formValidateHandle = () => {
         let errors = {};
@@ -40,7 +51,7 @@ const Contact = () => {
     };
     const handleFormSubmit = async (e) => {
         e.preventDefault();
-        // setFormStatus("Processing...");
+        setFormStatus("Processing...");
 
         const errors = formValidateHandle();
         setErrors(errors);
@@ -59,12 +70,54 @@ const Contact = () => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            window.location.href = "/thank-you";
         } else {
-            // setFormStatus("Failed...");
+            setFormStatus("Failed...");
+        }
+
+        if (Object.keys(errors).length === 0) {
+            // For Date
+            let newDate = new Date();
+            let date = newDate.getDate();
+            let month = newDate.getMonth() + 1;
+            let year = newDate.getFullYear();
+            // For Time
+            let today = new Date();
+            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+            let headersList = {
+                "Accept": "*/*",
+                "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+                "Content-Type": "application/json"
+            }
+
+            let bodyContent = JSON.stringify({
+                "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                "Brand": "Creative Logo Designs",
+                "Page": `${page}`,
+                "Date": `${month < 10 ? `0${month}` : `${month}`}-${date}-${year}`,
+                "Time": time,
+                "JSON": data
+            });
+            let reqOptions = {
+                url: "https://sheetdb.io/api/v1/1ownp6p7a9xpi",
+                method: "POST",
+                headers: headersList,
+                data: bodyContent,
+            }
+            await Axios.request(reqOptions);
+            window.location.href = "/thank-you";
         }
     }
-    let servicesArray = ["Web Design Development", "Logo Design", "SEO", "PPC Marketing", "Social Media Management", "Reputation Management", "Content Marketing", "Other"];
+    let servicesArray = [
+        "Web Design Development",
+        "Logo Design",
+        "SEO",
+        "PPC Marketing",
+        "Social Media Management",
+        "Reputation Management",
+        "Content Marketing",
+        "Other"
+    ];
     return (
         <section>
             <div className="py-[50px] lg:py-[100px] bg-red">
@@ -131,7 +184,7 @@ const Contact = () => {
                                     />
                                 </div>
                                 <Button
-                                    text="Get A Free Quote"
+                                    text={formStatus}
                                     border="border-none"
                                     color="text-red"
                                     handle={handleFormSubmit}
