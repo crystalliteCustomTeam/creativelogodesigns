@@ -71,7 +71,6 @@ const Form = () => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            console.log(bodyContent)
         } else {
             setFormStatus("Failed...");
         }
@@ -107,7 +106,7 @@ const Form = () => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            // window.location.href = "/thank-you";
+            window.location.href = "/thank-you";
         }
     }
     let servicesArray = [
