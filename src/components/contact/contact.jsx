@@ -179,7 +179,7 @@ const Contact = () => {
                                         options={servicesArray}
                                         name="services"
                                         border="border-none"
-                                        padding="pl-[100px] pr-5"
+                                        padding="pl-[100px] pr-5" 
                                         handle={handleDataChange}
                                     />
                                 </div>
