@@ -17,7 +17,7 @@ const Services = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div >
-                            <div className="">
+                            <div className="mb-10">
                                 <div className="flex items-end mb-3">
                                     <h3 className="text-[20px] sm:text-[25px] font-megat font-extrabold leading-tight text-black hover:text-red">
                                         BRAND <br className="block" /> DISCOVERY
@@ -41,7 +41,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="">
+                            <div className="mb-10">
                                 <div className="flex items-end mb-3">
                                     <h3 className="text-[20px] sm:text-[25px] font-megat font-extrabold leading-tight text-black hover:text-red">
                                         BRAND <br className="block" /> GUIDELINES
