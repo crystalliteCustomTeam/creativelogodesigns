@@ -137,7 +137,7 @@ const Footer = () => {
                             <Link href="/" className="mb-5 block">
                                 <Image src={logo} alt="logo" />
                             </Link>
-                            <p className="text-sm xl:text-base font-normal text-white">Creative Logo Designs excels in making custom logos, responsive website design and development. Our expert UI/UX designers contribute to your brand’s success with visually stunning and functional designs.</p>
+                            <p className="text-sm xl:text-base font-normal text-white text-justify">Creative Logo Designs excels in making custom logos, responsive website design and development. Our expert UI/UX designers contribute to your brand’s success with visually stunning and functional designs.</p>
                             <Image src={certification} alt="certification" className="mt-3" />
                         </div>
                         <div className="basis-full sm:basis-[48%] lg:basis-[20%]">
