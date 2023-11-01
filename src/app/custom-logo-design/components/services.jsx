@@ -4,7 +4,7 @@ import Image from "next/image";
 const Services = () => {
     return (
         <section>
-            <div className="pb-[30px]">
+            <div className="pb-[70px]">
                 <div className="container">
                     <div className="text-center mb-10">
                         <h2 className="text-[30px] sm:text-[35px] xl:text-[40px] font-megat font-extrabold leading-tight text-black mb-3">
@@ -17,7 +17,7 @@ const Services = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div >
-                            <div className="lg:w-[70%] xl:w-[65%]">
+                            <div className="">
                                 <div className="flex items-end mb-3">
                                     <h3 className="text-[20px] sm:text-[25px] font-megat font-extrabold leading-tight text-black hover:text-red">
                                         BRAND <br className="block" /> DISCOVERY
@@ -28,7 +28,7 @@ const Services = () => {
                                     Before we design a logo, we understand your business niche. This process lets our team do intensive research on your specific industry, target audience, and competitors.
                                 </p>
                             </div>
-                            <div className="lg:w-[70%] xl:w-[65%] md:ml-auto md:mt-[100px]">
+                            <div className="">
                                 <div className="flex items-end mb-3">
                                     <h3 className="text-[20px] sm:text-[25px] font-megat font-extrabold leading-tight text-black hover:text-red">
                                         LOGO <br className="block" /> DESIGN
@@ -41,8 +41,8 @@ const Services = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="lg:w-[70%] xl:w-[65%] md:mt-[100px]">
-                                <div className="flex items-end md:justify-between mb-3">
+                            <div className="">
+                                <div className="flex items-end mb-3">
                                     <h3 className="text-[20px] sm:text-[25px] font-megat font-extrabold leading-tight text-black hover:text-red">
                                         BRAND <br className="block" /> GUIDELINES
                                     </h3>
@@ -52,8 +52,8 @@ const Services = () => {
                                     Brand guidelines are clearly defined rules and standards that communicate how your brand should be represented to the world. Brand guidelines help businesses ensure consistency and demonstrate what the company is, what it does, and what it stands for.
                                 </p>
                             </div>
-                            <div className="lg:w-[70%] xl:w-[65%] md:ml-auto md:mt-[100px]">
-                                <div className="flex items-end md:justify-between mb-3">
+                            <div className="">
+                                <div className="flex items-end mb-3">
                                     <h3 className="text-[20px] sm:text-[25px] font-megat font-extrabold leading-tight text-black hover:text-red">
                                         MARKETING <br className="block" /> COLLATERALS
                                     </h3>

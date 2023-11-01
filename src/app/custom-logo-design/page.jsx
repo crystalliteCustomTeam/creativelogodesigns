@@ -1,5 +1,5 @@
 // Components
-import Hero from "@/components/hero/hero";
+import Hero from "./components/hero/hero";
 import Header from "@/components/header/header";
 import HeroForm from "./components/heroForm";
 import HeroIcons from "./components/heroIcons";
@@ -126,8 +126,8 @@ const Page = () => {
             <main>
                 <Header />
                 <Hero content={hero} />
-                <Services />
                 <Portfolio content={portfolio} />
+                <Services />
                 <SmallBanner content={smallbanner} />
                 <Letstalk content={letstalk} />
                 <Packages content={packages} />

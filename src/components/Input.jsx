@@ -34,7 +34,7 @@ const Input = ({
                 disabled={disabled}
                 id={referenceID}
                 onChange={handle}
-                className={`focus-visible:outline-none w-full ${padding} ${border} text-[15px] placeholder:text-white ${bg} ${color} font-medium ${height} ${css}`}
+                className={`focus-visible:outline-none w-full ${padding} ${border} text-[15px] placeholder:text-gray-500 ${bg} ${color} font-medium ${height} ${css}`}
             />
         </div>
     )
