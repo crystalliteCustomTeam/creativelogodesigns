@@ -42,7 +42,7 @@ const Hero = () => {
                         {
                             list && list.map((e, i) => (
                                 <div>
-                                    <div className="flex justify-center gap-2 items-center">
+                                    <div className="flex justify-center gap-2 items-center" key={i}>
                                         <Image src={e.icon} width={18} height={18} alt="icon" />
                                         <p className="text-white font-poppins font-medium leading-tight text-[14px]">{e.text}</p>
                                     </div>
