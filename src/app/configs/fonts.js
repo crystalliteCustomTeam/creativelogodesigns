@@ -1,4 +1,4 @@
-import { Roboto_Slab } from "next/font/google";
+import { Roboto_Slab, Poppins } from "next/font/google";
 import localFont from "next/font/local";
 
 const primary = Roboto_Slab({
@@ -7,6 +7,14 @@ const primary = Roboto_Slab({
     display: 'swap',
     subsets: ['latin'],
     variable: '--font-primary',
+});
+
+const poppins = Poppins({
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+    style: ['normal', 'italic'],
+    display: 'swap',
+    subsets: ['latin'],
+    variable: '--font-poppins',
 });
 
 const integralCF = localFont({
@@ -25,11 +33,16 @@ const integralCF = localFont({
             path: '../../fonts/IntegralCF-Heavy.otf',
             weight: '900',
             style: 'normal',
-        }
+        },
+       
+       
     ],
     variable: '--font-integralCF',
     subsets: ['latin'],
     display: 'swap',
 });
 
-export { primary, integralCF }
+
+
+
+export { primary, integralCF, poppins }

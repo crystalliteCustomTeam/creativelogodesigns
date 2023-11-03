@@ -1,5 +1,5 @@
 // Import Fonts
-import { primary, integralCF } from "./configs/fonts";
+import { primary, integralCF,poppins } from "./configs/fonts";
 import Script from 'next/script';
 
 // Import Css
@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
                     gtag('config', 'AW-11394693744');
                 `}
             </Script>
-            <body className={`${primary.variable} ${integralCF.variable}`}>
+            <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
                 <noscript>
                     <iframe src={`https://www.googletagmanager.com/ns.html?id='${GTM_ID_1}'`} className="hidden"></iframe>
                 </noscript>

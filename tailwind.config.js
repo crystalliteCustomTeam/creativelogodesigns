@@ -34,13 +34,15 @@ module.exports = withMT({
       fontFamily: {
         sans: ["var(--font-primary)", "sans-serif"],
         megat: ["var(--font-integralCF)", "sans-serif"],
-        pacifico: ['var(--font-pacifico)']
+        pacifico: ['var(--font-pacifico)'],
+        poppins: ['var(--font-poppins)']
       },
       colors: {
         "black": "#222222",
         "purple-blue": "#5750E4",
         'red': '#CA4140',
-        "light-yellow": "#cab99a"
+        "light-yellow": "#cab99a",
+        "ahsan":"pink"
       }
     }
   },
