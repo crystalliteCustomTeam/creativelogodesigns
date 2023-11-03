@@ -41,8 +41,8 @@ const Hero = () => {
                     <div className="grid grid-cols-4 mt-5 w-[78%] m-auto">
                         {
                             list && list.map((e, i) => (
-                                <div>
-                                    <div className="flex justify-center gap-2 items-center" key={i}>
+                                <div key={i}>
+                                    <div className="flex justify-center gap-2 items-center" >
                                         <Image src={e.icon} width={18} height={18} alt="icon" />
                                         <p className="text-white font-poppins font-medium leading-tight text-[14px]">{e.text}</p>
                                     </div>
