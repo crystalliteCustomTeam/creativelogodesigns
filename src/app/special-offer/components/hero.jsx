@@ -10,7 +10,6 @@ import Four from "media/lp-one/hero/slides/4.png";
 import Five from "media/lp-one/hero/slides/5.png";
 // Components
 import CTA from "C/CTA";
-import Form from "./form/form";
 // Import Css
 import Input from "@/components/Input";
 import Button from "@/components/Button";
@@ -21,8 +20,7 @@ import styles from "./hero.module.css";
 import { usePathname } from "next/navigation";
 import Axios from "axios";
 
-const Hero = ({ content }) => {
-    const { subtitle, title, desc, img, form } = content;
+const Hero = () => {
     const swiperRef = useRef(null);
     useEffect(() => {
         register();
@@ -143,28 +141,28 @@ const Hero = ({ content }) => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            // window.location.href = "/thank-you";
-            console.log(bodyContent)
+            window.location.href = "/thank-you";
         }
     }
     return (
         <section>
-            <div className="pt-[150px] md:pt-[200px] lg:pb-[50px]">
+            <div className="pt-[130px] lg:pt-[200px] pb-[100px] bg-[url('../../public/lp-two/hero/bg.png')] bg-cover bg-no-repeat bg-center">
                 <div className="container">
                     <div className="flex items-center justify-between flex-wrap lg:flex-nowrap gap-x-5 gap-y-10 lg:gap-y-0">
                         <div className="basis-full lg:basis-1/2 relative">
-                            <span className="text-[16px] text-red leading-none block font-bold mb-2">
-                                {subtitle}
+                            <span className="text-[16px] text-white leading-none block font-bold mb-2">
+                                Enhance your Brand with
                             </span>
-                            <h1 className="text-[25px] sm:text-[35px] xl:text-[45px] font-megat font-extrabold leading-tight text-black mb-5 hover:text-red transition-all">
-                                {title}
+                            <h1 className="text-[25px] sm:text-[35px] xl:text-[45px] font-megat font-extrabold leading-tight text-white mb-5 transition-all">
+                                Our <span className="text-[#ea0122]">CUSTOM LOGO <br className="block" /> DESIGNS</span> Services
                             </h1>
-                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal mb-5 text-justify sm:text-left">
-                                {desc}
+                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-white font-normal mb-5 text-justify sm:text-left w-">
+                                we don't design logos only - we transform brand identities through <br className="sm:block" /> our creatively crafted premium logo designs.
                             </p>
-                            <div className="mb-5">
-                                <p className="text-[16px] lg:text-[20px] leading-tight text-black font-normal mb-5 text-justify sm:text-left">
-                                    Fill The Form To <span className="text-red">Avail 70% Off</span>
+                            <Image src={Awards} alt="awards" priority={true} className="brightness-0 invert mb-10" />
+                            <div>
+                                <p className="text-[16px] lg:text-[20px] leading-tight text-white font-normal mb-5 text-justify sm:text-left">
+                                    Fill The Form To <span className="text-[#ea0122]">Avail 70% Off</span>
                                 </p>
                                 <form autoComplete="off" spellCheck="false" className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                     <div>
@@ -172,14 +170,14 @@ const Hero = ({ content }) => {
                                             name="name"
                                             type="text"
                                             placeholder="Enter Your Name"
-                                            border="border-2 border-black rounded-full"
+                                            border="border-2 border-white rounded-full"
                                             padding="px-3"
-                                            color="text-black"
-                                            placeholderColor="placeholder:text-black"
+                                            color="text-white"
+                                            placeholderColor="placeholder:text-white"
                                             handle={handleDataChange}
                                         />
                                         {
-                                            errors.name && <span className="text-[12px] block p-2 font-medium text-black">
+                                            errors.name && <span className="text-[12px] block p-2 font-medium text-white">
                                                 {errors.name}
                                             </span>
                                         }
@@ -189,14 +187,14 @@ const Hero = ({ content }) => {
                                             name="email"
                                             type="email"
                                             placeholder="Enter Your Email"
-                                            border="border-2 border-black rounded-full"
+                                            border="border-2 border-white rounded-full"
                                             padding="px-3"
-                                            color="text-black"
-                                            placeholderColor="placeholder:text-black"
+                                            color="text-white"
+                                            placeholderColor="placeholder:text-white"
                                             handle={handleDataChange}
                                         />
                                         {
-                                            errors.email && <span className="text-[12px] block p-2 font-medium text-black">
+                                            errors.email && <span className="text-[12px] block p-2 font-medium text-white">
                                                 {errors.email}
                                             </span>
                                         }
@@ -206,14 +204,14 @@ const Hero = ({ content }) => {
                                             name="phone"
                                             type="phone"
                                             placeholder="Enter Your Phone"
-                                            border="border-2 border-black rounded-full"
+                                            border="border-2 border-white rounded-full"
                                             padding="px-3"
-                                            color="text-black"
-                                            placeholderColor="placeholder:text-black"
+                                            color="text-white"
+                                            placeholderColor="placeholder:text-white"
                                             handle={handleDataChange}
                                         />
                                         {
-                                            errors.phone && <span className="text-[12px] block p-2 font-medium text-black">
+                                            errors.phone && <span className="text-[12px] block p-2 font-medium text-white">
                                                 {errors.phone}
                                             </span>
                                         }
@@ -227,25 +225,9 @@ const Hero = ({ content }) => {
                                     />
                                 </form>
                             </div>
-                            <Image src={Awards} alt="awards" priority={true} />
-                            <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
-                                <CTA
-                                    text="Start Live Chat"
-                                    href="javascript:$zopim.livechat.window.show();"
-                                    bg="bg-black"
-                                    icon="/icons/chat.svg"
-                                    css="hover:bg-light-yellow"
-                                />
-                                <CTA
-                                    text="(347) 607-3636"
-                                    href="tel:3476073636"
-                                    bg="bg-red"
-                                    css="hover:bg-light-yellow"
-                                />
-                            </div>
-                            <Image src="/lp-one/hero/badge.png" alt="hero" proprity="true" className="absolute top-[-50px] right-[-50px] hidden md:block" width={145} height={139} />
+                            <Image src="/lp-one/hero/badge.png" alt="hero" proprity="true" className="absolute top-[-50px] right-[-50px] hidden lg:block" width={145} height={139} />
                         </div>
-                        <div className="basis-full lg:basis-1/2 overflow-hidden">
+                        <div className="basis-full lg:basis-[40%] overflow-hidden">
                             <swiper-container
                                 init={false}
                                 ref={swiperRef}
