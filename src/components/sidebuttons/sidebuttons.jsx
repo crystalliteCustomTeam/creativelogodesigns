@@ -32,6 +32,7 @@ const Sidebuttons = () => {
     }
     const [formStatus, setFormStatus] = useState("Get A Free Quote");
     const [errors, setErrors] = useState({});
+    const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
         let errors = {};
         // Name validation
@@ -52,6 +53,7 @@ const Sidebuttons = () => {
     };
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setIsDisabled(true);
         setFormStatus("Processing...");
 
         const errors = formValidateHandle();
@@ -192,7 +194,7 @@ const Sidebuttons = () => {
                         <div className="mb-2">
                             <Input label="leave your message" type="text" onChange={handleDataChange} name="message" />
                         </div>
-                        <input type="button" onClick={handleFormSubmit} className="cursor-pointer  text-lg font-medium pr-8 pl-8 h-11 rounded-md bg-red w-full text-white hover:bg-[#cab99a]" value={formStatus} />
+                        <input type="button" onClick={handleFormSubmit} className="cursor-pointer  text-lg font-medium pr-8 pl-8 h-11 rounded-md bg-red w-full text-white hover:bg-[#cab99a]" value={formStatus} disabled={isDisabled} />
                     </form>
                 </ThemeProvider>
             </div>

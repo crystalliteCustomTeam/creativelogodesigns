@@ -13,6 +13,7 @@ import facebook from "media/social/facebook.svg";
 import twitter from "media/social/twitter.svg";
 import instagram from "media/social/instagram.svg";
 import linkedin from "media/social/linkedin.svg";
+import pinterest from "media/social/pinterest.svg"
 import cards from "media/footer/cards.svg";
 import certification from "media/footer/certification.svg";
 
@@ -108,19 +109,23 @@ const Footer = () => {
     const socialLinks = [
         {
             icon: facebook,
-            link: "/contact-us"
+            link: "https://www.facebook.com/creativelogodesignsofficial/"
         },
         {
             icon: twitter,
-            link: "/contact-us"
+            link: "https://twitter.com/cldusa_"
         },
         {
             icon: instagram,
-            link: "/contact-us"
+            link: "https://www.instagram.com/creativelogodesignsofficial/"
+        },
+        {
+            icon: pinterest,
+            link: "https://www.pinterest.com/creativelogodesignsofficial/"
         },
         {
             icon: linkedin,
-            link: "/contact-us"
+            link: "https://www.linkedin.com/company/creativelogodesignsofficial"
         },
     ]
     return (
@@ -198,7 +203,7 @@ const Footer = () => {
                                     socialLinks.map((e, i) => {
                                         return (
                                             <li key={i} className="bg-red w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
-                                                <Link href={e.link}>
+                                                <Link href={e.link} target="_blank">
                                                     <Image src={e.icon} alt={e.icon} />
                                                 </Link>
                                             </li>

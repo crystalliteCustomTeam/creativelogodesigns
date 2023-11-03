@@ -6,12 +6,14 @@ const Button = ({
     bg = "bg-white",
     color = "text-white",
     border = "border-2",
-    css
+    css,
+    disabled = false
 }) => {
     return (
         <button
             type="button"
             onClick={handle}
+            disabled={disabled}
             className={`flex items-center justify-center text-[18px] font-megat font-extrabold rounded-full ${color} ${border} transition-all ${bg} ${height} ${width} ${css}`}
         >
             {text}

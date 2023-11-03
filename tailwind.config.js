@@ -34,7 +34,7 @@ module.exports = withMT({
       fontFamily: {
         sans: ["var(--font-primary)", "sans-serif"],
         megat: ["var(--font-integralCF)", "sans-serif"],
-        pacifico: ['var(--font-pacifico)']
+        poppins: ['var(--font-poppins)', "sans-serif"]
       },
       colors: {
         "black": "#222222",

@@ -67,8 +67,9 @@ const Hero = ({ content }) => {
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Get A Free Quote");
+    const [formStatus, setFormStatus] = useState("Next");
     const [errors, setErrors] = useState({});
+    const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
         let errors = {};
         // Name validation
@@ -89,6 +90,7 @@ const Hero = ({ content }) => {
     };
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setIsDisabled(true);
         setFormStatus("Processing...");
 
         const errors = formValidateHandle();
@@ -143,8 +145,7 @@ const Hero = ({ content }) => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            // window.location.href = "/thank-you";
-            console.log(bodyContent)
+            window.location.href = "/thank-you";
         }
     }
     return (
@@ -224,6 +225,7 @@ const Hero = ({ content }) => {
                                         color="text-white"
                                         bg="bg-[#ea0122]"
                                         handle={handleFormSubmit}
+                                        disabled={isDisabled}
                                     />
                                 </form>
                             </div>
