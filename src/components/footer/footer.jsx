@@ -59,11 +59,6 @@ const Footer = () => {
         },
 
         {
-            text: "Digital Marketing",
-            link: "/digital-marketing-company"
-        },
-
-        {
             text: "Ecommerce Web Solutions",
             link: "/ecommerce-solutions"
         },
