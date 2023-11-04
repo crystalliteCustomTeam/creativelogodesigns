@@ -239,8 +239,8 @@ const Hero = ({ content }) => {
                                     css="hover:bg-light-yellow"
                                 />
                                 <CTA
-                                    text="(347) 607-3636"
-                                    href="tel:3476073636"
+                                    text="(855) 666-6675"
+                                    href="tel:8556666675"
                                     bg="bg-red"
                                     css="hover:bg-light-yellow"
                                 />

@@ -93,7 +93,7 @@ const Packages = () => {
                                     </div>
                                     <div className="border-t-[1px] border-[#b4b8bd] group-hover:border-white divide-x-[1px] grid grid-cols-2 divide-[#b4b8bd] group-hover:divide-white">
                                         <div className="text-center py-3">
-                                            <div dangerouslySetInnerHTML={{ __html: `<span class="text-[#ea0122] text-[14px] leading-tight block group-hover:text-white">Speak with us</span><a href="tel:3476073636" class="text-[#3c3d3e] text-[14px] leading-tight block group-hover:text-white">(347) 607-3636</a>` }} />
+                                            <div dangerouslySetInnerHTML={{ __html: `<span class="text-[#ea0122] text-[14px] leading-tight block group-hover:text-white">Speak with us</span><a href="tel:8556666675" class="text-[#3c3d3e] text-[14px] leading-tight block group-hover:text-white">(855) 666-6675</a>` }} />
                                         </div>
                                         <div className="text-center py-3">
                                             <div dangerouslySetInnerHTML={{ __html: `<span class="text-[#ea0122] text-[14px] leading-tight block group-hover:text-white">Want to discuss?</span><a href="javascript:$zopim.livechat.window.show();" class="text-[#3c3d3e] text-[14px] leading-tight block group-hover:text-white">Live Chat</a>` }} />

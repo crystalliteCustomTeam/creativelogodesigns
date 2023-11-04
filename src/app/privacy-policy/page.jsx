@@ -283,7 +283,7 @@ const Page = () => {
                             Phone:
                         </h3>
                         <p className="text-[15px] leading-[25px] text-[#0F2847] font-bold">
-                            <a href="tel:3476073636">(347) 607-3636</a>
+                            <a href="tel:8556666675">(855) 666-6675</a>
                         </p>
                     </div>
                 </div>
