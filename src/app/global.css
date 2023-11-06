@@ -222,6 +222,15 @@ body {
     background: #CA4140;
 }
 
+.bgx::-webkit-scrollbar-track {
+    background: #909090;
+}
+
+/* Handle */
+.bgx::-webkit-scrollbar-thumb {
+    background: #23bbc8;
+}
+
 .__awardsSlider .slick-track {
     display: flex;
     align-items: center;
@@ -270,4 +279,25 @@ body {
 .slick-track {
     align-items: center;
     display: flex !important;
+}
+
+.custom-shadow{
+    box-shadow:-20px 0 46px 0 rgba(0, 0, 0, .8);
+}
+.customgap .slick-slide {
+    margin: 8px
+}
+.cusmslide .slick-slide {
+    margin: 10px
+}
+.testimonials .slick-slide {
+    margin: 20px
+}
+.combolist li{
+    border-bottom: 1px dashed rgb(255 255 255 / 15%);
+    padding: 10px 0px;
+    margin-right: 35px;
+    display: block;
+    align-items: center;
+    font-size: 14px;
 }

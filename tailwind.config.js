@@ -22,7 +22,7 @@ module.exports = withMT({
           lg: '1024px',
           xl: '1300px',
           "2xl": '1400px'
-        }
+        },
       },
       screens: {
         'sm': '640px',
@@ -32,9 +32,9 @@ module.exports = withMT({
         '2xl': '1500px',
       },
       fontFamily: {
-        sans: ["var(--font-primary)", "sans-serif"],
-        megat: ["var(--font-integralCF)", "sans-serif"],
-        pacifico: ['var(--font-pacifico)']
+        'sans': ["var(--font-primary)", "sans-serif"],
+        'megat': ["var(--font-integralCF)", "sans-serif"],
+        'pacifico': ['var(--font-pacifico)'], "poppins": ['var(--font-poppins)']
       },
       colors: {
         "black": "#222222",
