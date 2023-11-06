@@ -31,6 +31,7 @@ const Contact = () => {
     }
     const [formStatus, setFormStatus] = useState("Get A Free Quote");
     const [errors, setErrors] = useState({});
+    const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
         let errors = {};
         // Name validation
@@ -52,6 +53,7 @@ const Contact = () => {
     const handleFormSubmit = async (e) => {
         e.preventDefault();
         setFormStatus("Processing...");
+        setIsDisabled(true);
 
         const errors = formValidateHandle();
         setErrors(errors);
@@ -188,6 +190,7 @@ const Contact = () => {
                                     border="border-none"
                                     color="text-red"
                                     handle={handleFormSubmit}
+                                    disabled={isDisabled}
                                 />
                             </form>
                         </div>
@@ -197,7 +200,7 @@ const Contact = () => {
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                                         GIVE US A CALL!
                                     </h2>
-                                    <div dangerouslySetInnerHTML={{ __html: `<a href="tel:3476073636" class="text-[18px] font-medium text-[#ffffffc4]">(347) 607-3636</a>` }} />
+                                    <div dangerouslySetInnerHTML={{ __html: `<a href="tel:8556666675" class="text-[18px] font-medium text-[#ffffffc4]">(855) 666-6675</a>` }} />
                                 </div>
                                 <div>
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">

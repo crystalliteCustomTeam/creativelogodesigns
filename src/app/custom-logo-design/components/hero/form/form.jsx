@@ -32,6 +32,7 @@ const Form = () => {
     }
     const [formStatus, setFormStatus] = useState("Get A Free Quote");
     const [errors, setErrors] = useState({});
+    const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
         let errors = {};
         // Name validation
@@ -52,6 +53,7 @@ const Form = () => {
     };
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setIsDisabled(true);
         setFormStatus("Processing...");
 
         const errors = formValidateHandle();
@@ -210,6 +212,7 @@ const Form = () => {
                         color="text-white"
                         bg="bg-red"
                         handle={handleFormSubmit}
+                        disabled={isDisabled}
                     />
                 </form>
             </div>

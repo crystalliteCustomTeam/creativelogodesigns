@@ -10,7 +10,10 @@ const Textarea = ({
     css,
     height = "h-[100px]",
     bg = "bg-transparent",
-    color = "text-gray-700"
+    color = "text-white",
+    border = "border-b-2",
+    padding = "px-1",
+    placeholderColor = "placeholder:text-gray-500"
 }) => {
     const referenceID = useId();
     return (
@@ -26,7 +29,7 @@ const Textarea = ({
                 placeholder={placeholder}
                 id={referenceID}
                 onChange={handle}
-                className={`focus-visible:outline-none w-full p-2 border-2 text-[15px] placeholder:text-gray-300 ${bg} ${color} font-medium resize-none ${height} ${css}`}
+                className={`focus-visible:outline-none resize-none w-full ${padding} ${border} text-[15px] ${placeholderColor} ${bg} ${color} font-medium ${height} ${css}`}
             ></textarea>
         </div >
     )

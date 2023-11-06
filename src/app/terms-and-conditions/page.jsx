@@ -223,7 +223,7 @@ const Page = () => {
                                 <ul className="list-decimal list-inside pl-5">
                                     <li>
                                         <span>
-                                            Toll-free <a href="tel:3476073636" className="text-[#0F2847]">(347) 607-3636</a>
+                                            Toll-free <a href="tel:8556666675" className="text-[#0F2847]">(855) 666-6675</a>
                                         </span>
                                     </li>
                                     <li>

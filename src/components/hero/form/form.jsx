@@ -50,8 +50,10 @@ const Form = () => {
         }
         return errors;
     };
+    const [isDisabled, setIsDisabled] = useState(false);
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setIsDisabled(true);
         setFormStatus("Processing...");
 
         const errors = formValidateHandle();
@@ -106,6 +108,7 @@ const Form = () => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
+            setIsDisabled(false);
             window.location.href = "/thank-you";
         }
     }
@@ -210,6 +213,7 @@ const Form = () => {
                         color="text-white"
                         bg="bg-red"
                         handle={handleFormSubmit}
+                        disabled={isDisabled}
                     />
                 </form>
             </div>

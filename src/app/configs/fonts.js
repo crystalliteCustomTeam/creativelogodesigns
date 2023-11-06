@@ -41,4 +41,4 @@ const integralCF = localFont({
     display: 'swap',
 });
 
-export { primary, integralCF, poppins}
+export { primary, poppins, integralCF }

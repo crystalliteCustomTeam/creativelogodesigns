@@ -34,7 +34,7 @@ const Header = () => {
                     Services
                     <Image src={down} alt="down" onClick={() => setOpenSubMenu((prev) => !prev)} className="brightness-0 invert lg:invert-0" />
                 </button>
-                <div className="lg:absolute lg:flex lg:opacity-0 lg:invisible group-hover:visible group-hover:opacity-100 top-full w-full lg:w-[600px] lg:justify-between lg:left-[-200px]  xl:left-[-100px] rounded-2xl right-0 bg-white lg:p-3 lg:mt-[-20px]">
+                <div className="lg:absolute lg:flex lg:opacity-0 lg:invisible group-hover:visible group-hover:opacity-100 top-full w-full lg:w-[600px] lg:justify-between lg:left-[-200px]  xl:left-[-100px] rounded-2xl right-0 bg-white lg:p-3 lg:mt-[-20px] shadow-lg">
                     <ul className="hidden lg:block w-1/2">
                         <li className="flex p-3 items-center text-white lg:text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
                             <Image src={logoDesign} alt="logoDesign" />
@@ -45,8 +45,8 @@ const Header = () => {
                             <Link className="text-base" href="/creative-copywriting-company">Creative Copywriting</Link>
                         </li>
                         <li className="flex p-3 items-center text-white lg:text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
-                            <Image src={digitalMarketing} alt="digitalMarketing" />
-                            <Link className="text-base" href="/digital-marketing-company">Digital Marketing</Link>
+                            <Image src={seoServices} alt="seoServices" />
+                            <Link className="text-base" href="/seo-company">SEO Services</Link>
                         </li>
                         <li className="flex p-3 items-center text-white lg:text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
                             <Image src={ecommerce} alt="ecommerce" />
@@ -74,10 +74,6 @@ const Header = () => {
                             <Image src={mobileApplication} alt="mobileApplication" />
                             <Link className="text-base" href="/mobile-app-design-company">App Design</Link>
                         </li>
-                        <li className="flex p-3 items-center text-white lg:text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
-                            <Image src={seoServices} alt="seoServices" />
-                            <Link className="text-base" href="/seo-company">SEO Services</Link>
-                        </li>
                     </ul>
                     <Collapse open={openSubMenu} className="block lg:hidden">
                         <ul>
@@ -88,10 +84,6 @@ const Header = () => {
                             <li className="flex p-3 items-center text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
                                 <Image src={creativeCopywriting} alt="creativeCopywriting" />
                                 <Link className="text-base" href="/creative-copywriting-company">Creative Copywriting</Link>
-                            </li>
-                            <li className="flex p-3 items-center text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
-                                <Image src={digitalMarketing} alt="digitalMarketing" />
-                                <Link className="text-base" href="/digital-marketing-company">Digital Marketing</Link>
                             </li>
                             <li className="flex p-3 items-center text-black gap-3 rounded-2xl hover:bg-[#e9e9e9]">
                                 <Image src={ecommerce} alt="ecommerce" />
@@ -150,8 +142,8 @@ const Header = () => {
                                 css="hover:bg-light-yellow"
                             />
                             <CTA
-                                text="(347) 607-3636"
-                                href="tel:3476073636"
+                                text="(855) 666-6675"
+                                href="tel:8556666675"
                                 bg="bg-red"
                                 css="hover:bg-light-yellow"
                             />
