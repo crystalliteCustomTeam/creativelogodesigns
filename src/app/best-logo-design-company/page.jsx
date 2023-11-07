@@ -21,7 +21,7 @@ const Page = () => {
             <header className="absolute top-0 left-0 right-0 py-5 z-[9999]">
                 <div className="container">
                     <div className="flex items-center">
-                        <Link href="/lp-three" className="m-auto sm:m-0">
+                        <Link href="/best-logo-design-company" className="m-auto sm:m-0">
                             <Image src={logo} alt="logo" />
                         </Link>
                         <div className="hidden sm:flex ml-auto items-center gap-4">
