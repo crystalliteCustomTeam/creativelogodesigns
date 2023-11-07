@@ -50,9 +50,9 @@ const Services = () => {
                         </div>
                         <div className="sm:hidden">
                             <Image src={Four} alt="smm" className={`ml-auto ${styles.keyFrame_2}`} />
-                            <Link href="/digital-marketing-company">
+                            <Link href="/seo-company">
                                 <h3 className="text-[20px] md:text-[30px] lg:text-[35px] xl:text-[40px] tracking-wider font-megat font-extrabold leading-tight text-black mt-3 hover:text-red transition-all">
-                                    Social Media
+                                    SEO
                                 </h3>
                             </Link>
                         </div>
@@ -68,9 +68,9 @@ const Services = () => {
                     <div className="sm:flex justify-around hidden">
                         <div>
                             <Image src={Four} alt="smm" className={`ml-auto ${styles.keyFrame_2}`} />
-                            <Link href="/digital-marketing-company">
+                            <Link href="/seo-company">
                                 <h3 className="text-[20px] md:text-[30px] lg:text-[35px] xl:text-[40px] tracking-wider font-megat font-extrabold leading-tight text-black mt-3 hover:text-red transition-all">
-                                    Social Media
+                                    SEO
                                 </h3>
                             </Link>
                         </div>

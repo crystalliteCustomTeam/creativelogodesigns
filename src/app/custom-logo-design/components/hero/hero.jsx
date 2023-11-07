@@ -22,7 +22,7 @@ import { usePathname } from "next/navigation";
 import Axios from "axios";
 
 const Hero = ({ content }) => {
-    const { subtitle, title, desc, img, form, page } = content;
+    const { subtitle, title, desc, img, form } = content;
     const swiperRef = useRef(null);
     useEffect(() => {
         register();
@@ -31,10 +31,11 @@ const Hero = ({ content }) => {
             grabCursor: true,
             centeredSlides: true,
             slidesPerView: "auto",
+            spaceBetween: "30",
             coverflowEffect: {
                 rotate: 5,
                 stretch: 0,
-                depth: 250,
+                depth: 150,
                 modifier: 2,
                 slideShadows: false
             },
@@ -47,34 +48,49 @@ const Hero = ({ content }) => {
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
     const getIPData = async () => {
-        const res = await Axios.get('https://geolocation-db.com/json/');
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
         setIP(res.data);
     }
     useEffect(() => {
         getIPData()
     }, [])
     // For Page
-    let pageCurrent = usePathname();
+    let page = usePathname();
     const [data, setData] = useState({
+        name: "",
+        phone: "",
         email: "",
-        pageURL: pageCurrent,
+        services: "Not Selected",
+        message: "",
+        pageURL: page,
     });
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Submit");
+    const [formStatus, setFormStatus] = useState("Next");
     const [errors, setErrors] = useState({});
+    const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
         let errors = {};
+        // Name validation
+        if (!data.name.trim()) {
+            errors.name = 'Name is required';
+        }
         // Email validation
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!data.email.match(emailRegex)) {
             errors.email = 'Valid email is required';
         }
+        // Phone validation
+        const phoneRegex = /[0-9]/i;
+        if (!data.phone.match(phoneRegex)) {
+            errors.phone = 'Valid phone is required';
+        }
         return errors;
     };
     const handleFormSubmit = async (e) => {
         e.preventDefault();
+        setIsDisabled(true);
         setFormStatus("Processing...");
 
         const errors = formValidateHandle();
@@ -151,27 +167,66 @@ const Hero = ({ content }) => {
                                 <p className="text-[16px] lg:text-[20px] leading-tight text-black font-normal mb-5 text-justify sm:text-left">
                                     Fill The Form To <span className="text-red">Avail 70% Off</span>
                                 </p>
-                                <form autoComplete="off" spellCheck="false" className="flex gap-2 md:gap-5">
-                                    <div className="basis-[70%]">
+                                <form autoComplete="off" spellCheck="false" className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                    <div>
+                                        <Input
+                                            name="name"
+                                            type="text"
+                                            placeholder="Enter Your Name"
+                                            border="border-2 border-black rounded-full"
+                                            padding="px-3"
+                                            color="text-black"
+                                            placeholderColor="placeholder:text-black"
+                                            handle={handleDataChange}
+                                        />
+                                        {
+                                            errors.name && <span className="text-[12px] block p-2 font-medium text-black">
+                                                {errors.name}
+                                            </span>
+                                        }
+                                    </div>
+                                    <div>
                                         <Input
                                             name="email"
                                             type="email"
                                             placeholder="Enter Your Email"
-                                            border="border-2 border-gray-500 rounded-full"
+                                            border="border-2 border-black rounded-full"
                                             padding="px-3"
                                             color="text-black"
+                                            placeholderColor="placeholder:text-black"
                                             handle={handleDataChange}
                                         />
+                                        {
+                                            errors.email && <span className="text-[12px] block p-2 font-medium text-black">
+                                                {errors.email}
+                                            </span>
+                                        }
                                     </div>
-                                    <div className="basis-[30%]">
-                                        <Button
-                                            text={formStatus}
-                                            border="border-none"
-                                            color="text-white"
-                                            bg="bg-red"
-                                            handle={handleFormSubmit}
+                                    <div>
+                                        <Input
+                                            name="phone"
+                                            type="phone"
+                                            placeholder="Enter Your Phone"
+                                            border="border-2 border-black rounded-full"
+                                            padding="px-3"
+                                            color="text-black"
+                                            placeholderColor="placeholder:text-black"
+                                            handle={handleDataChange}
                                         />
+                                        {
+                                            errors.phone && <span className="text-[12px] block p-2 font-medium text-black">
+                                                {errors.phone}
+                                            </span>
+                                        }
                                     </div>
+                                    <Button
+                                        text={formStatus}
+                                        border="border-none"
+                                        color="text-white"
+                                        bg="bg-[#ea0122]"
+                                        handle={handleFormSubmit}
+                                        disabled={isDisabled}
+                                    />
                                 </form>
                             </div>
                             <Image src={Awards} alt="awards" priority={true} />
@@ -184,13 +239,13 @@ const Hero = ({ content }) => {
                                     css="hover:bg-light-yellow"
                                 />
                                 <CTA
-                                    text="(347) 607-3636"
-                                    href="tel:3476073636"
+                                    text="(855) 666-6675"
+                                    href="tel:8556666675"
                                     bg="bg-red"
                                     css="hover:bg-light-yellow"
                                 />
                             </div>
-                            <Image src="/lp-one/hero/badge.png" alt="hero" proprity="true" className="absolute top-[-50px] right-[50px] hidden md:block" width={145} height={139} />
+                            <Image src="/lp-one/hero/badge.png" alt="hero" proprity="true" className="absolute top-[-50px] right-[-50px] hidden md:block" width={145} height={139} />
                         </div>
                         <div className="basis-full lg:basis-1/2 overflow-hidden">
                             <swiper-container

@@ -6,13 +6,17 @@ const Button = ({
     bg = "bg-white",
     color = "text-white",
     border = "border-2",
-    css
+    css,
+    disabled = false,
+    rounded = "rounded-full",
+    fontWeight = "font-extrabold"
 }) => {
     return (
         <button
             type="button"
             onClick={handle}
-            className={`flex items-center justify-center text-[18px] font-megat font-extrabold rounded-full ${color} ${border} transition-all ${bg} ${height} ${width} ${css}`}
+            disabled={disabled}
+            className={`flex items-center justify-center text-[18px] font-megat ${fontWeight} ${rounded} ${color} ${border} transition-all ${bg} ${height} ${width} ${css}`}
         >
             {text}
         </button>

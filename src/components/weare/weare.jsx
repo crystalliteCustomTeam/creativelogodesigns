@@ -56,8 +56,8 @@ const Weare = () => {
                                     <h3 className="text-xl lg:text-2xl font-medium font-sans text-black">You Are Just A Call <br /> Away From Securing <br /> A Spectacular Design</h3>
                                 </div>
                                 <div className="basis-full md:basis-[30%]">
-                                    <Link href="tel:3476073636" className="text-xl lg:text-2xl font-medium font-sans text-black">
-                                        Call Us (TOLL FREE) <br /> (347) 607-3636
+                                    <Link href="tel:8556666675" className="text-xl lg:text-2xl font-medium font-sans text-black">
+                                        Call Us (TOLL FREE) <br /> (855) 666-6675
                                     </Link>
                                 </div>
                                 <div className="basis-full md:basis-[30%]">

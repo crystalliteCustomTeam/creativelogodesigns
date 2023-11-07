@@ -15,7 +15,8 @@ const Input = ({
     bg = "bg-transparent",
     color = "text-white",
     border = "border-b-2",
-    padding = "px-1"
+    padding = "px-1",
+    placeholderColor = "placeholder:text-gray-500"
 }) => {
     const referenceID = useId();
     return (
@@ -34,7 +35,7 @@ const Input = ({
                 disabled={disabled}
                 id={referenceID}
                 onChange={handle}
-                className={`focus-visible:outline-none w-full ${padding} ${border} text-[15px] placeholder:text-gray-500 ${bg} ${color} font-medium ${height} ${css}`}
+                className={`focus-visible:outline-none w-full ${padding} ${border} text-[15px] ${placeholderColor} ${bg} ${color} font-medium ${height} ${css}`}
             />
         </div>
     )

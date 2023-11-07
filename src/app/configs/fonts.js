@@ -1,4 +1,5 @@
 import { Roboto_Slab, Poppins } from "next/font/google";
+import { Roboto_Slab, Poppins } from "next/font/google";
 import localFont from "next/font/local";
 
 const primary = Roboto_Slab({

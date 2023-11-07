@@ -11,12 +11,12 @@ export const metadata = {
     title: "Top Web Design Company - Creative Logo Designs",
     description: "Creative Logo Designs is an award-winning top web design company with a team of professional web designers, and online strategists, delivering cutting-edge websites for businesses.",
     // Google Varification
-    // verification: {
-    //     google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
-    //     other: {
-    //         "facebook-domain-verification": ['rfth5fqyv2is1cegfmcloebw46z7nz'],
-    //     },
-    // },
+    verification: {
+        // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
+        other: {
+            "facebook-domain-verification": ['9mgotld2pcip5yvdv6yajdqx71xfvt'],
+        },
+    },
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io',
@@ -24,8 +24,6 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-    const GTM_ID_1 = 'GTM-5G927FVV';
-    const GTM_ID_2 = 'GTM-WH5N73ZB';
     return (
         <html lang="en">
             <Script
@@ -40,25 +38,7 @@ export default function RootLayout({ children }) {
                 strategy="lazyOnload"
             >
             </Script>
-            {/* <Script id="google-tag-manager-one" strategy="lazyOnload">
-                {`
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','${GTM_ID_1}');
-                `}
-            </Script>
-            <Script id="google-tag-manager-two" strategy="lazyOnload">
-                {`
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','${GTM_ID_2}');
-                `}
-            </Script> */}
-            {/* <Script id="facebook-manager" strategy="lazyOnload">
+            <Script id="facebook-manager" strategy="lazyOnload">
                 {`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -68,10 +48,10 @@ export default function RootLayout({ children }) {
                     t.src=v;s=b.getElementsByTagName(e)[0];
                     s.parentNode.insertBefore(t,s)}(window, document,'script',
                     'https://connect.facebook.net/en_US/fbevents.js');
-                    fbq('init', '3301562960147657');
+                    fbq('init', '3404182666490229');
                     fbq('track', 'PageView');
                 `}
-            </Script> */}
+            </Script>
             <Script id="google-tag-manager-three" strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];
@@ -82,10 +62,7 @@ export default function RootLayout({ children }) {
             </Script>
             <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
                 <noscript>
-                    <iframe src={`https://www.googletagmanager.com/ns.html?id='${GTM_ID_1}'`} className="hidden"></iframe>
-                </noscript>
-                <noscript>
-                    <iframe src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID_2}`} className="hidden"></iframe>
+                    <iframe src="https://www.facebook.com/tr?id=3404182666490229&ev=PageView&noscript=1" className="hidden"></iframe>
                 </noscript>
                 {children}
             </body>
