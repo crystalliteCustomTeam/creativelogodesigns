@@ -74,6 +74,7 @@ const Contact = () => {
             await Axios.request(reqOptions);
         } else {
             setFormStatus("Failed...");
+            setIsDisabled(false);
         }
 
         if (Object.keys(errors).length === 0) {
@@ -212,7 +213,7 @@ const Contact = () => {
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                                         COME AND SEE US!
                                     </h2>
-                                    <div dangerouslySetInnerHTML={{ __html: `<a href="javascript:;" class="text-[18px] font-medium text-[#ffffffc4]">One World Trade Center, Suite 8500, <br /> New York, New York, 10007,<br /> United States</a>` }} />
+                                    <div dangerouslySetInnerHTML={{ __html: `<a href="javascript:;" class="text-[18px] font-medium text-[#ffffffc4]">One World Trade Center, Suite 8500, <br /> New York, 10007,<br /> United States</a>` }} />
                                 </div>
                             </div>
                         </div>

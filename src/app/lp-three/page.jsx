@@ -9,10 +9,36 @@ import Packages from "./components/packages";
 import Works from "./components/works";
 import Why from "./components/why";
 import Industries from "./components/industries";
+import Reviews from "./components/reviews";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+import Link from "next/link";
+import logo from "media/logo-light.png";
 
 const Page = () => {
     return (
         <main>
+            <header className="absolute top-0 left-0 right-0 py-5 z-[9999]">
+                <div className="container">
+                    <div className="flex items-center">
+                        <Link href="/lp-three" className="m-auto sm:m-0">
+                            <Image src={logo} alt="logo" />
+                        </Link>
+                        <div className="hidden sm:flex ml-auto items-center gap-4">
+                            <div dangerouslySetInnerHTML={{
+                                __html: `<a href="javascript:$zopim.livechat.window.show();" class="cursor-pointer font-poppins flex items-center gap-2">
+                                <img src="/chatIcon.svg" alt="chat" />
+                                <span class="text-white font-semibold text-[15px] block">Start Live Chat</span>
+                            </a>`}} />
+                            <div dangerouslySetInnerHTML={{
+                                __html: `<a href="tel:8556666675" class="cursor-pointer font-poppins flex items-center gap-2">
+                                <img src="/callIcon.svg" alt="call" />
+                                <span class="text-white font-semibold text-[15px]">(855) 666-6675</span>
+                            </a>`}} />
+                        </div>
+                    </div>
+                </div>
+            </header>
             <Hero />
             <section>
                 <div className="py-[50px] lg:py-[100px]">
@@ -132,6 +158,9 @@ const Page = () => {
                 </div>
             </section>
             <Industries />
+            <Reviews />
+            <Contact />
+            <Footer />
         </main>
     )
 }

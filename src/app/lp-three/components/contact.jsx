@@ -5,6 +5,8 @@ import Button from "C/Button";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Axios from "axios";
+import contactImg from "media/lp-three/contact.png"
+import Image from "next/image";
 
 const Contact = () => {
     const [ip, setIP] = useState('');
@@ -29,7 +31,7 @@ const Contact = () => {
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Get A Free Quote");
+    const [formStatus, setFormStatus] = useState("Submit Now");
     const [errors, setErrors] = useState({});
     const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
@@ -125,80 +127,97 @@ const Contact = () => {
         <section>
             <div className="py-[50px] lg:py-[100px]">
                 <div className="container">
-                    <div className="flex gap-10 lg:gap-0 lg:justify-center text-center flex-wrap  lg:flex-nowrap">
-                        <div className="basis-full lg:basis-[60%] xl:basis-[55%]">
-                            <h2 className="text-2xl sm:text-3xl xl:text-4xl font-megat text-black font-normal leading-tight mb-3">
-                                Get Free Consultancy
-                            </h2>
-                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">Ready to discuss your project? Fill in your relevant details. <br className="hidden md:block" />We will get back to you as soon as we can.</p>
-                            <form autoComplete="off" spellCheck="false" className="grid gap-5 grid-cols-1 mt-10">
-                                <div className="border-b-2 border-red relative">
-                                    <span className="text-[15px] font-medium text-black absolute top-0 left-0 bottom-0 flex items-center">Hi, my name is</span>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-10 gap-y-5">
+                        <div>
+                            <div className=" mb-10">
+                                <h2 className="text-[30px] lg:text-[35px] xl:text-[40px] text-[#2f323a] font-poppins font-bold leading-tight">
+                                    Let's Talk?
+                                </h2>
+                                <span className="block w-[10%] h-[4px] bg-[#dd1e4b] mt-3 mb-3"></span>
+                                <p className="text-[14px] font-poppins xl:text-[16px] leading-[24px] xl:leading-[26px] text-[#6f6f6f] font-normal lg:w-[90%]">
+                                    Our team is always keen to have new customers on-board. Every customer brings a new challenge that our talented designers crave for.
+                                </p>
+                            </div>
+                            <form autoComplete="off" spellCheck="false" className="grid gap-5 grid-cols-1">
+                                <div className="border-2 border-[#00000040] font-poppins relative">
+                                    <span className="text-[15px] font-medium text-[#00000040] absolute top-0 left-[10px] bottom-0 flex items-center">Hi, my name is</span>
                                     <Input
                                         name="name"
                                         border="border-none"
-                                        padding="pl-[110px] pr-5"
+                                        padding="pl-[125px] pr-5"
                                         color="text-black"
+                                        css="font-poppins"
                                         handle={handleDataChange}
                                     />
                                 </div>
                                 {
-                                    errors.name && <span className="text-[12px] block p-2 font-medium text-black">
+                                    errors.name && <span className="text-[12px] font-poppins block p-2 font-medium text-red">
                                         {errors.name}
                                     </span>
                                 }
-                                <div className="border-b-2 border-red relative">
-                                    <span className="text-[15px] font-medium text-black absolute top-0 left-0 bottom-0 flex items-center">You can contact me at</span>
+                                <div className="border-2  border-[#00000040] relative">
+                                    <span className="text-[15px] font-poppins font-medium text-[#00000040] absolute top-0 left-[10px] bottom-0 flex items-center">You can contact me at</span>
                                     <Input
                                         name="phone"
                                         type="tel"
                                         border="border-none"
-                                        padding="pl-[165px] pr-5"
+                                        padding="pl-[185px] pr-5"
                                         color="text-black"
+                                        css="font-poppins"
                                         handle={handleDataChange}
                                     />
                                 </div>
                                 {
-                                    errors.phone && <span className="text-[12px] block p-2 font-medium text-black">
+                                    errors.phone && <span className="text-[12px] font-poppins block p-2 font-medium text-red">
                                         {errors.phone}
                                     </span>
                                 }
-                                <div className="border-b-2 border-red relative">
-                                    <span className="text-[15px] font-medium text-black absolute top-0 left-0 bottom-0 flex items-center">or by email at</span>
+                                <div className="border-2 border-[#00000040] relative">
+                                    <span className="text-[15px] font-poppins font-medium text-[#00000040] absolute top-0 left-[10px] bottom-0 flex items-center">or by email at</span>
                                     <Input
                                         name="email"
                                         type="email"
                                         border="border-none"
-                                        padding="pl-[100px] pr-5"
+                                        padding="pl-[120px] pr-5"
                                         color="text-black"
+                                        css="font-poppins"
                                         handle={handleDataChange}
                                     />
                                 </div>
                                 {
-                                    errors.email && <span className="text-[12px] block p-2 font-medium text-black">
+                                    errors.email && <span className="text-[12px] block p-2 font-medium text-red font-poppins">
                                         {errors.email}
                                     </span>
                                 }
-                                <div className="border-b-2 border-red relative">
-                                    <span className="text-[15px] font-medium text-black absolute top-0 left-0 bottom-0 flex items-center">Interested in</span>
+                                <div className="border-2 border-[#00000040] relative font-poppins">
+                                    <span className="text-[15px] font-medium text-[#00000040] absolute top-0 left-[10px] bottom-0 flex items-center">Interested in</span>
                                     <Select
                                         options={servicesArray}
                                         name="services"
                                         border="border-none"
-                                        padding="pl-[100px] pr-5"
+                                        padding="pl-[110px] pr-5"
                                         color="text-black"
+                                        css="font-poppins"
                                         handle={handleDataChange}
                                     />
                                 </div>
-                                <Button
-                                    text={formStatus}
-                                    border="border-none"
-                                    bg="bg-red"
-                                    color="text-white"
-                                    handle={handleFormSubmit}
-                                    disabled={isDisabled}
-                                />
+                                <div className="w-[180px]">
+                                    <Button
+                                        text={formStatus}
+                                        border="border-2 border-[#dd1e4b]"
+                                        color="text-white"
+                                        bg="bg-[#dd1e4b]"
+                                        rounded="rounded-[5px]"
+                                        css="font-poppins hover:bg-transparent hover:text-[#dd1e4b]"
+                                        fontWeight="font-medium"
+                                        disabled={isDisabled}
+                                        handle={handleFormSubmit}
+                                    />
+                                </div>
                             </form>
+                        </div>
+                        <div>
+                            <Image src={contactImg} alt="contactImg" className="block m-auto" />
                         </div>
                     </div>
                 </div>

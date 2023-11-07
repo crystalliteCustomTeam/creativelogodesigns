@@ -110,6 +110,7 @@ const Hero = () => {
             await Axios.request(reqOptions);
         } else {
             setFormStatus("Failed...");
+            setIsDisabled(false);
         }
 
         if (Object.keys(errors).length === 0) {
