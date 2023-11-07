@@ -4,8 +4,6 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
-// register Swiper custom elements
-register();
 
 const Satisfaction = () => {
     let data = [
