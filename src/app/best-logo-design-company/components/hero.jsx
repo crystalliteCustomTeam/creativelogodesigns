@@ -4,8 +4,115 @@ import styles from "../page.module.css";
 import Input from "C/Input";
 import Button from "C/Button";
 import Textarea from "C/Textarea";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import Axios from "axios";
 
 const Hero = () => {
+    const [ip, setIP] = useState('');
+    //creating function to load ip address from the API
+    const getIPData = async () => {
+        const res = await Axios.get('https://geolocation-db.com/json/f2e84010-e1e9-11ed-b2f8-6b70106be3c8');
+        setIP(res.data);
+    }
+    useEffect(() => {
+        getIPData()
+    }, [])
+    // For Page
+    let page = usePathname();
+    const [data, setData] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        services: "Not Selected",
+        message: "",
+        pageURL: page,
+    });
+    const handleDataChange = (e) => {
+        setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    }
+    const [formStatus, setFormStatus] = useState("Activate Your Coupon");
+    const [errors, setErrors] = useState({});
+    const [isDisabled, setIsDisabled] = useState(false);
+    const formValidateHandle = () => {
+        let errors = {};
+        // Name validation
+        if (!data.name.trim()) {
+            errors.name = 'Name is required';
+        }
+        // Email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!data.email.match(emailRegex)) {
+            errors.email = 'Valid email is required';
+        }
+        // Phone validation
+        const phoneRegex = /[0-9]/i;
+        if (!data.phone.match(phoneRegex)) {
+            errors.phone = 'Valid phone is required';
+        }
+        return errors;
+    };
+    const handleFormSubmit = async (e) => {
+        e.preventDefault();
+        setFormStatus("Processing...");
+        setIsDisabled(true);
+
+        const errors = formValidateHandle();
+        setErrors(errors);
+
+        if (Object.keys(errors).length === 0) {
+            let headersList = {
+                "Accept": "*/*",
+                "Content-Type": "application/json"
+            }
+
+            let bodyContent = JSON.stringify(data);
+            let reqOptions = {
+                url: "/api/email",
+                method: "POST",
+                headers: headersList,
+                data: bodyContent,
+            }
+            await Axios.request(reqOptions);
+        } else {
+            setFormStatus("Failed...");
+            setIsDisabled(false);
+        }
+
+        if (Object.keys(errors).length === 0) {
+            // For Date
+            let newDate = new Date();
+            let date = newDate.getDate();
+            let month = newDate.getMonth() + 1;
+            let year = newDate.getFullYear();
+            // For Time
+            let today = new Date();
+            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+            let headersList = {
+                "Accept": "*/*",
+                "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+                "Content-Type": "application/json"
+            }
+
+            let bodyContent = JSON.stringify({
+                "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                "Brand": "Creative Logo Designs",
+                "Page": `${page}`,
+                "Date": `${month < 10 ? `0${month}` : `${month}`}-${date}-${year}`,
+                "Time": time,
+                "JSON": data
+            });
+            let reqOptions = {
+                url: "https://sheetdb.io/api/v1/1ownp6p7a9xpi",
+                method: "POST",
+                headers: headersList,
+                data: bodyContent,
+            }
+            await Axios.request(reqOptions);
+            window.location.href = "/thank-you";
+        }
+    }
     let list = [
         {
             icon: "/lp-three/checkCircle.png",
@@ -95,7 +202,13 @@ const Hero = () => {
                                             bg="bg-[#2b0e08]"
                                             placeholder="Full Name *"
                                             css="font-poppins"
+                                            handle={handleDataChange}
                                         />
+                                        {
+                                            errors.name && <span className="text-[12px] font-poppins block p-2 font-medium text-white">
+                                                {errors.name}
+                                            </span>
+                                        }
                                     </div>
                                     <div>
                                         <Input
@@ -108,7 +221,13 @@ const Hero = () => {
                                             bg="bg-[#2b0e08]"
                                             placeholder="Email Address *"
                                             css="font-poppins"
+                                            handle={handleDataChange}
                                         />
+                                        {
+                                            errors.email && <span className="text-[12px] block p-2 font-medium text-white font-poppins">
+                                                {errors.email}
+                                            </span>
+                                        }
                                     </div>
                                     <div className="col-span-2">
                                         <Input
@@ -121,7 +240,13 @@ const Hero = () => {
                                             bg="bg-[#2b0e08]"
                                             placeholder="Phone No. *"
                                             css="font-poppins"
+                                            handle={handleDataChange}
                                         />
+                                        {
+                                            errors.phone && <span className="text-[12px] font-poppins block p-2 font-medium text-white">
+                                                {errors.phone}
+                                            </span>
+                                        }
                                     </div>
                                     <div className="col-span-2">
                                         <Textarea
@@ -133,18 +258,21 @@ const Hero = () => {
                                             bg="bg-[#2b0e08]"
                                             placeholder="To help us understand better, enter a brief description about your project."
                                             css="font-poppins"
+                                            handle={handleDataChange}
                                         />
                                     </div>
                                     <div className="col-span-2">
                                         <div className="w-[250px] m-auto">
                                             <Button
-                                                text="Activate Your Coupon"
+                                                text={formStatus}
                                                 border="border-2 border-[#dd1e4b]"
                                                 color="text-white"
                                                 bg="bg-[#dd1e4b]"
                                                 rounded="rounded-[5px]"
                                                 css="font-poppins hover:bg-transparent"
                                                 fontWeight="font-medium"
+                                                disabled={isDisabled}
+                                                handle={handleFormSubmit}
                                             />
                                         </div>
                                     </div>

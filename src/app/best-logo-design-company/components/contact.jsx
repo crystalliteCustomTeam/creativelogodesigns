@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import Axios from "axios";
 import contactImg from "media/lp-three/contact.png"
 import Image from "next/image";
-
+ 
 const Contact = () => {
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
