@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <>
             <section className={`${styles.post} font-poppins relative`}>
-                <div class="container mx-auto lg:py-5 lg:px-0 font-secondary">
+                <div class="container mx-auto lg:py-5 font-secondary">
                     <div class="grid grid-cols-2 justify-between items-center">
                         <Image src={One} class='w-48' />
 

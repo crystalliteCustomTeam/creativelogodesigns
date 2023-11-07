@@ -1,7 +1,18 @@
-.banner{
+.banner {
     background: url(../../../../../public/new-lp/banner.webp) bottom/cover no-repeat;
-    background-position: 40%;
-    background-position: 40%;
     margin-top: -127px;
-
+    position: relative;
 }
+
+/* .banner::before{
+    content: "";
+    position: absolute;
+    background-image: url(../../../../../public/new-lp/service/tabs-bg.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 112px;
+    height: 159px;
+    right: 0;
+    bottom: 22px;
+} */

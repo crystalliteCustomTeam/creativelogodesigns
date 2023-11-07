@@ -1,0 +1,37 @@
+.banner{
+    background: url(../../../../../public/new-lp/banner.webp) bottom/cover no-repeat;
+    background-position: 40%;
+    background-position: 40%;
+    margin-top: -127px;
+
+}
+.pst{
+    position: relative;
+}
+.pst:before {
+    content: '';
+    background: url(../../../../../public/new-lp/service/tabs-bg.webp);
+    position: absolute;
+    left: -7%;
+    bottom: -10%;
+    width: 112px;
+    height: 159px;
+    background-repeat: no-repeat;
+}
+.longa{
+    position: relative;
+    z-index: 1;
+}
+.longa:before {
+    content: '';
+    background: url(../../../../../public/new-lp/service/textcircle_01.webp);
+    position: absolute;
+    left: 11%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 35%;
+    width: 296px;
+    height: 76px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}

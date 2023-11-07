@@ -48,7 +48,7 @@ const Banner = () => {
 
     return (
         <>
-            <section className={`${styles.banner}  font-poppins py-36`}>
+            <section className={`${styles.banner}  font-poppins pt-36 pb-20`}>
                 <div class="container mx-auto">
                     <div class="grid grid-cols-2 pt-4">
 
@@ -76,7 +76,7 @@ const Banner = () => {
                                 {slides.map((testimonial, index) => (
                                     <SwiperSlide key={index}>
                                         <div className="card testimonialscard">
-                                            <img src={testimonial.avatar} alt={testimonial.name} />
+                                            <img className="ml-auto" src={testimonial.avatar} alt={testimonial.name} />
                                         </div>
                                     </SwiperSlide>
                                 ))}
