@@ -1,4 +1,4 @@
-import { Poppins, Roboto_Slab } from "next/font/google";
+import { Poppins, Roboto_Slab, Roboto, Raleway } from "next/font/google";
 import localFont from "next/font/local";
 
 const primary = Roboto_Slab({
@@ -8,6 +8,22 @@ const primary = Roboto_Slab({
     subsets: ['latin'],
     variable: '--font-primary',
 });
+
+const roboto = Roboto({
+    weight: ['100',  '300', '400', '500',  '700',  '900'],
+    style: ['normal'],
+    display: 'swap',
+    subsets: ['latin'],
+    variable: '--font-roboto',
+});
+const raleway = Raleway({
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+    style: ['normal'],
+    display: 'swap',
+    subsets: ['latin'],
+    variable: '--font-raleway',
+});
+
 
 const poppins = Poppins({
     weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -41,4 +57,4 @@ const integralCF = localFont({
     display: 'swap',
 });
 
-export { primary, poppins, integralCF }
+export { primary, poppins, integralCF, roboto, raleway }

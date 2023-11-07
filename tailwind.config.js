@@ -17,6 +17,7 @@ module.exports = withMT({
         center: true,
         padding: '1rem',
         screens: {
+          // xs: '400px',
           sm: '640px',
           md: '768px',
           lg: '1024px',
@@ -25,6 +26,7 @@ module.exports = withMT({
         },
       },
       screens: {
+        // 'xs': '300px',
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',
@@ -34,7 +36,7 @@ module.exports = withMT({
       fontFamily: {
         'sans': ["var(--font-primary)", "sans-serif"],
         'megat': ["var(--font-integralCF)", "sans-serif"],
-        'pacifico': ['var(--font-pacifico)'], "poppins": ['var(--font-poppins)']
+        'pacifico': ['var(--font-pacifico)'], "poppins": ["var(--font-poppins)", "sans-serif"], "roboto": ["var(--font-roboto)", "sans-serif"], "raleway": ["var(--font-raleway)", "sans-serif"]
       },
       colors: {
         "black": "#222222",

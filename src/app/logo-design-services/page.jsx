@@ -53,54 +53,62 @@ const Page = ({content}) => {
                     "/portfolios/logo-design/combination/2.png",
                     "/portfolios/logo-design/combination/3.png",
                     "/portfolios/logo-design/combination/4.png",
-                    "/portfolios/logo-design/combination/5.png",
-                    "/portfolios/logo-design/combination/6.png",
-                    "/portfolios/logo-design/combination/7.png",
-                    "/portfolios/logo-design/combination/8.png",
-                ],
-            },
-            {
-                value: "emblem",
-                label: "Emblem",
-                images: [
                     "/portfolios/logo-design/emblem/1.png",
                     "/portfolios/logo-design/emblem/2.png",
                     "/portfolios/logo-design/emblem/3.png",
                     "/portfolios/logo-design/emblem/4.png",
-                    "/portfolios/logo-design/emblem/5.png",
-                    "/portfolios/logo-design/emblem/6.png",
-                    "/portfolios/logo-design/emblem/7.png",
-                    "/portfolios/logo-design/emblem/8.png",
-                ],
-            },
-            {
-                value: "mascot",
-                label: "Mascot",
-                images: [
                     "/portfolios/logo-design/mascot/1.png",
                     "/portfolios/logo-design/mascot/2.png",
                     "/portfolios/logo-design/mascot/3.png",
                     "/portfolios/logo-design/mascot/4.png",
-                    "/portfolios/logo-design/mascot/5.png",
-                    "/portfolios/logo-design/mascot/6.png",
-                    "/portfolios/logo-design/mascot/7.png",
-                    "/portfolios/logo-design/mascot/8.png",
-                ],
-            },
-            {
-                value: "typography",
-                label: "Typography",
-                images: [
                     "/portfolios/logo-design/typography/1.png",
                     "/portfolios/logo-design/typography/2.png",
                     "/portfolios/logo-design/typography/3.png",
                     "/portfolios/logo-design/typography/4.png",
-                    "/portfolios/logo-design/typography/5.png",
-                    "/portfolios/logo-design/typography/6.png",
-                    "/portfolios/logo-design/typography/7.png",
-                    "/portfolios/logo-design/typography/8.png",
                 ],
-            }
+            },
+            // {
+            //     value: "emblem",
+            //     label: "Emblem",
+            //     images: [
+            //         "/portfolios/logo-design/emblem/1.png",
+            //         "/portfolios/logo-design/emblem/2.png",
+            //         "/portfolios/logo-design/emblem/3.png",
+            //         "/portfolios/logo-design/emblem/4.png",
+            //         "/portfolios/logo-design/emblem/5.png",
+            //         "/portfolios/logo-design/emblem/6.png",
+            //         "/portfolios/logo-design/emblem/7.png",
+            //         "/portfolios/logo-design/emblem/8.png",
+            //     ],
+            // },
+            // {
+            //     value: "mascot",
+            //     label: "Mascot",
+            //     images: [
+            //         "/portfolios/logo-design/mascot/1.png",
+            //         "/portfolios/logo-design/mascot/2.png",
+            //         "/portfolios/logo-design/mascot/3.png",
+            //         "/portfolios/logo-design/mascot/4.png",
+            //         "/portfolios/logo-design/mascot/5.png",
+            //         "/portfolios/logo-design/mascot/6.png",
+            //         "/portfolios/logo-design/mascot/7.png",
+            //         "/portfolios/logo-design/mascot/8.png",
+            //     ],
+            // },
+            // {
+            //     value: "typography",
+            //     label: "Typography",
+            //     images: [
+            //         "/portfolios/logo-design/typography/1.png",
+            //         "/portfolios/logo-design/typography/2.png",
+            //         "/portfolios/logo-design/typography/3.png",
+            //         "/portfolios/logo-design/typography/4.png",
+            //         "/portfolios/logo-design/typography/5.png",
+            //         "/portfolios/logo-design/typography/6.png",
+            //         "/portfolios/logo-design/typography/7.png",
+            //         "/portfolios/logo-design/typography/8.png",
+            //     ],
+            // }
         ]
     };
     // Array for Packages Component Props
@@ -148,13 +156,6 @@ const Page = ({content}) => {
                 <Pricing content={packages}></Pricing>
                 <Offer></Offer>
                 <Testimonials></Testimonials>
-                {/* <SmallBanner content={smallbanner} />
-                <Portfolio content={portfolio} />
-                <Letstalk content={letstalk} />
-                <Packages content={packages} />
-                <Reviews content={reviews} />
-                <Weare />
-                <Contact /> */}
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

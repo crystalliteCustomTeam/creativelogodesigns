@@ -35,7 +35,7 @@ const Folio = ({ content }) => {
                     </div>
              
                     <Tabs value={activeTab} className="block">
-                        <TabsHeader indicatorProps={{ className: "hidden" }} className="font-poppins bg-transparent p-0 flex justify-center gap-3  flex-wrap md:flex-nowrap mb-10">
+                        {/* <TabsHeader indicatorProps={{ className: "hidden" }} className="font-poppins bg-transparent p-0 flex justify-center gap-3  flex-wrap md:flex-nowrap mb-10">
                             {
                                 tabs.map(({ value, label }) => {
                                     return (
@@ -46,7 +46,7 @@ const Folio = ({ content }) => {
                                     );
                                 })
                             }
-                        </TabsHeader>
+                        </TabsHeader> */}
                         <TabsBody>
                             {tabs.map(({ value, images }) => (
                                 <TabPanel key={value} value={value} className="p-0">

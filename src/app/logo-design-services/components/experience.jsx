@@ -53,7 +53,7 @@ const Expe = () => {
      useEffect(() => {
           // Check the window width and disable the slider on desktop
           const handleResize = () => {
-            if (window.innerWidth >= 1024) {
+            if (window.innerWidth >= 1080) {
               setIsSliderActive(false);
             } else {
               setIsSliderActive(true);
@@ -78,10 +78,10 @@ const Expe = () => {
         <div className="">
             <div className="container md:max-w-6xl lg:max-w-6xl">
           
-                <div className="grid grid-flow-row grid-cols-6 items-center gap-x-3 h-[115px] sm:grid-cols-1">
+                <div className="grid grid-flow-row grid-cols-1  items-center gap-x-3 h-[115px] ">
                 <Slider {...sliderSettings}> 
                    <span className="border-gray-100 border-r-[1px] py-4 h-[115px] text-[15px] pr-3"> <h4>More than a Decade of Experience in the Online Design Industry</h4></span>
-                   <span className="text-center border-gray-100 border-r-[1px] py-4 h-[115px]"> 
+                   <span className=" text-center border-gray-100 border-r-[1px] py-4 h-[115px]"> 
                         <h4 className="text-[27px] font-extrabold">9000+</h4> <p>Wordmark Logos</p>
                    </span>
                    <span className="text-center border-gray-100 border-r-[1px] py-4 h-[115px]"> 
