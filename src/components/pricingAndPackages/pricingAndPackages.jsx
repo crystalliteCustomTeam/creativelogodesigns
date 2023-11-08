@@ -13,7 +13,6 @@ import CTA from "C/CTA";
 
 
 const PricingAndPackages = () => {
-    let count = 0;
     return (
         <ThemeProvider value={theme}>
             <section>
@@ -27,12 +26,9 @@ const PricingAndPackages = () => {
                         <Tabs value="logo">
                             <TabsHeader>
                                 {data.map(({ label, value }, i) => {
-                                    count++;
-                                    if (count < 12) {
-                                        return <Tab key={value} value={value}>
-                                            {label}
-                                        </Tab>
-                                    }
+                                    return <Tab key={value} value={value}>
+                                        {label}
+                                    </Tab>
                                 })}
                             </TabsHeader>
                             <TabsBody>
