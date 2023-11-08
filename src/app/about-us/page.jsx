@@ -29,7 +29,7 @@ const Page = () => {
         title: "Allow us to assist you in developing a web presence.",
         desc: "Our web development team is here to assist you in reaching your business goals through the creation of an interesting and functional website.",
         img: {
-            src: "/about-us/smallBanner.png",
+            src: "/home/smallBanner.png",
             width: "430",
             height: "419",
             css: "absolute right-0 bottom-0"
