@@ -90,7 +90,7 @@ const Why = () => {
                         </h2>
                         <span className="block w-[10%] h-[4px] bg-[#dd1e4b] mt-3 mb-3 m-auto"></span>
                         <p className="text-[14px] font-poppins xl:text-[16px] leading-[24px] xl:leading-[26px] text-[#6f6f6f] font-normal lg:w-2/3 lg:m-auto">
-                            Your satisfaction is our topmost priority. We provide revisions until you are 100% satisfied with our services. At Paramount Logos, we treat you like our Majesty.
+                            Your satisfaction is our topmost priority. We provide revisions until you are 100% satisfied with our services. At Creative Logo Designs, we treat you like our Majesty.
                         </p>
                     </div>
                     <swiper-container ref={swiperRef1}>

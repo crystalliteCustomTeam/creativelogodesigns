@@ -17,7 +17,7 @@ const Page = () => {
         page: "home",
         subtitle: "Top Web Design Company",
         title: "Creating 100% Original Custom Website Designs",
-        desc: "Frustrated by underperforming web designs? It's time for a change and we can help. Website Design Hub is trusted by businesses nationwide. We are a top-rated and affordable web design company, known for creating websites that are:",
+        desc: "Frustrated by underperforming web designs? It's time for a change and we can help. Creative Logo Designs is trusted by businesses nationwide. We are a top-rated and affordable web design company, known for creating websites that are:",
         img: {
             src: "/home/new/hero/hero.png",
             width: "508",
@@ -41,7 +41,7 @@ const Page = () => {
     // Array for Services Component Props
     const services = {
         title: "Designing & Developing Digital Delights",
-        desc: "We specialize in custom logo design, mobile application design and website development. Our diverse team at Web \n Design Hub excels in digital marketing, SEO, and delivering persuasive copywriting. ",
+        desc: "We specialize in custom logo design, mobile application design and website development. Our diverse team at Creative \n  Logo Designs excels in digital marketing, SEO, and delivering persuasive copywriting. ",
         btnBg: "bg-[#7F6CC7]",
         btnBorder: "border-[#7F6CC7]",
         btnHover: "hover:bg-[#7F6CC7]",

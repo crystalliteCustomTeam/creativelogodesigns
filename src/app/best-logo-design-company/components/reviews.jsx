@@ -17,19 +17,19 @@ const Reviews = () => {
             img: two,
             avatar: one,
             name: "Aaron Mayne",
-            message: "Paramount Logos created a logo for my business that perfectly captured my brand. Professional and easy to work with, I highly recommend their services."
+            message: "Creative Logo Designs created a logo for my business that perfectly captured my brand. Professional and easy to work with, I highly recommend their services."
         },
         {
             img: four,
             avatar: three,
             name: "Angelica Thomas",
-            message: "Thanks to Paramount Logos, my startup has a strong brand identity with a unique and creative logo. Couldn't be happier!"
+            message: "Thanks to Creative Logo Designs, my startup has a strong brand identity with a unique and creative logo. Couldn't be happier!"
         },
         {
             img: six,
             avatar: five,
             name: "Lana Daniel",
-            message: "Paramount Logos provided me with several design options and worked with me until I found the perfect logo. Highly recommend their professional and eye-catching designs."
+            message: "Creative Logo Designs provided me with several design options and worked with me until I found the perfect logo. Highly recommend their professional and eye-catching designs."
         }
     ]
     const swiperRef = useRef(null);

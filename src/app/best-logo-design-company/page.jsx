@@ -50,7 +50,7 @@ const Page = () => {
                                 </h2>
                                 <span className="block w-[20%] h-[4px] bg-[#dd1e4b] mt-3 mb-3"></span>
                                 <p className="text-[13px] sm:text-[14px] lg:text-[16px] leading-[24px] text-[#6f6f6f] font-poppins font-normal text-justify lg:text-left">
-                                    Your company’s logo design and branding is your identity. At Paramount Logos, we understand that well. Our designers make sure to deliver customized, professional logo design as per the nature of your business and target audience. Our in-depth process starts from brainstorming, goes through conceptualization & sketching, and concludes with a logo design that you are delighted with.
+                                    Your company’s logo design and branding is your identity. At Creative Logo Designs, we understand that well. Our designers make sure to deliver customized, professional logo design as per the nature of your business and target audience. Our in-depth process starts from brainstorming, goes through conceptualization & sketching, and concludes with a logo design that you are delighted with.
                                 </p>
                                 <div className="flex items-center flex-wrap sm:flex-nowrap gap-3 mt-5 relative z-10">
                                     <CTA
@@ -89,7 +89,7 @@ const Page = () => {
                                 </h2>
                                 <span className="block w-[20%] h-[4px] bg-black mt-3 mb-3"></span>
                                 <p className="text-[13px] sm:text-[14px] lg:text-[16px] leading-[24px] text-white font-poppins font-normal text-justify lg:text-left">
-                                    Paramount Logos keeps you moving and improving with digital innovation. <br className="md:block lg:hidden" />
+                                    Creative Logo Designs keeps you moving and improving with digital innovation. <br className="md:block lg:hidden" />
                                     Let’s Discuss and build it together.
                                 </p>
                                 <div className="flex items-center flex-wrap sm:flex-nowrap gap-3 mt-5 relative z-10">
