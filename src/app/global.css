@@ -217,6 +217,7 @@ body {
     display: none;
 }
 
+
 .__reviewsCmp ul.slick-dots li.slick-active {
     background-color: #0F2847;
 }
@@ -232,6 +233,29 @@ body {
     height: 2px;
     margin-left: 16px;
 }
+
+
+/* .newtown ul.slick-dots li button::before,
+.newtown ul.slick-dots li button::after {
+    display: none;
+}
+
+.newtown ul.slick-dots li.slick-active {
+    background-color: #0F2847;
+}
+
+.newtown ul.slick-dots li::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    display: block;
+    background-color: #707070;
+    width: 380px;
+    height: 2px;
+    margin-left: 16px;
+} */
+
 
 @media (max-width: 1299px) {
     .__reviewsCmp ul.slick-dots::after {
