@@ -1,14 +1,14 @@
 // Imports Components
 import Image from "next/image";
 // Import Images
-import One from "media/join-family/1.gif";
-import Two from "media/join-family/2.gif";
-import Three from "media/join-family/3.gif";
-import Four from "media/join-family/4.gif";
-import Five from "media/join-family/5.gif";
-import Six from "media/join-family/6.gif";
-import Seven from "media/join-family/7.gif";
-import Eight from "media/join-family/8.gif";
+import One from "media/join-family/1.webp";
+import Two from "media/join-family/2.webp";
+import Three from "media/join-family/3.webp";
+import Four from "media/join-family/4.webp";
+import Five from "media/join-family/5.webp";
+import Six from "media/join-family/6.webp";
+import Seven from "media/join-family/7.webp";
+import Eight from "media/join-family/8.webp";
 
 const Letstalk = () => {
     return (
