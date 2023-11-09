@@ -76,7 +76,7 @@ const Portfolio = () => {
     const [activeTab, setActiveTab] = useState(String(portfolios.tabs[0].value));
     return (
         <section>
-            <div className="py-[50px] md:py-[100px] bg-[url('../../public/lp-two/packages-bg.png')] bg-cover bg-no-repeat bg-center">
+            <div className="py-[50px] md:py-[100px] bg-[url('../../public/lp-two/packages-bg.webp')] bg-cover bg-no-repeat bg-center">
                 <div className="container">
                     <div className="text-center mb-10">
                         <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-white mb-3"

@@ -141,7 +141,7 @@ const Hero = () => {
     ]
     return (
         <section>
-            <div className="bg-[#3e180d] pt-[100px] pb-[50px] bg-[url('../../public/lp-three/hero/texture-bg-2.png')] bg-cover bg-no-repeat">
+            <div className="bg-[#3e180d] pt-[100px] pb-[50px] bg-[url('../../public/lp-three/hero/texture-bg-2.webp')] bg-cover bg-no-repeat">
                 <div className="container">
                     <div className="text-center">
                         <p className="text-[#dd1e4b] text-[16px] lg:text-[20px] leading-tight font-poppins font-medium">

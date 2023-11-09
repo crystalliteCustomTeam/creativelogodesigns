@@ -1,7 +1,7 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "New-lp - Creative Logo Designs",
+    title: "New LP - Creative Logo Designs",
     description: "Discover Creative Logo Designs's journey and ethos. Driven by innovation and expertise, we're committed to bringing you unparalleled digital solutions. Know our story.",
     // Google Varification
     // verification: {
@@ -12,7 +12,7 @@ export const metadata = {
     // },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/about-us',
+        canonical: 'https://www.creativelogodesigns.io/new-lp',
     }
 }
 

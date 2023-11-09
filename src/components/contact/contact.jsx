@@ -24,6 +24,7 @@ const Contact = () => {
         email: "",
         services: "Not Selected",
         message: "",
+        botchecker: null,
         pageURL: page,
     });
     const handleDataChange = (e) => {
@@ -59,56 +60,63 @@ const Contact = () => {
         setErrors(errors);
 
         if (Object.keys(errors).length === 0) {
-            let headersList = {
-                "Accept": "*/*",
-                "Content-Type": "application/json"
-            }
+            if (data.botchecker === null) {
+                let headersList = {
+                    "Accept": "*/*",
+                    "Content-Type": "application/json"
+                }
 
-            let bodyContent = JSON.stringify(data);
-            let reqOptions = {
-                url: "/api/email",
-                method: "POST",
-                headers: headersList,
-                data: bodyContent,
+                let bodyContent = JSON.stringify(data);
+                let reqOptions = {
+                    url: "/api/email",
+                    method: "POST",
+                    headers: headersList,
+                    data: bodyContent,
+                }
+                await Axios.request(reqOptions);
+            } else {
+                setFormStatus("Failed...");
+                setIsDisabled(false);
             }
-            await Axios.request(reqOptions);
         } else {
             setFormStatus("Failed...");
             setIsDisabled(false);
         }
 
         if (Object.keys(errors).length === 0) {
-            // For Date
-            let newDate = new Date();
-            let date = newDate.getDate();
-            let month = newDate.getMonth() + 1;
-            let year = newDate.getFullYear();
-            // For Time
-            let today = new Date();
-            let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+            if (data.botchecker === null) {
+                // For Date
+                let newDate = new Date();
+                let date = newDate.getDate();
+                let month = newDate.getMonth() + 1;
+                let year = newDate.getFullYear();
+                // For Time
+                let today = new Date();
+                let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-            let headersList = {
-                "Accept": "*/*",
-                "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
-                "Content-Type": "application/json"
-            }
+                let headersList = {
+                    "Accept": "*/*",
+                    "Authorization": "Bearer ke2br2ubssi4l8mxswjjxohtd37nzexy042l2eer",
+                    "Content-Type": "application/json"
+                }
 
-            let bodyContent = JSON.stringify({
-                "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
-                "Brand": "Creative Logo Designs",
-                "Page": `${page}`,
-                "Date": `${month < 10 ? `0${month}` : `${month}`}-${date}-${year}`,
-                "Time": time,
-                "JSON": data
-            });
-            let reqOptions = {
-                url: "https://sheetdb.io/api/v1/1ownp6p7a9xpi",
-                method: "POST",
-                headers: headersList,
-                data: bodyContent,
+                let bodyContent = JSON.stringify({
+                    "IP": `${ip.IPv4} - ${ip.country_name} - ${ip.city}`,
+                    "Brand": "Creative Logo Designs",
+                    "Page": `${page}`,
+                    "Date": `${month < 10 ? `0${month}` : `${month}`}-${date}-${year}`,
+                    "Time": time,
+                    "JSON": data
+                });
+                let reqOptions = {
+                    url: "https://sheetdb.io/api/v1/1ownp6p7a9xpi",
+                    method: "POST",
+                    headers: headersList,
+                    data: bodyContent,
+                }
+                await Axios.request(reqOptions);
+                window.location.href = "/thank-you";
             }
-            await Axios.request(reqOptions);
-            window.location.href = "/thank-you";
         }
     }
     let servicesArray = [
@@ -182,7 +190,7 @@ const Contact = () => {
                                         options={servicesArray}
                                         name="services"
                                         border="border-none"
-                                        padding="pl-[100px] pr-5" 
+                                        padding="pl-[100px] pr-5"
                                         handle={handleDataChange}
                                     />
                                 </div>
@@ -194,6 +202,12 @@ const Contact = () => {
                                     disabled={isDisabled}
                                 />
                             </form>
+                            {/* For Bot Protection */}
+                            <Input
+                                name="botchecker"
+                                type="hidden"
+                                handle={handleDataChange}
+                            />
                         </div>
                         <div className="basis-full lg:basis-[35%] xl:basis-[40%]">
                             <div className="grid grid-cols-1 gap-10">
