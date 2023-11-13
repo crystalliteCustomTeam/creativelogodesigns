@@ -87,7 +87,7 @@ const Happy = () => {
 
                                     <p className="lg:text-[22px] md:text-[22px] sm:text-[22px] text-[16px] text-[#ffff] max-w-[850px] m-auto mb-5 mt-5 text-center">
                                 
-                                    “Goto Logo Experts Team was brilliant from start to finish,extremely professional, knowledgeable and responsive. Highly recommend! thank you for creating my new logo,
+                                    “Creative Logo Designs Team was brilliant from start to finish,extremely professional, knowledgeable and responsive. Highly recommend! thank you for creating my new logo,
                                 ”
                             
                             </p>
@@ -102,7 +102,7 @@ const Happy = () => {
                                     <Image src={logo3} className="" />
 
                                     <p className="lg:text-[22px] md:text-[22px] sm:text-[22px] text-[16px] text-[#ffff] max-w-[850px] m-auto mb-5 mt-5 text-center">
-                                “Goto Logo Experts helped my customers recognize the genuineness and authenticity of my brand. Thanks to Goto Logo Experts and its team for their true dedication and hard work.”
+                                “Creative Logo Designs helped my customers recognize the genuineness and authenticity of my brand. Thanks to Creative Logo Designs and its team for their true dedication and hard work.”
                             </p>
 
                                     <h4 className="text-[20px] text-[#ffff] font-[600]">David Guzman</h4>

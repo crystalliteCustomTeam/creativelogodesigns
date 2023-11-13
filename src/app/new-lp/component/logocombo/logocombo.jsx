@@ -82,7 +82,7 @@ const Logocombo = () => {
                                     <div className="flex flex-col items-center">
                                         <Image src={logo1} />
                                         <div className="md:mt-0 sm:mt-5 mt-10">
-                                            <Link onClick={openModal} class="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='#'>Order Now</Link>
+                                            <Link onClick={openModal} class="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='javascript:;'>Order Now</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ const Logocombo = () => {
                                     <div className="flex flex-col items-center">
                                         <Image src={logo2} />
                                         <div className="md:mt-0 sm:mt-5 mt-10">
-                                            <Link onClick={openModal} class="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='#'>Order Now</Link>
+                                            <Link onClick={openModal} class="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='javascript:;'>Order Now</Link>
                                         </div>
                                     </div>
                                 </div>

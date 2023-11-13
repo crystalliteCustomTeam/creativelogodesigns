@@ -2,7 +2,7 @@
 // Imports Components
 import Image from "next/image";
 // Import Images
-import One from "media/new-lp/logo.png";
+import One from "media/logo.png";
 import Link from "next/link";
 import styles from '../header/header.module.css'
 
@@ -21,8 +21,8 @@ const Header = () => {
                         <Image src={One} class='w-48' />
 
                         <div class='flex gap-8 items-center md:justify-end justify-end sm:pt-5 pt-5'>
-                            <Link href='tel:(855) 535-2384' className="text-[#000000] font-medium text-[15px] md:block sm:hidden hidden"> <span className="font-bold">Call Us:</span> (855) 535-2384</Link>
-                            <Link class='bg-[#dd1920] text-[#fff] md:py-3 md:px-7 sm:px-5 sm:py-3 sm:rounded-full px-6 py-2 rounded-full md:rounded-full md:text-[16px] sm:text-[12px] font-medium hover:bg-[#ffff] hover:border-[1px] hover:border-[#dd1920]  hover:text-[#dd1920]' href='#'>Talk To Us</Link>
+                            <Link href='tel:8556666675' className="text-[#000000] font-medium text-[15px] md:block sm:hidden hidden"> <span className="font-bold">Call Us:</span> (855) 666-6675</Link>
+                            <Link class='bg-[#dd1920] text-[#fff] md:py-3 md:px-7 sm:px-5 sm:py-3 sm:rounded-full px-6 py-2 rounded-full md:rounded-full md:text-[16px] sm:text-[12px] font-medium hover:bg-[#ffff] hover:border-[1px] hover:border-[#dd1920]  hover:text-[#dd1920]' href='javascript:$zopim.livechat.window.show();'>Talk To Us</Link>
                         </div>
 
                     </div>
