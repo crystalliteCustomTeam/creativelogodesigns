@@ -6,9 +6,12 @@
     transition: all 0.3s;
 }
 
+*:focus-visible {
+    outline: none;
+}
+
 html,
 body {
-
     scroll-behavior: smooth;
 }
 

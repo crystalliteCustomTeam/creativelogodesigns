@@ -34,7 +34,7 @@ const Modal = ({ isOpen, onClose }) => {
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Get A Free Quote");
+    const [formStatus, setFormStatus] = useState("PLACE YOUR ORDER");
     const [errors, setErrors] = useState({});
     const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {
@@ -115,21 +115,22 @@ const Modal = ({ isOpen, onClose }) => {
         <section className={styles.black}>
         <div className={modalClasses}  id={styles.black}>
             <div className=" p-6 rounded-lg">
-                <div className="border-[1px] relative w-[400px] xl:w-[400px] lg:w-[400px] md:w-[400px] custom-shadow rounded-3xl">
+                <div className="border-[1px] relative  xl:w-[400px] lg:w-[400px] md:w-[400px] sm:w-[300px] w-[380px] custom-shadow rounded-3xl">
                     <button onClick={onClose} className="font-poppins px-4 mt-2 font-[800]  text-[#fff] rounded-full text-[28px] w-[37px] h-[37px] absolute right-[10px] top-25px" > x </button>
                     <div
                         className="bg-[#dd1920] bg-red-700 rounded-t-3xl text-center font-bold shadow-md">
-                        <h2 class=" text-white text-[30px] py-2 font-poppins text-shadow">PLACE YOUR ORDER
+                        <h2 class=" text-white lg:text-[30px] md:text-[30px] sm:text-[30px] text-[27px] py-2 font-poppins text-shadow">PLACE YOUR ORDER
                         </h2>
                     </div>
                     <div class="font-poppins relative bg-red-700 rounded-t-3xl text-center font-semibold shadow-md ">
                         <div
                             class="bg-[#000] uppercase text-bold leading-7 pt-[16px] pb-[9px] text-black text-[25px] relative">
                             <h3 className={styles.rix}>
-                                <span className='bg-[#000] text-[#dd1920] font-[700] text-[22px]'>SIGN UP NOW AND GET UP TO</span><br /> <span className='text-[#fff] text-[22px] font-[700]'>70% OFF</span> <br />
-                                <span className="text-[11px] font-[400] text-[#fff]">Fill out this form and we will get  <span className='font-[700]'>  BACK TO YOU.</span>
-                                </span><br />
+                                <span className='bg-[#000] text-[#dd1920] font-[700] lg:text-[22px] md:text-[22px] sm:text-[18px] text-[16px]'>SIGN UP NOW AND GET UP TO</span><br /> <span className='text-[#fff] text-[22px] font-[700]'>70% OFF</span> <br />
+                                
                             </h3>
+                            <span className="text-[11px] font-[400] text-[#fff]">Fill out this form and we will get  <span className='font-[700]'>  BACK TO YOU.</span>
+                                </span><br />
                         </div>
                     </div>
                     <div className="bg-[#000] pb-5 pt-1 px-3 rounded-b-3xl ">
@@ -165,7 +166,7 @@ const Modal = ({ isOpen, onClose }) => {
                                 <button onClick={handleFormSubmit}
                                     className="bg-[#dd1920] text-[16px] text-white font-[600] text-center py-[10px] rounded-[50px] font-poppins uppercase w-[210px]"
                                     id="signupBtn" type="submit" value={formStatus} disabled={isDisabled}>
-                                    Place Your Order
+                                    {formStatus}
                                 </button>
                             </div>
                         </form>

@@ -65,7 +65,7 @@ const Hero = () => {
     const handleDataChange = (e) => {
         setData(prev => ({ ...prev, [e.target.name]: e.target.value }));
     }
-    const [formStatus, setFormStatus] = useState("Get A Free Quote");
+    const [formStatus, setFormStatus] = useState("Next");
     const [errors, setErrors] = useState({});
     const [isDisabled, setIsDisabled] = useState(false);
     const formValidateHandle = () => {

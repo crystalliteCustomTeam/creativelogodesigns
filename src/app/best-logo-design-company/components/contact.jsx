@@ -125,7 +125,7 @@ const Contact = () => {
     ];
     return (
         <section>
-            <div className="py-[50px] lg:py-[100px]">
+            <div className="py-[50px] lg:py-[100px]" id="contactForm">
                 <div className="container">
                     <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-10 gap-y-5">
                         <div>

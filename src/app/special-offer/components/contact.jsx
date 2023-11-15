@@ -123,7 +123,7 @@ const Contact = () => {
     ];
     return (
         <section>
-            <div className="py-[50px] lg:py-[100px]">
+            <div className="py-[50px] lg:py-[100px]" id="contactForm">
                 <div className="container">
                     <div className="flex gap-10 lg:gap-0 lg:justify-center text-center flex-wrap  lg:flex-nowrap">
                         <div className="basis-full lg:basis-[60%] xl:basis-[55%]">
