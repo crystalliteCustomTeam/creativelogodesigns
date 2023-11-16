@@ -34,6 +34,9 @@ const PricingAndPackages = ({ content }) => {
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
                             {dataPackages[content.key].packages.map((e, i) => {
+                               
+
+
                                 return <div key={i} className="bg-[#F2F2F2]">
                                     <div className="bg-red text-center py-5 shadow-lg">
                                         <h4 className="font-megat font-normal text-white text-xl">{e.name}</h4>
@@ -60,7 +63,7 @@ const PricingAndPackages = ({ content }) => {
                                     <div className="flex items-center justify-center mb-5">
                                         <CTA
                                             text="Select Package"
-                                            href="javascript:$zopim.livechat.window.show();"
+                                            href={(e.paymentURL == "" || e.paymentURL == undefined) ? "javascript:$zopim.livechat.window.show();" : e.paymentURL }
                                             bg="bg-black"
                                             icon="/icons/chat.svg"
                                             css="hover:bg-light-yellow"
