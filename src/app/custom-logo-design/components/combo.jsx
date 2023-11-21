@@ -31,23 +31,23 @@ const Combo = () => {
         "Dedicated Account Manager"
     ]
     let combo2A = [
-        "Stationery Design (Business Card, Letterhead, Envelope)",
-        "12 Dedicated Logo Designer (Industry Specific)",
-        "Unlimited Original Logo Concepts",
-        "Social Media Designs (Facebook, Twitter, Instagram)",
-        "Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SV",
-        "2 Sided Flyer OR Bi-Fold Brochure Desig",
-        "24 - 48 Hours Turn Around Tim",
-        "7 Page Informative Website",
-        "Unlimited Revisions",
-        "Brand Book",
+        " Unlimited Original Logo Concepts",
+        " 8 Dedicated Logo Designer (Industry Specific)",
+        " Unlimited Revisions",
+        " Ecommerce Website",
+        " Stationery Design (Business Card, Letterhead, Envelope)",
+        " 500 Business Cards ",
+        " Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG",
+        " 500 Letterheads",
+        " Email Signature Design",
+        " Social Media Designs (Facebook, Twitter, Instagram)",
     ]
     let combo2B = [
-        "500 Business Card",
-        "500 Letterhead",
-        "Email Signature Desig",
-        "With Grey Scale Format",
-        "Free Icon Design",
+        " 2 Sided Flyer OR Bi-Fold Brochure Design",
+        " With Grey Scale Format",
+        " Free Icon Design",
+        " Brand Book",
+        " 24 - 48 Hours Turn Around Time",
         "MORE FEATURES",
         "100% Satisfaction",
         "100% Ownership Rights",
@@ -58,99 +58,98 @@ const Combo = () => {
         <section>
             <div className="py-[50px]">
                 <div className="container">
-                    <div className="flex gap-5 items-center">
-                        <div className="basis-full lg:basis-[65%] xl:basis-[60%]">
-                            <Tabs value="one">
-                                <TabsHeader>
-                                    <Tab value="one">
-                                        Package 1
-                                    </Tab>
-                                    <Tab value="two">
-                                        Package 2
-                                    </Tab>
-                                </TabsHeader>
-                                <TabsBody>
-                                    <TabPanel value="one">
-                                        <div>
-                                            <h2 className="text-[25px] lg:text-[40px]  font-megat font-extrabold leading-tight text-black mb-2">
-                                                Logo <span className="text-red">Combo</span> 1
-                                            </h2>
-                                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">
-                                                Crafting your brand to completion!
-                                            </p>
-                                            <div className="md:flex gap-3 xl:gap-5 mt-10">
-                                                <ul>
-                                                    {combo1A && combo1A.map((e, i) => (
-                                                        <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
-                                                            key={i}>
-                                                            <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
-                                                            <span>{e}</span>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                                <ul>
-                                                    {combo1B && combo1B.map((e, i) => (
-                                                        <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
-                                                            key={i}>
-                                                            <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
-                                                            <span>{e}</span>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </TabPanel>
-                                    <TabPanel value="two">
-                                        <div>
-                                            <h2 className="text-[25px] lg:text-[40px]  font-megat font-extrabold leading-tight text-black mb-2">
-                                                Logo <span className="text-red">Combo</span> 2
-                                            </h2>
-                                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">
-                                                Crafting your brand to completion!
-                                            </p>
-                                            <div className="md:flex gap-3 xl:gap-5 mt-10">
-                                                <ul>
-                                                    {combo2A && combo2A.map((e, i) => (
-                                                        <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
-                                                            key={i}>
-                                                            <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
-                                                            <span>{e}</span>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                                <ul>
-                                                    {combo2B && combo2B.map((e, i) => (
-                                                        <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
-                                                            key={i}>
-                                                            <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
-                                                            <span>{e}</span>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </TabPanel>
-                                </TabsBody>
-                            </Tabs>
-                            <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
-                                <CTA
-                                    text="Order Now"
-                                    href="/contact-us"
-                                    bg="bg-black"
-                                    icon="/icons/chat.svg"
-                                    css="hover:bg-light-yellow"
-                                />
-                                <CTA
-                                    text="(855) 666-6675"
-                                    href="tel:8556666675"
-                                    bg="bg-red"
-                                    css="hover:bg-light-yellow"
-                                />
-                            </div>
-                        </div>
-                        <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
-                            <Image src="/lp-one/combo.png" width={617} height={701} alt="combo" />
-                        </div>
+                    <Tabs value="one">
+                        <TabsHeader className="lg:w-[60%]">
+                            <Tab value="one">
+                                Package 1
+                            </Tab>
+                            <Tab value="two">
+                                Package 2
+                            </Tab>
+                        </TabsHeader>
+                        <TabsBody>
+                            <TabPanel value="one" className="flex gap-5 items-center">
+                                <div className="basis-full lg:basis-[65%] xl:basis-[60%]">
+                                    <h2 className="text-[25px] lg:text-[40px]  font-megat font-extrabold leading-tight text-black mb-2">
+                                        Logo <span className="text-red">Combo</span> 1
+                                    </h2>
+                                    <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">
+                                        Crafting your brand to completion!
+                                    </p>
+                                    <div className="md:flex gap-3 xl:gap-5 mt-10">
+                                        <ul>
+                                            {combo1A && combo1A.map((e, i) => (
+                                                <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
+                                                    key={i}>
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
+                                                    <span>{e}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <ul>
+                                            {combo1B && combo1B.map((e, i) => (
+                                                <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
+                                                    key={i}>
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
+                                                    <span>{e}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
+                                    <Image src="/lp-one/combo.png" width={617} height={701} alt="combo" />
+                                </div>
+                            </TabPanel>
+                            <TabPanel value="two" className="flex gap-5 items-center">
+                                <div className="basis-full lg:basis-[65%] xl:basis-[60%]">
+                                    <h2 className="text-[25px] lg:text-[40px]  font-megat font-extrabold leading-tight text-black mb-2">
+                                        Logo <span className="text-red">Combo</span> 2
+                                    </h2>
+                                    <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">
+                                        Crafting your brand to completion!
+                                    </p>
+                                    <div className="md:flex gap-3 xl:gap-5 mt-10">
+                                        <ul>
+                                            {combo2A && combo2A.map((e, i) => (
+                                                <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
+                                                    key={i}>
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
+                                                    <span>{e}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        <ul>
+                                            {combo2B && combo2B.map((e, i) => (
+                                                <li className="text-[14px] text-black font-normal flex items-start gap-2 leading-[24px] mb-3"
+                                                    key={i}>
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 brightness-0 invert-0" />
+                                                    <span>{e}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
+                                    <Image src="/lp-one/combo2.png" width={617} height={701} alt="combo" />
+                                </div>
+                            </TabPanel>
+                        </TabsBody>
+                    </Tabs>
+                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                        <CTA
+                            text="Order Now"
+                            href="/contact-us"
+                            bg="bg-black"
+                            icon="/icons/chat.svg"
+                            css="hover:bg-light-yellow"
+                        />
+                        <CTA
+                            text="(855) 666-6675"
+                            href="tel:8556666675"
+                            bg="bg-red"
+                            css="hover:bg-light-yellow"
+                        />
                     </div>
                 </div>
             </div>
