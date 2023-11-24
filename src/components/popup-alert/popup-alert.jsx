@@ -44,19 +44,14 @@ const PopupAlert = () => {
                 }}
                 className={`!fixed !bottom-[10px] !left-0 !right-0 !w-[800px] m-auto !z-50 bg-[#000] rounded-3xl !hidden lg:!block ${styles.bgGradient}`}
             >
-                <div className="grid grid-cols-3 items-center">
+                <div className="grid grid-cols-2 items-center">
                     <div>
                         <h3 className="text-[30px] leading-tight font-poppins font-bold">
                             Black <span className="text-light-yellow">Friday</span> <br /> Offer...
                         </h3>
                     </div>
                     <div>
-                        <p className="text-center text-[70px] leading-none relative top-[5px] font-poppins font-bold">
-                            50<sup>%</sup><span className="text-[20px] uppercase relative left-[-45px]">off</span>
-                        </p>
-                    </div>
-                    <div>
-                        <p className="text-right font-poppins text-[14px] leading-normal">Get A <span className="font-bold">FREE LOGO DESIGN NOW!</span> Grab this Limited-Time Offer</p>
+                        <p className="text-right font-poppins text-[14px] leading-normal">Get A <span className="font-bold">FREE LOGO DESIGN NOW!</span> <br /> Grab this Limited-Time Offer</p>
                         <div className="w-max ml-auto mt-2">
                             <CTA
                                 text="Claim Now"

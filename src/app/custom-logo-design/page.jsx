@@ -14,6 +14,7 @@ import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
 import Combo from "./components/combo";
+import PopupAlert from "@/components/popup-alert/popup-alert";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -124,6 +125,7 @@ const Page = () => {
     return (
         <>
             <main className="relative">
+                <PopupAlert />
                 <Header />
                 <Hero content={hero} />
                 <Portfolio content={portfolio} />

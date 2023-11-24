@@ -9,10 +9,12 @@ import Testimonials from "./components/testimonials";
 import Contact from "./components/contact";
 import Footer from "@/components/footer/footer";
 import Header from "./components/header";
+import PopupAlert from "@/components/popup-alert/popup-alert";
 
 const Page = () => {
     return (
         <main>
+            <PopupAlert />
             <Header />
             <Hero />
             <Satisfaction />

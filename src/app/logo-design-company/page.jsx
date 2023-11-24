@@ -10,6 +10,7 @@ import Packages from "@/components/packages/packages";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
+import PopupAlert from "@/components/popup-alert/popup-alert";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -141,6 +142,7 @@ const Page = () => {
     return (
         <>
             <main>
+                <PopupAlert />
                 <Header />
                 <Hero content={hero} />
                 <SmallBanner content={smallbanner} />
