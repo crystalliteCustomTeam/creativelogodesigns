@@ -14,7 +14,6 @@ import PopupAlert from "@/components/popup-alert/popup-alert";
 const Page = () => {
     return (
         <main>
-            <PopupAlert />
             <Header />
             <Hero />
             <Satisfaction />

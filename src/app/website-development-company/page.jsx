@@ -142,7 +142,6 @@ const Page = () => {
     return (
         <>
             <main>
-                <PopupAlert />
                 <Header />
                 <Hero content={hero} />
                 <Services />

@@ -125,7 +125,6 @@ const Page = () => {
     return (
         <>
             <main className="relative">
-                <PopupAlert />
                 <Header />
                 <Hero content={hero} />
                 <Portfolio content={portfolio} />
