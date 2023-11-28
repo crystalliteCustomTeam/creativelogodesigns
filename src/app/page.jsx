@@ -10,6 +10,13 @@ import Letstalk from "@/components/letstalk/letstalk";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
+import dynamic from 'next/dynamic';
+
+const ComponentHero = dynamic(() => import('@/components/hero/hero'));
+const ComponentWeare = dynamic(() => import('@/components/weare/weare'));
+const ComponentReviews = dynamic(() => import('@/components/reviews/reviews'));
+const ComponentServices = dynamic(() => import('@/components/services/services'), { ssr: false });
+const ComponentContact = dynamic(() => import('@/components/contact/contact'), { ssr: false });
 
 const Page = () => {
     // Array for Hero Component Props
@@ -133,14 +140,14 @@ const Page = () => {
         <>
             <main>
                 <Header />
-                <Hero content={hero} />
+                <ComponentHero content={hero} />
                 <Approach />
                 <SmallBanner content={smallbanner} />
-                <Services content={services} />
+                <ComponentServices content={services} />
                 <Letstalk content={letstalk} />
-                <Reviews />
-                <Weare />
-                <Contact />
+                <ComponentReviews />
+                <ComponentWeare />
+                <ComponentContact />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`
