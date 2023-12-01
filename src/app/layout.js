@@ -1,5 +1,5 @@
 // Import Fonts
-import { primary, integralCF,poppins } from "./configs/fonts";
+import { primary, integralCF, poppins } from "./configs/fonts";
 import Script from 'next/script';
 
 // Import Css
@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <meta name="robots" content="noindex,nofollow" />
+            <meta name="google-site-verification" content="oRRvrt9HL1PkpQakQCE0ITO-MCwT2yAORGOsdwEcLEo" />
             <Script
                 id="ze-snippet"
                 src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
@@ -34,12 +35,12 @@ export default function RootLayout({ children }) {
             >
             </Script>
             <Script
-                id="google-tag-manager"
-                src="https://www.googletagmanager.com/gtag/js?id=AW-11394693744"
+                id="google-analytics-script"
+                src="https://www.googletagmanager.com/gtag/js?id=G-7TVYY8KVVW"
                 strategy="lazyOnload"
             >
             </Script>
-            <Script id="facebook-manager" strategy="lazyOnload">
+            <Script id="facebook-manager-snippet" strategy="lazyOnload">
                 {`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -53,17 +54,31 @@ export default function RootLayout({ children }) {
                     fbq('track', 'PageView');
                 `}
             </Script>
-            <Script id="google-tag-manager-three" strategy="lazyOnload">
+            <Script id="google-analytics-code" strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', 'AW-11394693744');
+                  
+                    gtag('config', 'G-7TVYY8KVVW');                  
+                `}
+            </Script>
+            <Script id="google-tag-manager" strategy="lazyOnload">
+                {`
+                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-58LZ82L9');                                    
                 `}
             </Script>
             <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
                 <noscript>
-                    <iframe src="https://www.facebook.com/tr?id=3404182666490229&ev=PageView&noscript=1" className="hidden"></iframe>
+                    <iframe src="https://www.facebook.com/tr?id=3404182666490229&ev=PageView&noscript=1" className="hidden">
+                    </iframe>
+                </noscript>
+                <noscript>
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LZ82L9" className="hidden"></iframe>
                 </noscript>
                 {children}
             </body>
