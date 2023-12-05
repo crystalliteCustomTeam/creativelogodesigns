@@ -32,7 +32,7 @@ const PricingAndPackages = () => {
                                 })}
                             </TabsHeader>
                             <TabsBody>
-                                {data.map(({ value, packages, label }, i) => {
+                                {data.map(({ value, packages, label, paymentURL }, i) => {
                                     return <TabPanel key={value} value={value}>
                                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
                                             {packages.map(({ name, discountedPrice, originalPrice, list, note, id }, i) => {
@@ -62,7 +62,7 @@ const PricingAndPackages = () => {
                                                     <div className="flex items-center justify-center mb-5">
                                                         <CTA
                                                             text="Select Package"
-                                                            href={(e.paymentURL == "" || e.paymentURL == undefined) ? "javascript:$zopim.livechat.window.show();" : e.paymentURL }
+                                                            href={(paymentURL == "" || paymentURL == undefined) ? "javascript:$zopim.livechat.window.show();" : paymentURL }
                                                             bg="bg-black"
                                                             icon="/icons/chat.svg"
                                                             css="hover:bg-light-yellow"

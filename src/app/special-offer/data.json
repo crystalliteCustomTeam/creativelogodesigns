@@ -49,7 +49,7 @@
                 "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
             },
             {
-                "id": 3,
+                "id": 2,
                 "name": "Logo Elite",
                 "discountedPrice": "$299.00",
                 "originalPrice": "$849.00",
@@ -72,7 +72,7 @@
                 "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
             },
             {
-                "id": 4,
+                "id": 3,
                 "name": "The Boss",
                 "discountedPrice": "$599.00",
                 "originalPrice": "$1996.00",
