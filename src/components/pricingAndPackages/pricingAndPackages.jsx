@@ -62,7 +62,7 @@ const PricingAndPackages = () => {
                                                     <div className="flex items-center justify-center mb-5">
                                                         <CTA
                                                             text="Select Package"
-                                                            href="javascript:$zopim.livechat.window.show();"
+                                                            href={(e.paymentURL == "" || e.paymentURL == undefined) ? "javascript:$zopim.livechat.window.show();" : e.paymentURL }
                                                             bg="bg-black"
                                                             icon="/icons/chat.svg"
                                                             css="hover:bg-light-yellow"
