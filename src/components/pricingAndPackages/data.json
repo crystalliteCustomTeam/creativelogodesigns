@@ -7,117 +7,129 @@
             {
                 "id": 0,
                 "name": "Basic Logo",
-                "discountedPrice": "$45",
-                "originalPrice": "$80",
+                "discountedPrice": "$39",
+                "originalPrice": "$130",
                 "list": [
-                    "1 Custom Logo Design",
-                    "3 Round Of Revisions",
-                    "Web Ready File Format",
-                    "48 Hrs Turnaround Time",
-                    "100% Ownership Right",
-                    "100% Satisfaction"
-                ],
-                "paymentURL": "https://app.creativelogodesigns.io/creative/order/1"
-                
+                    "3 Custom Logo Design Concepts",
+                    "3 Revision Rounds",
+                    "100% Satisfaction Guarantee",
+                    "100% Unique Design Guarantee",
+                    "100% Money Back Guarantee",
+                    "Copyrights needs to be done once the logo is finalized",
+                    "Turn around time 24 hours"
+                ]
             },
             {
                 "id": 1,
-                "name": "Startup Logo",
-                "discountedPrice": "$80",
-                "originalPrice": "$170",
+                "name": "Professional Logo",
+                "discountedPrice": "$79",
+                "originalPrice": "$264",
                 "list": [
-                    "3 Custom Logo Desion",
-                    "3 Dedicated Designers",
-                    "3 Round Of Revisions",
-                    "24 - 48 Hrs Turnaround Time",
-                    "100% Ownership Right",
-                    "100% Satisfaction"
-                ],
-                "paymentURL":"https://app.creativelogodesigns.io/creative/order/2"
-                
+                    "5 Custom Logo Design Concepts",
+                    "FREE Icon",
+                    "FREE Grayscale Formats",
+                    "FREE Color Options",
+                    "6 Revision Rounds",
+                    "All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)",
+                    "100% Satisfaction Guarantee",
+                    "100% Unique Design Guarantee (No Template)",
+                    "100% Money Back Guarantee",
+                    "Copyrights needs to be done once the logo is finalized",
+                    "Turn around time 24 hours"
+                ]
             },
             {
                 "id": 2,
-                "name": "Professional Logo",
-                "discountedPrice": "$125",
-                "originalPrice": "$249",
+                "name": "Silver  Logo",
+                "discountedPrice": "$149",
+                "originalPrice": "$497",
                 "list": [
-                    "Custom Logo Designs Primbed",
-                    "8 Creative Designers",
+                    "8 Custom Logo Design Concepts",
+                    "4 Dedicated Designers",
                     "Unlimited Revisions",
-                    "1 Stationary Concept",
-                    "24-48 Hrs Turnaround Time",
-                    "100% Ownership Right",
-                    "100% Satisfaction"
-                ],
-                "paymentURL":"https://app.creativelogodesigns.io/creative/order/3"
-            
+                    "FREE Icon",
+                    "FREE Custom Stationery Design (Letterhead, Envelope, Business Card)",
+                    "FREE MS Word Letterhead",
+                    "FREE Grayscale Formats",
+                    "FREE Color Options",
+                    "All Final File Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)",
+                    "100% Satisfaction Guarantee",
+                    "100% Unique Design Guarantee (No Template)",
+                    "100% Money Back Guarantee",
+                    "Copyrights needs to be done once the logo is finalized",
+                    "Turn around time 24 hours"
+                ]
             },
             {
                 "id": 3,
-                "name": "Elite Logo",
-                "discountedPrice": "$175",
-                "originalPrice": "$348",
+                "name": "Gold Logo",
+                "discountedPrice": "$200",
+                "originalPrice": "$665",
                 "list": [
-                    "Custom Logo Designs (Unlimited)",
-                    "10 Creative Designers",
-                    "Untiented Revisions",
-                    "2 Stationary Concept",
-                    "1 Facebook Cover Photo",
-                    "1 Web Homepage Design",
-                    "2 Inner Pages Web Design",
-                    "24-48 Hrs Turnaround Time",
-                    "100% Ownership Right",
-                    "100% Satisfaction"
-                ],
-                "paymentURL":"https://app.creativelogodesigns.io/creative/order/7"
-               
+                    "10 Custom Logo Design Concepts",
+                    "06 Dedicated Designers",
+                    "UNLIMITED Revisions",
+                    "FREE Custom Stationery Design",
+                    "FREE MS Word Letterhead",
+                    "Free Email Signature",
+                    "FREE Grayscale Format",
+                    "FREE Color Options",
+                    "Free Invoice Design",
+                    "FREE File Formats (PSD, PDF, AI, JPEG, PNG)",
+                    "100% Satisfaction Guarantee",
+                    "100% Unique Design Guarantee (No Template)",
+                    "100% Money Back Guarantee",
+                    "Copyrights needs to be done once the logo is finalized",
+                    "Turn around time 24 hours"
+                ]
             },
             {
                 "id": 4,
-                "name": "Business Logo",
-                "discountedPrice": "$245",
-                "originalPrice": "$488",
+                "name": "Platinum Logo",
+                "discountedPrice": "$249",
+                "originalPrice": "$830",
                 "list": [
-                    "UNLIMITED Logo Design Concepts",
-                    "By 8 Award Winning Designers",
+                    "Unlimited Logo Concepts",
+                    "8 Dedicated Designers",
                     "UNLIMITED Revisions",
-                    "2 Stationary Design Sets (Business Card, Letterhead, Envelope)",
-                    "Icon Design",
-                    "Double Sided Flyer Design / Bi-Fold Brochure",
+                    "2 Free Custom Stationery Designs (Letterhead, Envelope, Business Card, Contract Cover Page Design)",
+                    "2 Sided Flyer (OR) Bi-Fold Brochure Design ",
                     "FREE MS Word Letterhead",
                     "Free Email Signature",
-                    "All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)",
+                    "Free Invoice Design",
+                    "FREE Fax Template",
+                    "All Final File Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)",
                     "100% Satisfaction Guarantee",
-                    "100% Unique Design Guarantee",
-                    "100% Money Back Guarantee *"
-                ],
-                "paymentURL":"https://app.creativelogodesigns.io/creative/order/9"
-                
+                    "100% Unique Design Guarantee (No Template)",
+                    "100% Money Back Guarantee",
+                    "Copyrights needs to be done once the logo is finalized",
+                    "Turn around time 24 hours"
+                ]
             },
             {
                 "id": 5,
-                "name": "Gold Logo",
-                "discountedPrice": "$425",
-                "originalPrice": "$849",
+                "name": "Elite Logo",
+                "discountedPrice": "$349",
+                "originalPrice": "$1165",
                 "list": [
-                    "UNLIMITED Logo Design Concepts",
-                    "By 8 Award Winning Designers",
-                    "Icon Design",
+                    "Unlimited Logo Concepts ",
+                    "08 Dedicated Design Artists",
                     "UNLIMITED Revisions",
-                    "2 Stationary Design Sets (Business Card, Letterhead, Envelope)",
+                    "2 Free Custom Stationery Designs (Letterhead, Envelope, Business Card, Contract Cover Page Design)",
+                    "2 Sided Flyer (OR) Bi-Fold Brochure Design",
+                    "Social Media Pages Design (i.e. Facebook, Twitter, LinkedIn, Pinterest, Instagaram, Google+) (Any 3)",
+                    "Social Media Size Images",
+                    "T-Shirt Design, Signage Design, Packaging Design (Any 2)",
                     "FREE MS Word Letterhead",
                     "Free Email Signature",
-                    "3 Page Custom Website",
-                    "2 Stock Photos",
-                    "2 Banner Designs",
-                    "jQuery Slider",
-                    "All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)",
+                    "Free Invoice Design",
+                    "All Final File Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)",
                     "100% Satisfaction Guarantee",
-                    "100% Unique Design Guarantee",
-                    "100% Money Back Guarantee *"
-                ],
-                "paymentURL":"https://app.creativelogodesigns.io/creative/order/10"
+                    "100% Unique Design Guarantee (No Template)",
+                    "100% Money Back Guarantee",
+                    "Copyrights needs to be done once the logo is finalized",
+                    "Turn around time 24 hours"
+                ]
             }
         ]
     },

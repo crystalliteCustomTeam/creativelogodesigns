@@ -1,7 +1,7 @@
 "use client";
 import Button from "@/components/Button";
 // Import Packages
-import data from "../data";
+import data from "@/components/pricingAndPackages/data";
 import { useEffect, useRef } from "react";
 // import function to register Swiper custom elements
 import { register } from "swiper/element/bundle";
@@ -71,12 +71,12 @@ const Packages = () => {
                     </div>
                     <div className="my-3">
                       <span className="text-[18px] block leading-tight text-[#b4b8bd]">
-                        <del>{e.originalPrice}</del>
+                        <del>{e.originalPrice}.00 was</del>
                       </span>
                     </div>
                     <div className="flex justify-between items-center">
                       <h4 className="text-[22px] leading-tight text-[#ea0122] group-hover:text-white font-megat">
-                        {e.discountedPrice}
+                        {e.discountedPrice}.00
                       </h4>
                       <h4 className="text-[22px] leading-tight text-[#ea0122] group-hover:text-white font-megat">
                         USD
