@@ -119,7 +119,7 @@ const Packages = () => {
                           e.paymentURL == "" || e.paymentURL == undefined
                             ? "javascript:$zopim.livechat.window.show();"
                             : e.paymentURL
-                        } class="text-white h-[40px] font-poppins uppercase font-bold rounded-full text-[14px] flex items-center justify-center rounded-[5px] group-hover:text-white bg-[#ea0122]">Select Package</a>`,
+                        } class="text-white h-[40px] font-poppins uppercase font-bold rounded-full text-[14px] flex items-center justify-center group-hover:text-white bg-[#ea0122]">Select Package</a>`,
                       }}
                     />
                   </div>
