@@ -48,7 +48,7 @@ const Packages = () => {
   }, []);
   return (
     <section>
-      <div className="py-[50px] lg:py-[100px]">
+      <div className="py-[50px] lg:py-[100px]" id="packages">
         <div className="container">
           <div className="text-center mb-10">
             <h2 className="text-[25px] sm:text-[30px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-3">
