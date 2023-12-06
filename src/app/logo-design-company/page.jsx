@@ -11,6 +11,7 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
 import PopupAlert from "@/components/popup-alert/popup-alert";
+import Combo from "../custom-logo-design/components/combo";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -148,6 +149,7 @@ const Page = () => {
                 <Portfolio content={portfolio} />
                 <Letstalk content={letstalk} />
                 <Packages content={packages} />
+                <Combo />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />

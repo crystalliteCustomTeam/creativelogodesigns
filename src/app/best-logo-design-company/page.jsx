@@ -14,6 +14,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Link from "next/link";
 import logo from "media/logo-light.png";
+import Combo from "./components/combo";
 
 const Page = () => {
     return (
@@ -79,6 +80,8 @@ const Page = () => {
             </section>
             <Portfolios />
             <Packages />
+            <Combo />
+            <Works />
             <section>
                 <div className="pb-0 pt-[30px] lg:py-[30px] bg-[#dd1e4b] relative">
                     <div className="container">
@@ -118,7 +121,6 @@ const Page = () => {
                     </div>
                 </div>
             </section>
-            <Works />
             <Why />
             <section>
                 <div className="py-[50px] lg:py-[100px]">
