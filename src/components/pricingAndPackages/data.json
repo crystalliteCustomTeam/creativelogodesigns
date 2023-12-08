@@ -22,7 +22,8 @@
                     "100% Ownership Rights",
                     "Money Back Guarantee",
                     "Dedicated Account Manager"
-                ]
+                ],
+                "paymentURL": "https://app.creativelogodesigns.io/creative/order/64"
             },
             {
                 "id": 1,
@@ -44,7 +45,8 @@
                     "100% Ownership Rights",
                     "Money Back Guarantee",
                     "Dedicated Account Manager"
-                ]
+                ],
+                "paymentURL": "https://app.creativelogodesigns.io/creative/order/65"
             },
             {
                 "id": 2,
@@ -66,7 +68,8 @@
                     "100% Satisfaction",
                     "Money Back Guarantee",
                     "Dedicated Account Manager"
-                ]
+                ],
+                "paymentURL": "https://app.creativelogodesigns.io/creative/order/66"
             },
             {
                 "id": 3,
@@ -89,7 +92,8 @@
                     "100% Satisfaction",
                     "Money Back Guarantee",
                     "Dedicated Account Manager"
-                ]
+                ],
+                "paymentURL": "https://app.creativelogodesigns.io/creative/order/67"
             }
         ]
     },

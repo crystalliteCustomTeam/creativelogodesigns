@@ -112,6 +112,21 @@ const Combo = () => {
                         ))}
                     </ul>
                   </div>
+                  <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                    <CTA
+                      text="Order Now"
+                      href="https://app.creativelogodesigns.io/creative/order/68"
+                      bg="bg-black"
+                      icon="/icons/chat.svg"
+                      css="hover:bg-light-yellow"
+                    />
+                    <CTA
+                      text="(855) 666-6675"
+                      href="tel:8556666675"
+                      bg="bg-red"
+                      css="hover:bg-light-yellow"
+                    />
+                  </div>
                 </div>
                 <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
                   <Image
@@ -164,6 +179,21 @@ const Combo = () => {
                         ))}
                     </ul>
                   </div>
+                  <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                    <CTA
+                      text="Order Now"
+                      href="https://app.creativelogodesigns.io/creative/order/69"
+                      bg="bg-black"
+                      icon="/icons/chat.svg"
+                      css="hover:bg-light-yellow"
+                    />
+                    <CTA
+                      text="(855) 666-6675"
+                      href="tel:8556666675"
+                      bg="bg-red"
+                      css="hover:bg-light-yellow"
+                    />
+                  </div>
                 </div>
                 <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
                   <Image
@@ -176,21 +206,6 @@ const Combo = () => {
               </TabPanel>
             </TabsBody>
           </Tabs>
-          <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
-            <CTA
-              text="Order Now"
-              href="/contact-us"
-              bg="bg-black"
-              icon="/icons/chat.svg"
-              css="hover:bg-light-yellow"
-            />
-            <CTA
-              text="(855) 666-6675"
-              href="tel:8556666675"
-              bg="bg-red"
-              css="hover:bg-light-yellow"
-            />
-          </div>
         </div>
       </div>
     </section>

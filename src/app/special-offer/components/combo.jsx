@@ -10,14 +10,14 @@ const Combo = () => {
         " Unlimited Original Logo Concepts",
         " 8 Dedicated Logo Designer (Industry Specific)",
         " Unlimited Revisions",
-        " 3 Page Basic Website",
+        " 5 Page Basic Website",
         " Stationery Design (Business Card, Letterhead, Envelope)",
         " 500 Business Cards ",
         " Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG",
         " 500 Letterheads",
         " Email Signature Design",
         " Social Media Designs (Facebook, Twitter, Instagram)",
-    ]
+    ];
     let combo1B = [
         " 2 Sided Flyer OR Bi-Fold Brochure Design",
         " With Grey Scale Format",
@@ -28,8 +28,8 @@ const Combo = () => {
         "100% Satisfaction",
         "100% Ownership Rights",
         "Money Back Guarantee",
-        "Dedicated Account Manager"
-    ]
+        "Dedicated Account Manager",
+    ];
     let combo2A = [
         " Unlimited Original Logo Concepts",
         " 8 Dedicated Logo Designer (Industry Specific)",
@@ -38,10 +38,10 @@ const Combo = () => {
         " Stationery Design (Business Card, Letterhead, Envelope)",
         " 500 Business Cards ",
         " Formats: JPEG, PSD, EPS, AI, PNG, TIFF, SVG",
-        " 500 Letterheads",
+        " Upto 100 Products",
         " Email Signature Design",
         " Social Media Designs (Facebook, Twitter, Instagram)",
-    ]
+    ];
     let combo2B = [
         " 2 Sided Flyer OR Bi-Fold Brochure Design",
         " With Grey Scale Format",
@@ -52,8 +52,8 @@ const Combo = () => {
         "100% Satisfaction",
         "100% Ownership Rights",
         "Money Back Guarantee",
-        "Dedicated Account Manager"
-    ]
+        "Dedicated Account Manager",
+    ];
     return (
         <section>
             <div className="py-[50px] bg-[#000]">
@@ -96,6 +96,21 @@ const Combo = () => {
                                             ))}
                                         </ul>
                                     </div>
+                                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                                        <CTA
+                                            text="Order Now"
+                                            href="https://app.creativelogodesigns.io/creative/order/68"
+                                            bg="bg-black"
+                                            icon="/icons/chat.svg"
+                                            css="hover:bg-light-yellow"
+                                        />
+                                        <CTA
+                                            text="(855) 666-6675"
+                                            href="tel:8556666675"
+                                            bg="bg-[#ea0122]"
+                                            css="hover:bg-light-yellow"
+                                        />
+                                    </div>
                                 </div>
                                 <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
                                     <Image src="/lp-one/combo.png" width={617} height={701} alt="combo" />
@@ -129,6 +144,21 @@ const Combo = () => {
                                             ))}
                                         </ul>
                                     </div>
+                                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                                        <CTA
+                                            text="Order Now"
+                                            href="https://app.creativelogodesigns.io/creative/order/69"
+                                            bg="bg-black"
+                                            icon="/icons/chat.svg"
+                                            css="hover:bg-light-yellow"
+                                        />
+                                        <CTA
+                                            text="(855) 666-6675"
+                                            href="tel:8556666675"
+                                            bg="bg-[#ea0122]"
+                                            css="hover:bg-light-yellow"
+                                        />
+                                    </div>
                                 </div>
                                 <div className="hidden lg:block lg:basis-[35%] xl:basis-[40%]">
                                     <Image src="/lp-one/combo2.png" width={617} height={701} alt="combo" />
@@ -136,21 +166,6 @@ const Combo = () => {
                             </TabPanel>
                         </TabsBody>
                     </Tabs>
-                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
-                        <CTA
-                            text="Order Now"
-                            href="/contact-us"
-                            bg="bg-black"
-                            icon="/icons/chat.svg"
-                            css="hover:bg-light-yellow"
-                        />
-                        <CTA
-                            text="(855) 666-6675"
-                            href="tel:8556666675"
-                            bg="bg-[#ea0122]"
-                            css="hover:bg-light-yellow"
-                        />
-                    </div>
                 </div>
             </div>
         </section>
