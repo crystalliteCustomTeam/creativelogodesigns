@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import payments from "media/lp-three/payments.png";
+import payments from "media/paymentMethods.png";
 
 const Footer = () => {
     return (
@@ -27,7 +27,7 @@ const Footer = () => {
                             </p>
                         </div>
                         <div>
-                            <Image src={payments} alt="payments" />
+                            <Image src={payments} alt="payments" width={150} />
                         </div>
                     </div>
                     <div className="text-center border-t-2 border-[#8e8e8e2e] pt-5">

@@ -14,7 +14,7 @@ import twitter from "media/social/twitter.svg";
 import instagram from "media/social/instagram.svg";
 import linkedin from "media/social/linkedin.svg";
 import pinterest from "media/social/pinterest.svg"
-import cards from "media/footer/cards.svg";
+import cards from "media/paymentMethods.png";
 import certification from "media/footer/certification.svg";
 
 const Footer = () => {
