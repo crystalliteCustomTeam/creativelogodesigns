@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Mobile App Design And Development Company",
-    description: "Your trusted Mobile App Design & Development Company - delivering innovative solutions for your mobile app needs.",
+    title: "Hire the Foremost Mobile App Design Company | Creative Logo Designs",
+    description: "Creative Logo Designs is the highest-ranking mobile app design agency in the United States. They employ only the finest mobile app designers for flawless results.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

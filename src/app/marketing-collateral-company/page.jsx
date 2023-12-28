@@ -13,102 +13,113 @@ import Script from "next/script";
 import Portfolio from "@/components/services/services";
 
 const Page = () => {
-    // Array for Hero Component Props
-    const hero = {
-        page: "marketingCollateral",
-        subtitle: "Top Marketing Collateral Company",
-        title: "Hire Marketing Collateral Company For Superior Engagement",
-        desc: "Looking for experts to enhance your content and reach your audience effectively? At Creative Logo Designs, our team consists of top-notch content writers and marketers who can create engaging content to grow and retain your customer base with confidence.",
-        img: {
-            src: "/marketing-collateral/hero/hero.png",
-            width: "489",
-            height: "642",
-        },
-        form: true
-    };
-    // Array for Small Banner Component Props
-    const smallbanner = {
-        page: "marketingCollateral",
-        title: "Hire Us For Powerful Marketing Collateral Service",
-        desc: "With the help of effective Marketing Collateral Services at Creative Logo Designs, start your digital adventure. ",
-        img: {
-            src: "/marketing-collateral/smallBanner.png",
-            width: "431",
-            height: "460",
-        },
-    };
-    // Array for Packages Component Props
-    const packages = {
-        subtitle: "Reasonable Prices",
-        title: "That <span class='text-red'>Fits</span> Your Budget",
-        desc: "With affordable prices, we have exclusive digital art and design facilities, customized for your individual needs",
-        key: 3,
-        name: "Marketing Collateral"
-    }
-    // Array for Letstalk Component Props
-    const letstalk = {
-        title: "Let’s Talk",
-        desc: "Connect with us and let our professional copywriters help you to achieve your business goals without facing any hassles."
-    }
-    // Array for Portfolio Component Props
-    const portfolio = {
-        title: "See it. You Must Have Faith",
-        desc: "Creative Logo Designs counts itself incredibly fortunate to have worked with such wonderful customers and provided them with excellent service.",
-        tabs: [
-            {
-                value: "all",
-                label: "All",
-                images: [
-                    "/portfolios/branding/dark/1.png",
-                    "/portfolios/branding/dark/2.png",
-                    "/portfolios/branding/dark/3.png",
-                    "/portfolios/branding/dark/4.png",
-                    "/portfolios/branding/dark/5.png",
-                    "/portfolios/branding/dark/6.png",
-                    "/portfolios/branding/dark/7.png",
-                    "/portfolios/branding/dark/8.png",
-                    "/portfolios/branding/dark/9.png",
-                ],
-            },
-        ]
-    };
-    // Array for Reviews Component Props
-    const reviews = [
-        {
-            message: "Working with Creative Logo Designs, the marketing collateral team helped change the game. Every brochure, flyer, and presentation they've created for us demonstrates their limitless ingenuity. Our updated material has left our clients really thrilled, and it surely helped to our recent success. I personally recommend them to each one of you.",
-            name: "Emily Kennedy",
-            jd: false,
-            profile: "/marketing-collateral/reviews/1.png"
-        },
-        {
-            message: "I wanted marketing materials for my small business that would have a huge impact on a tight budget. This marketing collateral team not only got my concept but also made the most of every dollar to produce materials of the highest caliber. Their attention to detail on everything from business cards to fliers has improved the visibility of my brand. Since using their material, I've noticed a substantial rise in inquiries and purchases. Thank you to each team player for helping me throughout everything and for remaining committed.",
-            name: "Michael Sherling",
-            jd: false,
-            profile: "/marketing-collateral/reviews/2.png"
-        },
-        {
-            message: "Event preparation demands attention to detail, and my go-to resource for outstanding promotional materials has been Creative Logo Designs. They've assisted me in turning events into life-changing experiences, with anything from attractive posters to interesting pamphlets. It is just amazing how well they are able to capture the soul of each event and transform it into collateral. Without them, I wouldn't dare attempt to organize a gathering.",
-            name: "Sarah Kyle",
-            jd: false,
-            profile: "/marketing-collateral/reviews/3.png"
-        }
-    ]
-    return (
-        <>
-            <main>
-                <Header />
-                <Hero content={hero} />
-                <Services />
-                <SmallBanner content={smallbanner} />
-                <Portfolio content={portfolio} />
-                <Letstalk content={letstalk} />
-                <Packages content={packages} />
-                <Reviews content={reviews} />
-                <Weare />
-                <Contact />
-                <Footer />
-                <Script id="general-schema" type="application/ld+json">
-                    {`
+  // Array for Hero Component Props
+  const hero = {
+    page: "marketingCollateral",
+    subtitle: "Optimum Marketing Collateral Services",
+    title: "A MARKETING COLLATERAL COMPANY WARRANTS SUPERIOR ENGAGEMENT",
+    desc: "We understand the critical role marketing collateral plays in promoting your brand and products. That's why our thorough strategies complement marketing collateral services including designing brochures, flyers, banners, product packaging, and more to help you communicate.",
+    img: {
+      src: "/marketing-collateral/hero/hero.png",
+      width: "489",
+      height: "642",
+    },
+    form: true,
+  };
+  // Array for Small Banner Component Props
+  const smallbanner = {
+    page: "marketingCollateral",
+    title: "MARKETING COLLATERAL SERVICES MEET YOUR UNIQUE NEEDS",
+    desc: "We pay particular attention to every element of your marketing collateral, ensuring that it aligns perfectly",
+    img: {
+      src: "/marketing-collateral/smallBanner.png",
+      width: "431",
+      height: "460",
+    },
+  };
+  // Array for Packages Component Props
+  const packages = {
+    subtitle: "We Provide",
+    title:
+      "ECONOMICAL <span class='text-red'>MARKETING </span> COLLATERAL SERVICES",
+    desc: "Dedicated to uplifting your brand through appealing and effective marketing collateral.",
+    key: 3,
+    name: "Marketing Collateral",
+  };
+  // Array for Letstalk Component Props
+  const letstalk = {
+    title: "Let’s Talk",
+    desc: "Connect with us and let our professional copywriters help you to achieve your business goals without facing any hassles.",
+  };
+  // Array for Portfolio Component Props
+  const portfolio = {
+    title: "WITNESS WHAT WE HAVE TO OFFER!",
+    desc: "Check out our impeccable history with our customers from the past. Be assured that when it comes to marketing collateral, we prioritize quality above everything else.",
+    tabs: [
+      {
+        value: "all",
+        label: "All",
+        images: [
+          "/portfolios/branding/dark/1.png",
+          "/portfolios/branding/dark/2.png",
+          "/portfolios/branding/dark/3.png",
+          "/portfolios/branding/dark/4.png",
+          "/portfolios/branding/dark/5.png",
+          "/portfolios/branding/dark/6.png",
+          "/portfolios/branding/dark/7.png",
+          "/portfolios/branding/dark/8.png",
+          "/portfolios/branding/dark/9.png",
+        ],
+      },
+    ],
+  };
+  // Array for Reviews Component Props
+  const reviews = [
+    {
+      message:
+        "As a startup founder, I was looking for a comprehensive branding solution. Creative Logo Designs exceeded my expectations. Their team provided exceptional logo design that perfectly captured our vision. The website design was sleek, user-friendly, and optimized for our target audience. What stood out was their illustration design, offering a unique visual language that aligned with our brand's identity.”",
+      name: "Leona Greene",
+      jd: false,
+      profile: "/ecommerce/reviews/1.png",
+    },
+    {
+      message:
+        "I recently hired Creative Logo Designs for a complete rebranding of my business, and I couldn't be happier with the results. Their team of designers is incredibly talented and attentive to detail. They started with crafting a unique and eye-catching logo that perfectly captures the essence of my business. The logo design process was collaborative, and they were open to my ideas and feedback every step of the way.",
+      name: "Candice Newman",
+      jd: false,
+      profile: "/ecommerce/reviews/2.png",
+    },
+    {
+      message:
+        "Working with Creative Logo Designs has been an absolute delight. They are masters of their craft, offering a wide range of design and branding services that have taken our business to the next level. The logo they designed for us perfectly encapsulates our brand's values and personality. It's clean, memorable, and versatile.",
+      name: "Lora Poole",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+    {
+      message:
+        "Their illustration design work added a unique and creative touch to our marketing campaigns, making our brand memorable in the minds of our customers. And their application design skills turned our app into a powerful tool for our users. Creative Logo Designs excels at creating a cohesive brand identity across all our digital platforms.",
+      name: "Shawn Klein",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+  ];
+  return (
+    <>
+      <main>
+        <Header />
+        <Hero content={hero} />
+        <Services />
+        <SmallBanner content={smallbanner} />
+        <Portfolio content={portfolio} />
+        <Letstalk content={letstalk} />
+        <Packages content={packages} />
+        <Reviews content={reviews} />
+        <Weare />
+        <Contact />
+        <Footer />
+        <Script id="general-schema" type="application/ld+json">
+          {`
                         {
                             "@context": "http://schema.org/",
                             "@type": "Product",
@@ -125,10 +136,10 @@ const Page = () => {
                             }
                         }
                     `}
-                </Script>
-            </main>
-        </>
-    );
-}
+        </Script>
+      </main>
+    </>
+  );
+};
 
 export default Page;

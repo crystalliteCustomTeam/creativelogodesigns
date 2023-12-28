@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top SEO Company Services | Creative Logo Designs",
-    description: "Creative Logo Designs stands as a leading SEO company, optimizing your digital presence for maximum visibility. Drive organic traffic and achieve top search rankings. Contact us!",
+    title: "Hire the Best SEO Agency for Premium Search Engine Optimization",
+    description: "Creative Logo Designs is a leading SEO company that offers the best SEO services to brands that wish to break the conventional clutter and echo with success.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

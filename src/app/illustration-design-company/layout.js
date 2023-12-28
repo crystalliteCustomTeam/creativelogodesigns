@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Illustration Design Company - Creative Logo Designs",
-    description: "Creative Logo Designs is your goto illustration design company. Bring your ideas to life with vibrant, bespoke illustrations. Engage with us today!",
+    title: "Hire the Best Illustration Design Company | Creative Logo Designs",
+    description: "If you want to add vivid and zestful illustrations to your brand’s image, hire illustration designers at Creative Logo Designs, a leading illustration design company.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

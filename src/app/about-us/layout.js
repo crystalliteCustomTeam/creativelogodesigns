@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "About Us - Creative Logo Designs",
-    description: "Discover Creative Logo Designs's journey and ethos. Driven by innovation and expertise, we're committed to bringing you unparalleled digital solutions. Know our story.",
+    title: "Creative Logo Designs | Logo Design Agency | About Us",
+    description: "Discover how the best logo design company in the United States harvests the power of creativity and infuses it with impeccable and creative logo designs.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

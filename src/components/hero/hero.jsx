@@ -17,7 +17,7 @@ const Hero = ({ content }) => {
                             <span className="text-[16px] text-red leading-none block font-bold mb-2">
                                 {subtitle}
                             </span>
-                            <h1 className="text-[25px] sm:text-[35px] xl:text-[40px] font-megat font-extrabold leading-tight text-black mb-5 hover:text-red transition-all">
+                            <h1 className="text-[25px] md:text-[30px] xl:text-[40px] font-megat font-extrabold leading-tight text-black mb-5 hover:text-red transition-all">
                                 {title}
                             </h1>
                             <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal mb-5 text-justify sm:text-left">

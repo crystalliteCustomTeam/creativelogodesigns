@@ -11,11 +11,11 @@ const Services = () => {
             <div className="pb-[60px] md:pb-[100px]">
                 <div className="container">
                     <div className="lg:w-2/3 mb-10">
-                        <span className="text-base font-normal text-red">SEO Services Company</span>
+                        <span className="text-base font-normal text-red">Top SEO Company</span>
                         <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-2">
-                            Hire Our SEO Pros & Watch Your Rankings Grow
+                        SEO SERVICES AVAILABLE FOR CAPTURING TRAFFIC & CONVERSION PROSPECTS
                         </h2>
-                        <p className="text-base text-black font-normal">Ready to witness your rankings skyrocket? When you hire our SEO company, you're not just getting results – you're investing in a proven path to online excellence.</p>
+                        <p className="text-base text-black font-normal">Catapult your website ranking, traffic, and prospect conversions to a whole new different level with our impeccable SEO services that guarantee the best optimized results.</p>
                     </div>
                     <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                         <CTA

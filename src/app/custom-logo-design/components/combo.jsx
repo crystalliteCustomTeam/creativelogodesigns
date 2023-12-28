@@ -73,10 +73,10 @@ const Combo = () => {
               <TabPanel value="one" className="flex gap-5 items-center">
                 <div className="basis-full lg:basis-[65%] xl:basis-[60%]">
                   <h2 className="text-[25px] lg:text-[40px]  font-megat font-extrabold leading-tight text-black mb-2">
-                    Logo <span className="text-red">Infinite</span>
+                    Logo <span className="text-red">INFINITY</span>
                   </h2>
                   <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">
-                    Crafting your brand to completion!
+                    Crafting Excellence for Your Brand!
                   </p>
                   <div className="md:flex gap-3 xl:gap-5 mt-10">
                     <ul>
@@ -143,7 +143,7 @@ const Combo = () => {
                     Logo <span className="text-red">Combo</span>
                   </h2>
                   <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal">
-                    Crafting your brand to completion!
+                    Crafting Excellence for Your Brand!
                   </p>
                   <div className="md:flex gap-3 xl:gap-5 mt-10">
                     <ul>

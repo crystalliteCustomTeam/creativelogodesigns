@@ -12,80 +12,91 @@ import Footer from "@/components/footer/footer";
 import Script from "next/script";
 
 const Page = () => {
-    // Array for Hero Component Props
-    const hero = {
-        page: "seoServices",
-        subtitle: "From Rankings to Revenue",
-        title: "Turbocharge Your Traffic with Our SEO Company!",
-        desc: "Witness the change as our professional SEO company, Creative Logo Designs, moves you from search engine ranks to higher income. We'll boost website traffic using our tested techniques so you can connect with your target market and experience real company success.",
-        img: {
-            src: "/seo-services/hero/hero.png",
-            width: "623",
-            height: "462",
-            css: "lg:mb-[150px] xl:mb-[100px]"
-        },
-        form: true
-    };
-    // Array for Small Banner Component Props
-    const smallbanner = {
-        page: "ecommerce",
-        title: "Dominate Search Engine Results With Our SEO Services",
-        desc: "Don't delay your digital success, contact us today and schedule an obligation-free  SEO Consultation with us!",
-        img: {
-            src: "/seo-services/smallBanner.png",
-            width: "597",
-            height: "446",
-        },
-    };
-    // Array for Packages Component Props
-    const packages = {
-        subtitle: "SEO Packages",
-        title: "Increased <span class='text-red'>Profit on a Budget</span> with Our SEO Agency",
-        desc: "Our affordable SEO agency will increase your profit margin without overspending – hire us to rank on search results in 30 days.",
-        key: 5,
-        name: "SEO"
-    }
-    // Array for Letstalk Component Props
-    const letstalk = {
-        title: "Design Consultation",
-        desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!"
-    }
-    // Array for Reviews Component Props
-    const reviews = [
-        {
-            message: "Words cannot explain how thankful I am that Creative Logo Designs was picked to handle our SEO requirements. They have a very outstanding crew. After we teamed up with them, our website's traffic quickly doubled, and our internet exposure rocketed. Because of their knowledge and commitment, our business is booming like never before. Look no further if you're seeking an SEO company that deliver  real results.",
-            name: "Sarah Thomas",
-            jd: false,
-            profile: "/seo-services/reviews/1.png"
-        },
-        {
-            message: "Our web visibility has changed in ways we could never have predicted because of Creative Logo Designs. Their staff took the time to learn about our company's objectives right away and then customized an SEO plan that was completely in line with them. The outcomes speak for themselves; our website now appears on the top page for a number of difficult-to-rank keywords, and organic traffic is constantly increasing. I strongly recommend anyone looking for top-notch SEO service contact Creative Logo Designs.",
-            name: "Johnny Radcliffe",
-            jd: false,
-            profile: "/seo-services/reviews/2.png"
-        },
-        {
-            message: "I've worked with an SEO Company before, but working with Creative Logo Designs has changed everything. Their team's knowledge exceeds others in every way. They not only raised our website's search engine ranks, but they also offered insightful feedback that helped us better our entire internet approach. Since cooperating with them, we have had incredible ROI. I wouldn't trust anybody else to handle our SEO since Creative Logo Designs is the genuine deal.",
-            name: "Emily Madison",
-            jd: false,
-            profile: "/seo-services/reviews/3.png"
-        }
-    ]
-    return (
-        <>
-            <main>
-                <Header />
-                <Hero content={hero} />
-                <Services />
-                <SmallBanner content={smallbanner} />
-                <Letstalk content={letstalk} />
-                <Packages content={packages} />
-                <Reviews content={reviews} />
-                <Weare />
-                <Contact />
-                <Footer />
-                <Script id="general-schema" type="application/ld+json">
-                    {`
+  // Array for Hero Component Props
+  const hero = {
+    page: "seoServices",
+    subtitle: "From Optimization to Conversion",
+    title: "HIRE THE BEST SEO SERVICES TO BOOST ENGAGEMENT! ",
+    desc: "Creative Logo Designs is a leading SEO agency that prioritizes search engine optimization when it comes to engagement and conversion ratio. Our SEO services ensure that your brand’s website captures maximum traffic and more opportunities and converts prospects into customers.",
+    img: {
+      src: "/seo-services/hero/hero.png",
+      width: "623",
+      height: "462",
+      css: "lg:mb-[150px] xl:mb-[100px]",
+    },
+    form: true,
+  };
+  // Array for Small Banner Component Props
+  const smallbanner = {
+    page: "ecommerce",
+    title: "LEAVE NO STONE UNTURNED WITH OUR PREMIUM SEO SERVICES",
+    desc: "Stop yearning for digital success when you can optimize everything and anything with our pristine SEO services.",
+    img: {
+      src: "/seo-services/smallBanner.png",
+      width: "597",
+      height: "446",
+    },
+  };
+  // Array for Packages Component Props
+  const packages = {
+    subtitle: "SEO Services",
+    title:
+      "A BUDGET-FRIENDLY <span class='text-red'>SEO AGENCY </span> THAT GUARANTEES IMMACULATE RESULTS",
+    desc: "One of our many objectives is affordability. As a leading SEO company, we want brands to prosper and garner ample success.",
+    key: 5,
+    name: "SEO",
+  };
+  // Array for Letstalk Component Props
+  const letstalk = {
+    title: "Design Consultation",
+    desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!",
+  };
+  // Array for Reviews Component Props
+  const reviews = [
+    {
+      message:
+        "As a startup founder, I was looking for a comprehensive branding solution. Creative Logo Designs exceeded my expectations. Their team provided exceptional logo design that perfectly captured our vision. The website design was sleek, user-friendly, and optimized for our target audience. What stood out was their illustration design, offering a unique visual language that aligned with our brand's identity.”",
+      name: "Leona Greene",
+      jd: false,
+      profile: "/ecommerce/reviews/1.png",
+    },
+    {
+      message:
+        "I recently hired Creative Logo Designs for a complete rebranding of my business, and I couldn't be happier with the results. Their team of designers is incredibly talented and attentive to detail. They started with crafting a unique and eye-catching logo that perfectly captures the essence of my business. The logo design process was collaborative, and they were open to my ideas and feedback every step of the way.",
+      name: "Candice Newman",
+      jd: false,
+      profile: "/ecommerce/reviews/2.png",
+    },
+    {
+      message:
+        "Working with Creative Logo Designs has been an absolute delight. They are masters of their craft, offering a wide range of design and branding services that have taken our business to the next level. The logo they designed for us perfectly encapsulates our brand's values and personality. It's clean, memorable, and versatile.",
+      name: "Lora Poole",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+    {
+      message:
+        "Their illustration design work added a unique and creative touch to our marketing campaigns, making our brand memorable in the minds of our customers. And their application design skills turned our app into a powerful tool for our users. Creative Logo Designs excels at creating a cohesive brand identity across all our digital platforms.",
+      name: "Shawn Klein",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+  ];
+  return (
+    <>
+      <main>
+        <Header />
+        <Hero content={hero} />
+        <Services />
+        <SmallBanner content={smallbanner} />
+        <Letstalk content={letstalk} />
+        <Packages content={packages} />
+        <Reviews content={reviews} />
+        <Weare />
+        <Contact />
+        <Footer />
+        <Script id="general-schema" type="application/ld+json">
+          {`
                         {
                             "@context": "http://schema.org",
                             "@type": "Product",
@@ -102,10 +113,10 @@ const Page = () => {
                             }
                         }
                     `}
-                </Script>
-            </main>
-        </>
-    );
-}
+        </Script>
+      </main>
+    </>
+  );
+};
 
 export default Page;

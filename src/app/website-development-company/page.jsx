@@ -14,147 +14,158 @@ import Script from "next/script";
 import PopupAlert from "@/components/popup-alert/popup-alert";
 
 const Page = () => {
-    // Array for Hero Component Props
-    const hero = {
-        page: "websiteDevelopment",
-        subtitle: "Website Design & Development",
-        title: "100% Custom Websites By Top Website Development Company",
-        desc: "Tired of generic websites that don't make an impact? Experience the difference with our top design and website development company where we uniquely represent your brand and drive results.",
-        img: {
-            src: "/website-development/hero/hero.png",
-            width: "395",
-            height: "805",
-        },
-        form: true
-    };
-    // Array for Small Banner Component Props
-    const smallbanner = {
-        page: "websiteDevelopment",
-        title: "Let us develop a responsive website to help you attract more visitors",
-        desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
-        img: {
-            src: "/website-development/smallBanner.png",
-            width: "623",
-            height: "466",
-        },
-    };
-    // Array for Packages Component Props
-    const packages = {
-        subtitle: "Web Development Packages",
-        title: "Budget-Friendly Website Development Company",
-        desc: "Our commitment to affordability means you can have a stunning, professionally designed website that perfectly suits your budget.",
-        key: 2,
-        name: "Website Development"
-    }
-    // Array for Letstalk Component Props
-    const letstalk = {
-        title: "Design Consultation",
-        desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!"
-    }
-    // Array for Portfolio Component Props
-    const portfolio = {
-        title: "See it. You Must Have Faith",
-        desc: "Creative Logo Designs counts itself incredibly fortunate to have worked with such wonderful customers and provided them with excellent service.",
-        tabs: [
-            {
-                value: "dark",
-                label: "Dark",
-                images: [
-                    "/portfolios/website-design/dark/1.jpg",
-                    "/portfolios/website-design/dark/2.jpg",
-                    "/portfolios/website-design/dark/3.jpg",
-                    "/portfolios/website-design/dark/4.jpg",
-                    "/portfolios/website-design/dark/5.jpg",
-                    "/portfolios/website-design/dark/6.jpg",
-                    "/portfolios/website-design/dark/7.jpg",
-                    "/portfolios/website-design/dark/8.jpg",
-                    "/portfolios/website-design/dark/9.jpg",
-                ],
-            },
-            {
-                value: "feminine",
-                label: "Feminine",
-                images: [
-                    "/portfolios/website-design/feminine/1.jpg",
-                    "/portfolios/website-design/feminine/2.jpg",
-                    "/portfolios/website-design/feminine/3.jpg",
-                    "/portfolios/website-design/feminine/4.jpg",
-                    "/portfolios/website-design/feminine/5.jpg",
-                    "/portfolios/website-design/feminine/6.jpg",
-                    "/portfolios/website-design/feminine/7.jpg",
-                    "/portfolios/website-design/feminine/8.jpg",
-                    "/portfolios/website-design/feminine/9.jpg",
-                ],
-            },
-            {
-                value: "light",
-                label: "Light",
-                images: [
-                    "/portfolios/website-design/light/1.jpg",
-                    "/portfolios/website-design/light/2.jpg",
-                    "/portfolios/website-design/light/3.jpg",
-                    "/portfolios/website-design/light/4.jpg",
-                    "/portfolios/website-design/light/5.jpg",
-                    "/portfolios/website-design/light/6.jpg",
-                    "/portfolios/website-design/light/7.jpg",
-                    "/portfolios/website-design/light/8.jpg",
-                    "/portfolios/website-design/light/9.jpg",
-                ],
-            },
-            {
-                value: "masculine",
-                label: "Masculine",
-                images: [
-                    "/portfolios/website-design/masculine/1.jpg",
-                    "/portfolios/website-design/masculine/2.jpg",
-                    "/portfolios/website-design/masculine/3.jpg",
-                    "/portfolios/website-design/masculine/4.jpg",
-                    "/portfolios/website-design/masculine/5.jpg",
-                    "/portfolios/website-design/masculine/6.jpg",
-                    "/portfolios/website-design/masculine/7.jpg",
-                    "/portfolios/website-design/masculine/8.jpg",
-                    "/portfolios/website-design/masculine/9.jpg",
-                ],
-            }
-        ]
-    };
-    // Array for Reviews Component Props
-    const reviews = [
-        {
-            message: "The experience of working with Creative Logo Designs has been wonderful. They have surpassed our expectations at every turn, starting with the initial consultation and ending with the launch. Their team's dedication to detail, originality, and technological expertise were essential to realizing our vision. Due to their dedication to quality, our website not only looks amazing but also runs without a hitch. Anyone looking for top-notch web development services should get in contact with them immediately.",
-            name: "John Mitchell",
-            jd: false,
-            profile: "/website-development/reviews/1.png"
-        },
-        {
-            message: "For years, Creative Logo Designs has been our dependable website development partner, and they never cease to wow us. It's amazing how well they can translate complicated concepts into web pages that are easy to use. The team's commitment to comprehending our brand and goals has produced websites that are an ideal representation of us. Their superb post-launch assistance makes them the ideal long-term partner. I am quite pleased with their services.",
-            name: "Sarah Anderson",
-            jd: false,
-            profile: "/website-development/reviews/2.png"
-        },
-        {
-            message: "Our website development agency is the best ally we discovered who actually cared about our success. Every project exhibits innovation, technical mastery, and attention to detail. The unique features and perfect operation of our website have increased user interaction and conversion rates. We appreciate their spirit of cooperation and persistent commitment to our objectives. Contact Creative Logo Designs and get yourself on a journey of success.",
-            name: "Michael George",
-            jd: false,
-            profile: "/website-development/reviews/3.png"
-        }
-    ]
-    return (
-        <>
-            <main>
-                <Header />
-                <Hero content={hero} />
-                <Services />
-                <SmallBanner content={smallbanner} />
-                <Portfolio content={portfolio} />
-                <Letstalk content={letstalk} />
-                <Packages content={packages} />
-                <Reviews content={reviews} />
-                <Weare />
-                <Contact />
-                <Footer />
-                <Script id="general-schema" type="application/ld+json">
-                    {`
+  // Array for Hero Component Props
+  const hero = {
+    page: "websiteDevelopment",
+    subtitle: "Top Website Development Agency",
+    title: "WEBSITE DESIGN AND DEVELOPMENT HAS NEVER BEEN THIS EFFORTLESS",
+    desc: "Are you tired of seeing the same old boring websites? It’s time to hire the best website design and development company to turn your ideas into a vivid reality.",
+    img: {
+      src: "/website-development/hero/hero.png",
+      width: "395",
+      height: "805",
+    },
+    form: true,
+  };
+  // Array for Small Banner Component Props
+  const smallbanner = {
+    page: "websiteDevelopment",
+    title:
+      "OUR WEBSITE DESIGN AND DEVELOPMENT TEAM ENSURES THAT YOUR WEBSITE IS INTERACTIVE AND USER-FRIENDLY",
+    desc: "As a leading website development agency, we aim to provide the best services that will eventually result in the prosperity of your brand. Ready to set course? Click away.",
+    img: {
+      src: "/website-development/smallBanner.png",
+      width: "623",
+      height: "466",
+    },
+  };
+  // Array for Packages Component Props
+  const packages = {
+    subtitle: "Affordable Web Design Packages",
+    title: "YOUR IDEAS AND AFFORDABILITY MATTER",
+    desc: "We believe that ideas are far greater than any currency. That’s why our web development company stresses more on your vision than your pocket.",
+    key: 2,
+    name: "Website Development",
+  };
+  // Array for Letstalk Component Props
+  const letstalk = {
+    title: "Design Consultation",
+    desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!",
+  };
+  // Array for Portfolio Component Props
+  const portfolio = {
+    title: "WITNESS WHAT WE HAVE TO OFFER!",
+    desc: "We do not compromise on quality, and that’s why our website development agency leads the pack in website design and development.",
+    tabs: [
+      {
+        value: "dark",
+        label: "Dark",
+        images: [
+          "/portfolios/website-design/dark/1.jpg",
+          "/portfolios/website-design/dark/2.jpg",
+          "/portfolios/website-design/dark/3.jpg",
+          "/portfolios/website-design/dark/4.jpg",
+          "/portfolios/website-design/dark/5.jpg",
+          "/portfolios/website-design/dark/6.jpg",
+          "/portfolios/website-design/dark/7.jpg",
+          "/portfolios/website-design/dark/8.jpg",
+          "/portfolios/website-design/dark/9.jpg",
+        ],
+      },
+      {
+        value: "feminine",
+        label: "Feminine",
+        images: [
+          "/portfolios/website-design/feminine/1.jpg",
+          "/portfolios/website-design/feminine/2.jpg",
+          "/portfolios/website-design/feminine/3.jpg",
+          "/portfolios/website-design/feminine/4.jpg",
+          "/portfolios/website-design/feminine/5.jpg",
+          "/portfolios/website-design/feminine/6.jpg",
+          "/portfolios/website-design/feminine/7.jpg",
+          "/portfolios/website-design/feminine/8.jpg",
+          "/portfolios/website-design/feminine/9.jpg",
+        ],
+      },
+      {
+        value: "light",
+        label: "Light",
+        images: [
+          "/portfolios/website-design/light/1.jpg",
+          "/portfolios/website-design/light/2.jpg",
+          "/portfolios/website-design/light/3.jpg",
+          "/portfolios/website-design/light/4.jpg",
+          "/portfolios/website-design/light/5.jpg",
+          "/portfolios/website-design/light/6.jpg",
+          "/portfolios/website-design/light/7.jpg",
+          "/portfolios/website-design/light/8.jpg",
+          "/portfolios/website-design/light/9.jpg",
+        ],
+      },
+      {
+        value: "masculine",
+        label: "Masculine",
+        images: [
+          "/portfolios/website-design/masculine/1.jpg",
+          "/portfolios/website-design/masculine/2.jpg",
+          "/portfolios/website-design/masculine/3.jpg",
+          "/portfolios/website-design/masculine/4.jpg",
+          "/portfolios/website-design/masculine/5.jpg",
+          "/portfolios/website-design/masculine/6.jpg",
+          "/portfolios/website-design/masculine/7.jpg",
+          "/portfolios/website-design/masculine/8.jpg",
+          "/portfolios/website-design/masculine/9.jpg",
+        ],
+      },
+    ],
+  };
+  // Array for Reviews Component Props
+  const reviews = [
+    {
+      message:
+        "As a startup founder, I was looking for a comprehensive branding solution. Creative Logo Designs exceeded my expectations. Their team provided exceptional logo design that perfectly captured our vision. The website design was sleek, user-friendly, and optimized for our target audience. What stood out was their illustration design, offering a unique visual language that aligned with our brand's identity.”",
+      name: "Leona Greene",
+      jd: false,
+      profile: "/ecommerce/reviews/1.png",
+    },
+    {
+      message:
+        "I recently hired Creative Logo Designs for a complete rebranding of my business, and I couldn't be happier with the results. Their team of designers is incredibly talented and attentive to detail. They started with crafting a unique and eye-catching logo that perfectly captures the essence of my business. The logo design process was collaborative, and they were open to my ideas and feedback every step of the way.",
+      name: "Candice Newman",
+      jd: false,
+      profile: "/ecommerce/reviews/2.png",
+    },
+    {
+      message:
+        "Working with Creative Logo Designs has been an absolute delight. They are masters of their craft, offering a wide range of design and branding services that have taken our business to the next level. The logo they designed for us perfectly encapsulates our brand's values and personality. It's clean, memorable, and versatile.",
+      name: "Lora Poole",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+    {
+      message:
+        "Their illustration design work added a unique and creative touch to our marketing campaigns, making our brand memorable in the minds of our customers. And their application design skills turned our app into a powerful tool for our users. Creative Logo Designs excels at creating a cohesive brand identity across all our digital platforms.",
+      name: "Shawn Klein",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+  ];
+  return (
+    <>
+      <main>
+        <Header />
+        <Hero content={hero} />
+        <Services />
+        <SmallBanner content={smallbanner} />
+        <Portfolio content={portfolio} />
+        <Letstalk content={letstalk} />
+        <Packages content={packages} />
+        <Reviews content={reviews} />
+        <Weare />
+        <Contact />
+        <Footer />
+        <Script id="general-schema" type="application/ld+json">
+          {`
                         {
                             "@context": "http://schema.org",
                             "@type": "Product",
@@ -171,10 +182,10 @@ const Page = () => {
                             }
                         }
                     `}
-                </Script>
-            </main>
-        </>
-    );
-}
+        </Script>
+      </main>
+    </>
+  );
+};
 
 export default Page;

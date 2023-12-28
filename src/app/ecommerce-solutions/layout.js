@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Expert Ecommerce Website Design Company | Creative Logo Designs",
-    description: "Crafting top-tier ecommerce website design at Creative Logo Designs. Turn visitors into buyers with a responsive, user-friendly online store. Start your success today!",
+    title: "Custom Ecommerce Solutions Available | Creative Logo Designs",
+    description: "Revamp retail spaces with the best custom ecommerce solutions that cater to online platforms such as Shopify that seek to utilize the prospect of ecommerce. ",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

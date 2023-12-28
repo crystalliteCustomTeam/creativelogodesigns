@@ -50,7 +50,7 @@ const Packages = () => {
         <div className="container">
           <div className="text-center mb-10">
             <h2 className="text-[30px] lg:text-[35px] xl:text-[40px] text-[#2f323a] font-poppins font-bold leading-tight">
-              Our Affordable <span className="text-[#dd1e4b]">Pricing</span>{" "}
+              Our Affordable <span className="text-[#dd1e4b]">Pricing</span>
               Plans
             </h2>
             <span className="block w-[10%] h-[4px] bg-[#dd1e4b] mt-3 mb-3 m-auto"></span>

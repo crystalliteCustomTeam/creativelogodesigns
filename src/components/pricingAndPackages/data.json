@@ -27,7 +27,7 @@
             },
             {
                 "id": 1,
-                "name": "Logo Professional",
+                "name": "PROFESSIONAL LOGO ",
                 "discountedPrice": "$119",
                 "originalPrice": "$397",
                 "list": [
@@ -50,7 +50,7 @@
             },
             {
                 "id": 2,
-                "name": "Logo Elite",
+                "name": "ELITE LOGO ",
                 "discountedPrice": "$299",
                 "originalPrice": "$849",
                 "list": [
@@ -73,7 +73,7 @@
             },
             {
                 "id": 3,
-                "name": "The Boss",
+                "name": "LOGO AFICIONADO",
                 "discountedPrice": "$599",
                 "originalPrice": "$1996",
                 "list": [
@@ -104,7 +104,7 @@
         "packages": [
             {
                 "id": 0,
-                "name": "Basic Illustrative",
+                "name": "Basic Illustrations ",
                 "discountedPrice": "$294",
                 "originalPrice": "$588",
                 "list": [
@@ -124,7 +124,7 @@
             },
             {
                 "id": 1,
-                "name": "Startup Illustrative",
+                "name": "Illustrations for Startups ",
                 "discountedPrice": "$394",
                 "originalPrice": "$788",
                 "list": [
@@ -141,7 +141,7 @@
             },
             {
                 "id": 2,
-                "name": "Professional Illustrative",
+                "name": "Professional Illustrations ",
                 "discountedPrice": "$594",
                 "originalPrice": "$1188",
                 "list": [
@@ -158,7 +158,7 @@
             },
             {
                 "id": 3,
-                "name": "3D Logo Package",
+                "name": "3D Logo Package ",
                 "discountedPrice": "$644",
                 "originalPrice": "$1088",
                 "list": [
@@ -1136,7 +1136,7 @@
             },
             {
                 "id": 2,
-                "name": "Identity",
+                "name": "Advanced",
                 "discountedPrice": "$1849",
                 "originalPrice": "$4619",
                 "list": [
@@ -1158,7 +1158,7 @@
             },
             {
                 "id": 3,
-                "name": "Professional",
+                "name": "Proficient",
                 "discountedPrice": "$1049",
                 "originalPrice": "$2119",
                 "list": [

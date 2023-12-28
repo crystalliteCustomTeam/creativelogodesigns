@@ -13,79 +13,90 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 
 const Page = () => {
-    // Array for Hero Component Props
-    const hero = {
-        page: "ecommerce",
-        subtitle: "Ecommerce Website Design Company",
-        title: "Revamping Retail Space With Ecommerce Solutions",
-        desc: "As an Ecommerce Solutions Company, we excel in revamping websites across various ecommerce platforms, crafting tailored solutions that drive success on Shopify, WooCommerce, Magento, and more.",
-        img: {
-            src: "/ecommerce/hero/hero.png",
-            width: "513",
-            height: "750",
-        },
-        form: true
-    };
-    // Array for Small Banner Component Props
-    const smallbanner = {
-        page: "ecommerce",
-        title: "The Masters of eCommerce Website Design",
-        desc: "At Creative Logo Designs,we design ecommerce websites that not only look fantastic but also generate results that distinguish your company in the market.",
-        img: {
-            src: "/ecommerce/smallBanner.png",
-            width: "420",
-            height: "412",
-        },
-    };
-    // Array for Packages Component Props
-    const packages = {
-        subtitle: "Affordable Packages",
-        title: "Finding <span class='text-red'>Value</span> in Every Dollar",
-        desc: "our eCommerce solutions company, we prioritize affordability, and delivering top-quality services that won't strain your budget. Experience excellence without compromise.",
-        key: 6,
-        name: "E-Commerce"
-    }
-    // Array for Letstalk Component Props
-    const letstalk = {
-        title: "Design Consultation",
-        desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!"
-    }
-    // Array for Reviews Component Props
-    const reviews = [
-        {
-            message: "I found Creative Logo Designs when looking for a collaborator for revamping our online store. They showed a thorough knowledge of our demands right from the start of the conversation. Their dedication to providing excellent service, enthusiasm for design, and attention to detail were visible throughout the whole process. The outcome? Our consumers adore our visually appealing and incredibly useful online store.",
-            name: "Linda S",
-            jd: false,
-            profile: "/ecommerce/reviews/1.png"
-        },
-        {
-            message: "I can't convey how happy we are with the changes Creative Logo Designs has made to our company. Their staff put out a lot of effort to make sure our e-commerce website design not only looked excellent but also functioned without a hitch. They listened to our suggestions, and they went above to make sure every little element was perfect. Our sales have increased significantly since the modification, and our brand's online presence is more powerful than ever. I appreciate you, Creative Logo Designs. Keep up the good work!",
-            name: "John Kennedy",
-            jd: false,
-            profile: "/ecommerce/reviews/2.png"
-        },
-        {
-            message: "Our experience working with Creative Logo Designs has been nothing less than extraordinary. They transformed our e-commerce platform into a sleek, contemporary, and effective website. They stand out because they genuinely care about our success. They not only constructed a website but also an effective tool that has greatly increased our online sales. The crew at Creative Logo Designs is the real deal and understands the power of commitment and consistency.",
-            name: "Billy Benson",
-            jd: false,
-            profile: "/ecommerce/reviews/3.png"
-        }
-    ]
-    return (
-        <>
-            <main>
-                <Header />
-                <Hero content={hero} />
-                <Services />
-                <SmallBanner content={smallbanner} />
-                <Letstalk content={letstalk} />
-                <Packages content={packages} />
-                <Reviews content={reviews} />
-                <Weare />
-                <Contact />
-                <Footer />
-                <Script id="general-schema" type="application/ld+json">
-                    {`
+  // Array for Hero Component Props
+  const hero = {
+    page: "ecommerce",
+    subtitle: "Offering Innovative Ecommerce Solutions",
+    title: "REVOLUTIONIZING RETAIL SPACES WITH CUSTOM ECOMMERCE SOLUTIONS",
+    desc: "As an ecommerce website design company, Creative Logo Designs aims to deliver ecommerce solutions that cater to various platforms such as Shopify, WooCommerce, Magento, and others.",
+    img: {
+      src: "/ecommerce/hero/hero.png",
+      width: "513",
+      height: "750",
+    },
+    form: true,
+  };
+  // Array for Small Banner Component Props
+  const smallbanner = {
+    page: "ecommerce",
+    title: "THE CURATORS OF ECOMMERCE WEBSITE DESIGN",
+    desc: "We not only create visually appealing ecommerce website designs, but we ensure that the finished product produces results that resonate with the brand.",
+    img: {
+      src: "/ecommerce/smallBanner.png",
+      width: "420",
+      height: "412",
+    },
+  };
+  // Array for Packages Component Props
+  const packages = {
+    subtitle: "Great Prices",
+    title:
+      "THE MOST <span class='text-red'>AFFORDABLE </span> ECOMMERCE SOLUTIONS",
+    desc: "As a leading ecommerce website design company, we offer the best results for a price that cannot be compared or found. ",
+    key: 6,
+    name: "E-Commerce",
+  };
+  // Array for Letstalk Component Props
+  const letstalk = {
+    title: "Design Consultation",
+    desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!",
+  };
+  // Array for Reviews Component Props
+  const reviews = [
+    {
+      message:
+        "As a startup founder, I was looking for a comprehensive branding solution. Creative Logo Designs exceeded my expectations. Their team provided exceptional logo design that perfectly captured our vision. The website design was sleek, user-friendly, and optimized for our target audience. What stood out was their illustration design, offering a unique visual language that aligned with our brand's identity.”",
+      name: "Leona Greene",
+      jd: false,
+      profile: "/ecommerce/reviews/1.png",
+    },
+    {
+      message:
+        "I recently hired Creative Logo Designs for a complete rebranding of my business, and I couldn't be happier with the results. Their team of designers is incredibly talented and attentive to detail. They started with crafting a unique and eye-catching logo that perfectly captures the essence of my business. The logo design process was collaborative, and they were open to my ideas and feedback every step of the way.",
+      name: "Candice Newman",
+      jd: false,
+      profile: "/ecommerce/reviews/2.png",
+    },
+    {
+      message:
+        "Working with Creative Logo Designs has been an absolute delight. They are masters of their craft, offering a wide range of design and branding services that have taken our business to the next level. The logo they designed for us perfectly encapsulates our brand's values and personality. It's clean, memorable, and versatile.",
+      name: "Lora Poole",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+    {
+      message:
+        "Their illustration design work added a unique and creative touch to our marketing campaigns, making our brand memorable in the minds of our customers. And their application design skills turned our app into a powerful tool for our users. Creative Logo Designs excels at creating a cohesive brand identity across all our digital platforms.",
+      name: "Shawn Klein",
+      jd: false,
+      profile: "/ecommerce/reviews/3.png",
+    },
+  ];
+  return (
+    <>
+      <main>
+        <Header />
+        <Hero content={hero} />
+        <Services />
+        <SmallBanner content={smallbanner} />
+        <Letstalk content={letstalk} />
+        <Packages content={packages} />
+        <Reviews content={reviews} />
+        <Weare />
+        <Contact />
+        <Footer />
+        <Script id="general-schema" type="application/ld+json">
+          {`
                         {
                             "@context": "http://schema.org/",
                             "@type": "Product",
@@ -102,10 +113,10 @@ const Page = () => {
                             }
                         }
                     `}
-                </Script>
-            </main>
-        </>
-    );
-}
+        </Script>
+      </main>
+    </>
+  );
+};
 
 export default Page;

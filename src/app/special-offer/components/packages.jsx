@@ -52,7 +52,7 @@ const Packages = () => {
         <div className="container">
           <div className="text-center mb-10">
             <h2 className="text-[25px] sm:text-[30px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-3">
-              Our Affordable <span className="text-[#ea0122]">Pricing</span>{" "}
+              Our Affordable <span className="text-[#ea0122]">Pricing</span>
               Plans
             </h2>
             <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-[#565656] font-normal lg:w-2/3 lg:m-auto">

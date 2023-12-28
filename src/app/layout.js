@@ -8,8 +8,8 @@ import "./global.css";
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Web Design Company - Creative Logo Designs",
-    description: "Creative Logo Designs is an award-winning top web design company with a team of professional web designers, and online strategists, delivering cutting-edge websites for businesses.",
+    title: "Logo Design Company Available for Hire | Creative Logo Designs",
+    description: "Creative Logo Designs offers exceptional custom logo design services that help individuals catapult their brand’s image to a whole new level.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

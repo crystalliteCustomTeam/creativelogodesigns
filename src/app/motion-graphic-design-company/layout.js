@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Motion Graphics Design Company | Creative Logo Designs",
-    description: "Your premier motion graphics design company Creative Logo Designs. Elevate your brand visuals with dynamic animations and unique designs. Captivate audiences. Connect now!b",
+    title: "Motion Graphics Design Services Available | Creative Logo Designs",
+    description: "The leading motion graphics design company in the United States offers the best results for the most affordable prices. Hire a motion graphics designer today.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

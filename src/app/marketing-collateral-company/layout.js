@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Best Marketing Collateral Company | Creative Logo Designs",
-    description: "Creative Logo Designs: Your trusted Marketing Collateral Company. Craft brand-aligned assets that captivate and convert. Elevate your outreach. Connect with us today!",
+    title: "The Finest and Effortless Marketing Collateral Services Available ",
+    description: "Creative Logo Designs is a leading marketing collateral company in the United States specializing in marketing collateral services. Hire them today to find out more.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

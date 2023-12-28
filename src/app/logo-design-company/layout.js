@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Custom Logo Design Services By The Top Logo Design Company",
-    description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
+    title: "Hire Custom Logo Design Services | Creative Logo Designs",
+    description: "Creative Logo Designs is a custom logo design company that offers the best custom logo design services in the United States. Hire them today for your brand’s logo. ",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

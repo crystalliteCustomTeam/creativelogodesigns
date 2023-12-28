@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Copywriting Company | Creative Logo Designs Services",
-    description: "Choose Creative Logo Designs, your trusted copywriting company. We craft compelling content to elevate your brand's voice and reach. Engage better. Convert more.",
+    title: "Hire the Best Creative Copywriting Company | Creative Logo Designs",
+    description: "As a leading copywriting agency, Creative Logo Designs offers copywriting services that employ only the best wordsmiths for your brand’s image and identity.",
     // Google Varification
     verification: {
         // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',

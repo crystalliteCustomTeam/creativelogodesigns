@@ -42,11 +42,11 @@ const Letstalk = () => {
                         </div>
                     </div>
                     <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center z-10 flex-col">
-                        <h2 className="text-[60px] lg:text-[80px] font-megat tracking-wider font-extrabold text-transparent lett" style={{
+                        <h2 className="text-[50px] lg:text-[70px] font-megat tracking-wider font-extrabold text-transparent lett" style={{
                             "WebkitTextStrokeWidth": "0.1rem", "WebkitTextStrokeColor": "#fff"
-                        }}>JOIN THE</h2>
-                        <h2 className="text-[40px] lg:text-[60px] text-black md:text-white font-normal">
-                            Creative Logo Designs <span className="font-megat font-extrabold">Family</span>
+                        }}>BE A PART OF THE</h2>
+                        <h2 className="text-[30px] lg:text-[50px] text-black md:text-white font-normal">
+                        CREATIVE LOGO DESIGN <span className="font-megat font-extrabold">FRATERNITY</span>
                         </h2>
                     </div>
                 </div>

@@ -330,15 +330,11 @@ body {
     display: flex;
     gap: 30px;
 }
-
-.pricingnewtown .slick-track {
-    display: flex;
-    gap: 30px;
+@media (max-width: 639px) {
+    .pricingnewtown .slick-track {
+        gap: 10px;
+    }
 }
-
-
-
-
 .pricingnewtown ::-webkit-scrollbar {
     width: 10px;
 }
