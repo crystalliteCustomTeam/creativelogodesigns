@@ -1,7 +1,4 @@
 User-agent: *
-
-Disallow: /terms-and-conditions
-Disallow: /privacy-policy
-Disallow: /order
+Disallow: 
 
 Sitemap: https://www.creativelogodesigns.io/sitemap.xml

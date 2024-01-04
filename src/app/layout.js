@@ -26,8 +26,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <meta name="robots" content="noindex,nofollow" />
+
             <meta name="google-site-verification" content="oRRvrt9HL1PkpQakQCE0ITO-MCwT2yAORGOsdwEcLEo" />
+            <meta name='dmca-site-verification' content='VHcyT2lwK0ZaOXczUzAvUy9oZ3VoYVpUUEFiOXJNYndYSVR5OHlCK1pQYz01' />
             <Script
                 id="ze-snippet"
                 src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
