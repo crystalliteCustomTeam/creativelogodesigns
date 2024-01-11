@@ -109,7 +109,7 @@ const Sidebuttons = () => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            window.location.href = "/thank-you";
+            window.location.href = "https://app.creativelogodesigns.io/creative/order/64";
         }
     }
     const theme = {
