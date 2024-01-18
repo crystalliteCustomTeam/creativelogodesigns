@@ -137,7 +137,7 @@ const Page = () => {
                 <Weare />
                 <Contact />
                 <Footer />
-                <Script id="general-schema" type="application/ld+json">
+                {/* <Script id="general-schema" type="application/ld+json">
                     {`
                         {
                             "@context": "https://schema.org",
@@ -152,7 +152,7 @@ const Page = () => {
                             }
                         }
                     `}
-                </Script>
+                </Script> */}
             </main>
         </>
     )

@@ -143,22 +143,22 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "Organization",
-                            "name": "Creative Logo Designs",
-                            "url": "https://www.creativelogodesigns.io",
-                            "logo": "https://www.creativelogodesigns.io/_next/static/media/logo.0278bd76.svg",
-                            "contactPoint": {
-                                "@type": "ContactPoint",
-                                "telephone": "855 888-8399",
-                                "areaServed": "US"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "https://schema.org",
+                  "@type": "Organization",
+                  "name": "Creative Logo Designs",
+                  "url": "https://www.creativelogodesigns.io",
+                  "logo": "https://www.creativelogodesigns.io/_next/static/media/logo.0278bd76.svg",
+                  "contactPoint": {
+                      "@type": "ContactPoint",
+                      "telephone": "855 888-8399",
+                      "areaServed": "US"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

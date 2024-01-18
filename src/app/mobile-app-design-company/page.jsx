@@ -153,25 +153,25 @@ const page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org/",
-                            "@type": "Product",
-                            "name": "Mobile App Design Company",
-                            "description": "Creative Logo Designs is at the forefront of mobile app design company, creating innovative and user-centric app interfaces that foster engagement and elevate user experience.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "660"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org/",
+                  "@type": "Product",
+                  "name": "Mobile App Design Company",
+                  "description": "Creative Logo Designs is at the forefront of mobile app design company, creating innovative and user-centric app interfaces that foster engagement and elevate user experience.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "660"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

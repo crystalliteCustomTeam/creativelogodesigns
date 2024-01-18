@@ -93,25 +93,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org/",
-                            "@type": "Product",
-                            "name": "Creative Copywriting Company",
-                            "description": "Creative Logo Designs offers expert creative copywriting services, delivering persuasive and captivating content that engages audiences and drives brand success.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "4.9",
-                                "ratingCount": "450"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org/",
+                  "@type": "Product",
+                  "name": "Creative Copywriting Company",
+                  "description": "Creative Logo Designs offers expert creative copywriting services, delivering persuasive and captivating content that engages audiences and drives brand success.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "4.9",
+                      "ratingCount": "450"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

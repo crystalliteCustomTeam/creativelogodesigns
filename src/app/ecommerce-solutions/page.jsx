@@ -95,25 +95,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org/",
-                            "@type": "Product",
-                            "name": "Ecommerce Website Design Company",
-                            "description": "Creative Logo Designs is the go-to Ecommerce Website Design Company. Our team crafts online stores that captivate & convert. Elevate your ecommerce with us.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "230"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org/",
+                  "@type": "Product",
+                  "name": "Ecommerce Website Design Company",
+                  "description": "Creative Logo Designs is the go-to Ecommerce Website Design Company. Our team crafts online stores that captivate & convert. Elevate your ecommerce with us.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "230"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

@@ -118,25 +118,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org/",
-                            "@type": "Product",
-                            "name": "Marketing Collateral Company",
-                            "description": "Creative Logo Designs specializes in creating compelling marketing collateral that effectively communicates your brand's message, engages audiences, and supports sales efforts.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "567"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org/",
+                  "@type": "Product",
+                  "name": "Marketing Collateral Company",
+                  "description": "Creative Logo Designs specializes in creating compelling marketing collateral that effectively communicates your brand's message, engages audiences, and supports sales efforts.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "567"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

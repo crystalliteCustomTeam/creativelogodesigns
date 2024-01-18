@@ -162,25 +162,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org",
-                            "@type": "Product",
-                            "name": "Motion Graphic Design Company",
-                            "description": "Creative Logo Designs is your cutting-edge motion graphic design company, producing captivating animations that engage, entertain, and effectively convey your brand message.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "147"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org",
+                  "@type": "Product",
+                  "name": "Motion Graphic Design Company",
+                  "description": "Creative Logo Designs is your cutting-edge motion graphic design company, producing captivating animations that engage, entertain, and effectively convey your brand message.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "147"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

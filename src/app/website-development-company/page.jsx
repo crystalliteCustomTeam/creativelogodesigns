@@ -164,25 +164,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org",
-                            "@type": "Product",
-                            "name": "Website Development Company",
-                            "description": "Creative Logo Designs provides top-tier website development services, leveraging the latest technologies to build scalable, responsive, and user-friendly websites tailored to meet the unique needs of businesses.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "141"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org",
+                  "@type": "Product",
+                  "name": "Website Development Company",
+                  "description": "Creative Logo Designs provides top-tier website development services, leveraging the latest technologies to build scalable, responsive, and user-friendly websites tailored to meet the unique needs of businesses.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "141"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

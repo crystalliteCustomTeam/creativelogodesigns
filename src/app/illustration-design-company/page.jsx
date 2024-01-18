@@ -119,25 +119,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org/",
-                            "@type": "Product",
-                            "name": "Illustration Design Company",
-                            "description": "Creative Logo Designs top premium illustration design Company, crafting bespoke artwork tailored to capture the essence of brands and bring creative ideas to life.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "289"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org/",
+                  "@type": "Product",
+                  "name": "Illustration Design Company",
+                  "description": "Creative Logo Designs top premium illustration design Company, crafting bespoke artwork tailored to capture the essence of brands and bring creative ideas to life.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "289"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );

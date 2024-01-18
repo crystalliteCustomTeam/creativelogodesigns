@@ -95,25 +95,25 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        <Script id="general-schema" type="application/ld+json">
+        {/* <Script id="general-schema" type="application/ld+json">
           {`
-                        {
-                            "@context": "http://schema.org",
-                            "@type": "Product",
-                            "name": "Seo Company",
-                            "description": "Creative Logo Designs world's best SEO Company, employing cutting-edge techniques and strategies to enhance website visibility, drive organic traffic, and boost conversions.",
-                            "brand": {
-                                "@type": "brand",
-                                "name": "Creative Logo Designs"
-                            },
-                            "aggregateRating": {
-                                "@type": "AggregateRating",
-                                "ratingValue": "5",
-                                "ratingCount": "641"
-                            }
-                        }
-                    `}
-        </Script>
+              {
+                  "@context": "http://schema.org",
+                  "@type": "Product",
+                  "name": "Seo Company",
+                  "description": "Creative Logo Designs world's best SEO Company, employing cutting-edge techniques and strategies to enhance website visibility, drive organic traffic, and boost conversions.",
+                  "brand": {
+                      "@type": "brand",
+                      "name": "Creative Logo Designs"
+                  },
+                  "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "5",
+                      "ratingCount": "641"
+                  }
+              }
+          `}
+        </Script> */}
       </main>
     </>
   );
