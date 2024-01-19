@@ -1,26 +1,26 @@
 'use client'
 // Import Page Components
-// import Hero from "@/components/hero/hero";
+// import Hero from "@/components/hero/hero"
 const Hero = dynamic(() => import('@/components/hero/hero'))
-// import Approach from "@/components/home/Services/Services";
+// import Approach from "@/components/home/Services/Services"
 const Approach = dynamic(() => import('@/components/home/Services/Services'))
-// import SmallBanner from "@/components/smallbanner/smallbanner";
+// import SmallBanner from "@/components/smallbanner/smallbanner"
 const SmallBanner = dynamic(() => import('@/components/smallbanner/smallbanner'))
-// import Services from "@/components/services/services";
+// import Services from "@/components/services/services"
 const Services = dynamic(() => import('@/components/services/services'))
-// import Reviews from "@/components/reviews/reviews";
+// import Reviews from "@/components/reviews/reviews"
 const Reviews = dynamic(() => import('@/components/reviews/reviews'))
-// import Weare from "@/components/weare/weare";
+// import Weare from "@/components/weare/weare"
 const Weare = dynamic(() => import('@/components/weare/weare'))
-// import Contact from "@/components/contact/contact";
+// import Contact from "@/components/contact/contact"
 const Contact = dynamic(() => import('@/components/contact/contact'))
-// import Letstalk from "@/components/letstalk/letstalk";
+// import Letstalk from "@/components/letstalk/letstalk"
 const Letstalk = dynamic(() => import('@/components/letstalk/letstalk'))
-// import Header from "@/components/header/header";
+// import Header from "@/components/header/header"
 const Header = dynamic(() => import('@/components/header/header'))
-// import Footer from "@/components/footer/footer";
+// import Footer from "@/components/footer/footer"
 const Footer = dynamic(() => import('@/components/footer/footer'))
-import Script from "next/script";
+import Script from "next/script"
 import dynamic from 'next/dynamic'
 
 const Page = () => {

@@ -229,9 +229,9 @@ const Hero = () => {
                                     />
                                 </form>
                             </div>
-                            <Image src="/lp-one/hero/badge.png" alt="hero" proprity="true" className="absolute top-[-50px] right-[-50px] hidden lg:block" width={145} height={139} />
+                            <Image src="/lp-one/hero/badge.png" alt="hero" className="absolute top-[-50px] right-[-50px] hidden lg:block" width={145} height={139} />
                         </div>
-                        <div className="basis-full lg:basis-[40%] overflow-hidden">
+                        <div className="basis-full hidden lg:block lg:basis-[40%] overflow-hidden">
                             <swiper-container
                                 init={false}
                                 ref={swiperRef}
