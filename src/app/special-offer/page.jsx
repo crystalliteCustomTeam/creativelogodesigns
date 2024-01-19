@@ -1,3 +1,5 @@
+'use client'
+import dynamic from 'next/dynamic'
 // import Hero from "./components/hero"
 const Hero = dynamic(() => import('./components/hero'))
 // import Packages from "./components/packages"

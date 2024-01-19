@@ -1,5 +1,7 @@
 'use client'
 // Import Page Components
+import Script from "next/script"
+import dynamic from 'next/dynamic'
 // import Hero from "@/components/hero/hero"
 const Hero = dynamic(() => import('@/components/hero/hero'))
 // import Approach from "@/components/home/Services/Services"
@@ -20,8 +22,6 @@ const Letstalk = dynamic(() => import('@/components/letstalk/letstalk'))
 const Header = dynamic(() => import('@/components/header/header'))
 // import Footer from "@/components/footer/footer"
 const Footer = dynamic(() => import('@/components/footer/footer'))
-import Script from "next/script"
-import dynamic from 'next/dynamic'
 
 const Page = () => {
   // Array for Hero Component Props
