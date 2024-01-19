@@ -30,30 +30,39 @@ export default function RootLayout({ children }) {
 
             <meta name="google-site-verification" content="oRRvrt9HL1PkpQakQCE0ITO-MCwT2yAORGOsdwEcLEo" />
             <meta name='dmca-site-verification' content='VHcyT2lwK0ZaOXczUzAvUy9oZ3VoYVpUUEFiOXJNYndYSVR5OHlCK1pQYz01' />
-            <Script
-                id="ze-snippet"
-                src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
-                strategy="afterInteractive"
-            >
-            </Script>
-            {/* <Script
-                id="google-analytics-script"
-                src="https://www.googletagmanager.com/gtag/js?id=G-7TVYY8KVVW"
-                strategy="afterInteractive"
-            >
-            </Script> */}
-            {/* <Script id="google-analytics-code" strategy="afterInteractive">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                  
-                    gtag('config', 'G-7TVYY8KVVW');                  
-                `}
-            </Script> */}
-            <GoogleAnalytics gaId="G-7TVYY8KVVW" />
-            <Script id="facebook-manager-snippet" strategy="afterInteractive">
-                {`
+            <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
+                <noscript>
+                    <iframe src="https://www.facebook.com/tr?id=3404182666490229&ev=PageView&noscript=1" className="hidden">
+                    </iframe>
+                </noscript>
+                <noscript>
+                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LZ82L9" className="hidden"></iframe>
+                </noscript>
+                {children}
+                <Script
+                    id="ze-snippet"
+                    src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
+                    strategy="afterInteractive"
+                >
+                </Script>
+                {/* <Script
+                    id="google-analytics-script"
+                    src="https://www.googletagmanager.com/gtag/js?id=G-7TVYY8KVVW"
+                    strategy="afterInteractive"
+                >
+                </Script> */}
+                {/* <Script id="google-analytics-code" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                    
+                        gtag('config', 'G-7TVYY8KVVW');                  
+                    `}
+                </Script> */}
+                <GoogleAnalytics gaId="G-7TVYY8KVVW" />
+                <Script id="facebook-manager-snippet" strategy="afterInteractive">
+                    {`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
                     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -65,26 +74,17 @@ export default function RootLayout({ children }) {
                     fbq('init', '3404182666490229');
                     fbq('track', 'PageView');
                 `}
-            </Script>
-            {/* <Script id="google-tag-manager" strategy="afterInteractive">
-                {`
-                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','GTM-58LZ82L9');                                    
-                `}
-            </Script> */}
-            <GoogleTagManager gtmId="GTM-58LZ82L9" />
-            <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
-                <noscript>
-                    <iframe src="https://www.facebook.com/tr?id=3404182666490229&ev=PageView&noscript=1" className="hidden">
-                    </iframe>
-                </noscript>
-                <noscript>
-                    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58LZ82L9" className="hidden"></iframe>
-                </noscript>
-                {children}
+                </Script>
+                {/* <Script id="google-tag-manager" strategy="afterInteractive">
+                    {`
+                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                        })(window,document,'script','dataLayer','GTM-58LZ82L9');                                    
+                    `}
+                </Script> */}
+                <GoogleTagManager gtmId="GTM-58LZ82L9" />
             </body>
         </html >
     );
