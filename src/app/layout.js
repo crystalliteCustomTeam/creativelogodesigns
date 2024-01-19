@@ -6,7 +6,6 @@ import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 // Import Css
 import "./global.css";
-
 // Meta Data
 export const metadata = {
     // Title & Descriptions
