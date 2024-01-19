@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import Card1 from 'public/new-lp-2/card1.png'
-import Card2 from 'public/new-lp-2/card2.png'
-import Card3 from 'public/new-lp-2/card3.png'
-import Card4 from 'public/new-lp-2/card4.png'
+import Card1 from 'media/new-lp-2/card1.png'
+import Card2 from 'media/new-lp-2/card2.png'
+import Card3 from 'media/new-lp-2/card3.png'
+import Card4 from 'media/new-lp-2/card4.png'
 
 const Design = () => {
     let cards = [
