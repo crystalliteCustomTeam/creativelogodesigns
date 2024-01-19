@@ -156,12 +156,12 @@ const Sidebuttons = () => {
         <>
             <div className="translate-x-[75%] hover:translate-x-[1%] bg-[#cab99a] rounded-bl-[50px] rounded-tl-[50px] fixed top-[23%] right-0 z-50" dangerouslySetInnerHTML={{
                 __html: `<a href="javascript:$zopim.livechat.window.show();" class="cursor-pointer hidden lg:flex items-center py-2 px-4 gap-4">
-                <img src="/chatIcon.svg" alt="chat" />
+                <img src="/chatIcon.svg" width="30" height="30" alt="chat" />
                 <span class="text-white font-semibold text-lg block">Start Live Chat</span>
             </a>`}} />
             <div className="translate-x-[75%] hover:translate-x-[1%] bg-[#cab99a] rounded-tl-[50px] rounded-bl-[50px] fixed top-[33%] right-0 z-50" dangerouslySetInnerHTML={{
                 __html: `<a href="tel:8556666675" class="cursor-pointer hidden lg:flex items-center py-2 px-4 gap-4">
-                <img src="/callIcon.svg" alt="call" />
+                <img src="/callIcon.svg" width="30" height="30" alt="call" />
                 <span class="text-white font-semibold text-lg">(855) 666-6675</span>
             </a>`}} />
             <div className="cursor-pointer hidden lg:flex items-center translate-x-[100%] hover:translate-x-[1%] fixed top-[43%] right-0 z-50">
