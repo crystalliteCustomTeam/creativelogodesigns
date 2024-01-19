@@ -229,7 +229,7 @@ const Hero = () => {
                                     />
                                 </form>
                             </div>
-                            <Image src="/lp-one/hero/badge.png" alt="hero" className="absolute top-[-50px] right-[-50px] hidden lg:block" width={145} height={139} />
+                            <Image src="/lp-one/hero/badge.png" alt="hero" className="absolute top-[-50px] right-[-50px] hidden lg:block" priority width={145} height={139} />
                         </div>
                         <div className="basis-full hidden lg:block lg:basis-[40%] overflow-hidden">
                             <swiper-container
@@ -239,19 +239,19 @@ const Hero = () => {
                                 autoplay-disable-on-interaction="false"
                             >
                                 <swiper-slide class={`${styles.swiperSlides}`}>
-                                    <Image src={One} alt="slides" className="w-full h-full" />
+                                    <Image src={One} alt="slides" priority className="w-full h-full" />
                                 </swiper-slide>
                                 <swiper-slide class={`${styles.swiperSlides}`}>
-                                    <Image src={Two} alt="slides" className="w-full h-full" />
+                                    <Image src={Two} alt="slides" priority className="w-full h-full" />
                                 </swiper-slide>
                                 <swiper-slide class={`${styles.swiperSlides}`}>
-                                    <Image src={Three} alt="slides" className="w-full h-full" />
+                                    <Image src={Three} alt="slides" priority className="w-full h-full" />
                                 </swiper-slide>
                                 <swiper-slide class={`${styles.swiperSlides}`}>
-                                    <Image src={Four} alt="slides" className="w-full h-full" />
+                                    <Image src={Four} alt="slides" priority className="w-full h-full" />
                                 </swiper-slide>
                                 <swiper-slide class={`${styles.swiperSlides}`}>
-                                    <Image src={Five} alt="slides" className="w-full h-full" />
+                                    <Image src={Five} alt="slides" priority className="w-full h-full" />
                                 </swiper-slide>
                             </swiper-container>
                         </div>

@@ -23,7 +23,7 @@ const Hero = ({ content }) => {
                             <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal mb-5 text-justify sm:text-left">
                                 {desc}
                             </p>
-                            <Image src={Awards} alt="awards" />
+                            <Image src={Awards} alt="awards" priority />
                             <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                                 <CTA
                                     text="Start Live Chat"
@@ -41,7 +41,7 @@ const Hero = ({ content }) => {
                             </div>
                         </div>
                         <div className="hidden md:block md:basis-[40%]">
-                            {img && <Image src={img.src} alt="hero" className={`${img.css}`} width={img.width} height={img.height} />}
+                            {img && <Image src={img.src} alt="hero" className={`${img.css}`} width={img.width} height={img.height} priority />}
                         </div>
                     </div>
                 </div>
