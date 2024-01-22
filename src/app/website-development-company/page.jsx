@@ -164,25 +164,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org",
-                  "@type": "Product",
-                  "name": "Website Development Company",
-                  "description": "Creative Logo Designs provides top-tier website development services, leveraging the latest technologies to build scalable, responsive, and user-friendly websites tailored to meet the unique needs of businesses.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/website-development-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "141"
-                  }
+                  "headline": "Website Development Company",
+                  "description": "website development company, best website development company, top website development company, leading website development company, professional website development company, trusted website development company, website design and development, website development agency, web development company",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "website development company, best website development company, top website development company, leading website development company, professional website development company, trusted website development company, website design and development, website development agency, web development company",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "website development company, best website development company, top website development company, leading website development company, professional website development company, trusted website development company, website design and development, website development agency, web development company",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

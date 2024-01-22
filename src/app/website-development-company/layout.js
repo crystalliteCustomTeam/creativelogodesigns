@@ -14,6 +14,12 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/website-development-company',
     },
+    other: {
+        "DC.title": 'website development company, web development company, website development agency',
+        "geo.region": 'US',
+        "geo.position": '39.78373;-100.445882',
+        "ICBM": '39.78373, -100.445882',
+    },
 }
 
 export default function RootLayout({ children }) {

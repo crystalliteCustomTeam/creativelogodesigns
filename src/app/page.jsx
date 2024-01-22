@@ -155,22 +155,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
                   "@context": "https://schema.org",
-                  "@type": "Organization",
-                  "name": "Creative Logo Designs",
-                  "url": "https://www.creativelogodesigns.io",
-                  "logo": "https://www.creativelogodesigns.io/_next/static/media/logo.0278bd76.svg",
-                  "contactPoint": {
-                      "@type": "ContactPoint",
-                      "telephone": "855 888-8399",
-                      "areaServed": "US"
-                  }
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/"
+                  },
+                  "headline": "Logo Design Company",
+                  "description": "logo design company, best logo design company, top logo design company, professional logo design company, logo design services, logo design agency, logo designer, creative logo designs",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "logo design company, best logo design company, top logo design company, professional logo design company, logo design services, logo design agency, logo designer, creative logo designs",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "logo design company, best logo design company, top logo design company, professional logo design company, logo design services, logo design agency, logo designer, creative logo designs",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

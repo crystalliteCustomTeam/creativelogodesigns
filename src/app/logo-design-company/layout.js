@@ -13,7 +13,13 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/logo-design-company',
-    }
+    },
+    other: {
+        "DC.title": 'custom logo design company, custom logo design, custom logo design services',
+        "geo.region": 'US',
+        "geo.position": '39.78373;-100.445882',
+        "ICBM": '39.78373, -100.445882',
+    },
 }
 
 export default function RootLayout({ children }) {

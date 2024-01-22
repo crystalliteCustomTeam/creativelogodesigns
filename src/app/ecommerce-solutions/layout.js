@@ -13,7 +13,13 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/ecommerce-solutions',
-    }
+    },
+    other: {
+        "DC.title": 'seo company, seo services, seo agency',
+        "geo.region": 'US',
+        "geo.position": '39.78373;-100.445882',
+        "ICBM": '39.78373, -100.445882',
+    },
 }
 
 export default function RootLayout({ children }) {

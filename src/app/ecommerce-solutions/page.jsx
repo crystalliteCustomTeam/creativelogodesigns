@@ -95,25 +95,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org/",
-                  "@type": "Product",
-                  "name": "Ecommerce Website Design Company",
-                  "description": "Creative Logo Designs is the go-to Ecommerce Website Design Company. Our team crafts online stores that captivate & convert. Elevate your ecommerce with us.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/ecommerce-solutions"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "230"
-                  }
+                  "headline": "Custom Ecommerce Solutions",
+                  "description": "custom ecommerce solutions, best custom ecommerce solutions, top custom ecommerce solutions, leading custom ecommerce solutions, professional custom ecommerce solutions, ecommerce solutions, ecommerce website design , ecommerce website design company",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "custom ecommerce solutions, best custom ecommerce solutions, top custom ecommerce solutions, leading custom ecommerce solutions, professional custom ecommerce solutions, ecommerce solutions, ecommerce website design , ecommerce website design company",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "custom ecommerce solutions, best custom ecommerce solutions, top custom ecommerce solutions, leading custom ecommerce solutions, professional custom ecommerce solutions, ecommerce solutions, ecommerce website design , ecommerce website design company",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

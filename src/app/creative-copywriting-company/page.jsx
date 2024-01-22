@@ -93,25 +93,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org/",
-                  "@type": "Product",
-                  "name": "Creative Copywriting Company",
-                  "description": "Creative Logo Designs offers expert creative copywriting services, delivering persuasive and captivating content that engages audiences and drives brand success.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
-                  },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "4.9",
-                      "ratingCount": "450"
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.creativelogodesigns.io/creative-copywriting-company"
+                },
+                "headline": "Creative Copywriting Company",
+                "description": "creative copywriting company, best creative copywriting company, top creative copywriting company, leading creative copywriting company, professional creative copywriting company, copywriter, copywriting services, copywriting agency, copywriting company, creative copywriting services",
+                "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",  
+                "author": {
+                  "@type": "Organization",
+                  "name": "creative copywriting company, best creative copywriting company, top creative copywriting company, leading creative copywriting company, professional creative copywriting company, copywriter, copywriting services, copywriting agency, copywriting company, creative copywriting services",
+                  "url": "https://www.creativelogodesigns.io/"
+                },  
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "creative copywriting company, best creative copywriting company, top creative copywriting company, leading creative copywriting company, professional creative copywriting company, copywriter, copywriting services, copywriting agency, copywriting company, creative copywriting services",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                   }
+                },
+                "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

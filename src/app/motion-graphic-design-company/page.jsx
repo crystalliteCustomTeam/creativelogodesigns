@@ -162,25 +162,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org",
-                  "@type": "Product",
-                  "name": "Motion Graphic Design Company",
-                  "description": "Creative Logo Designs is your cutting-edge motion graphic design company, producing captivating animations that engage, entertain, and effectively convey your brand message.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/motion-graphic-design-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "147"
-                  }
+                  "headline": "Motion Graphics Design Company",
+                  "description": "motion graphics design company, best motion graphics design company, top motion graphics design company, leading motion graphics design company, trusted motion graphics design company, professional motion graphics design company, motion graphics designer, motion graphics design services, hire motion graphic designers",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "motion graphics design company, best motion graphics design company, top motion graphics design company, leading motion graphics design company, trusted motion graphics design company, professional motion graphics design company, motion graphics designer, motion graphics design services, hire motion graphic designers",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "motion graphics design company, best motion graphics design company, top motion graphics design company, leading motion graphics design company, trusted motion graphics design company, professional motion graphics design company, motion graphics designer, motion graphics design services, hire motion graphic designers",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

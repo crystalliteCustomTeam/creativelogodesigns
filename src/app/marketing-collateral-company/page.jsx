@@ -118,25 +118,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org/",
-                  "@type": "Product",
-                  "name": "Marketing Collateral Company",
-                  "description": "Creative Logo Designs specializes in creating compelling marketing collateral that effectively communicates your brand's message, engages audiences, and supports sales efforts.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/marketing-collateral-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "567"
-                  }
+                  "headline": "Marketing Collateral Company",
+                  "description": "marketing collateral company, best marketing collateral company, leading marketing collateral company, top marketing collateral company, professional marketing collateral company, trusted marketing collateral company, marketing collateral services, collateral marketing, marketing collateral",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "marketing collateral company, best marketing collateral company, leading marketing collateral company, top marketing collateral company, professional marketing collateral company, trusted marketing collateral company, marketing collateral services, collateral marketing, marketing collateral",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "marketing collateral company, best marketing collateral company, leading marketing collateral company, top marketing collateral company, professional marketing collateral company, trusted marketing collateral company, marketing collateral services, collateral marketing, marketing collateral",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

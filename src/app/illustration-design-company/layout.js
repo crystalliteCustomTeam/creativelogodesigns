@@ -13,7 +13,13 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/illustration-design-company',
-    }
+    },
+    other: {
+        "DC.title": 'illustration design company, illustration design services, illustration designers',
+        "geo.region": 'US',
+        "geo.position": '39.78373;-100.445882',
+        "ICBM": '39.78373, -100.445882',
+    },
 }
 
 export default function RootLayout({ children }) {

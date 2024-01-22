@@ -153,25 +153,35 @@ const page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org/",
-                  "@type": "Product",
-                  "name": "Mobile App Design Company",
-                  "description": "Creative Logo Designs is at the forefront of mobile app design company, creating innovative and user-centric app interfaces that foster engagement and elevate user experience.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/mobile-app-design-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "660"
-                  }
+                  "headline": "Mobile App Design Company",
+                  "description": "mobile app design company, best mobile app design company, top mobile app design company, leading mobile app design company, professional mobile app design company, trusted mobile app design company, mobile app design agency, mobile app design services, mobile app designers",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "mobile app design company, best mobile app design company, top mobile app design company, leading mobile app design company, professional mobile app design company, trusted mobile app design company, mobile app design agency, mobile app design services, mobile app designers",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "mobile app design company, best mobile app design company, top mobile app design company, leading mobile app design company, professional mobile app design company, trusted mobile app design company, mobile app design agency, mobile app design services, mobile app designers",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

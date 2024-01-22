@@ -165,25 +165,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org/",
-                  "@type": "Product",
-                  "name": "Custom Logo Design Services By Creative Logo Designs",
-                  "description": "Creative Logo Designs is a leading Custom Logo Design Company. Our skilled designers create impactful logos to elevate your brand. Partner with us for standout branding.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/logo-design-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "4.9",
-                      "ratingCount": "450"
-                  }
+                  "headline": "Custom Logo Design Company",
+                  "description": "custom logo design company, best custom logo design company, top custom logo design company, professional custom logo design company, leading custom logo design company, custom logo design, custom logo designer, custom logo design services, custom logo design agency",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "custom logo design company, best custom logo design company, top custom logo design company, professional custom logo design company, leading custom logo design company, custom logo design, custom logo designer, custom logo design services, custom logo design agency",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "custom logo design company, best custom logo design company, top custom logo design company, professional custom logo design company, leading custom logo design company, custom logo design, custom logo designer, custom logo design services, custom logo design agency",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

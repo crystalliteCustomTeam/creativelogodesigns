@@ -119,25 +119,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org/",
-                  "@type": "Product",
-                  "name": "Illustration Design Company",
-                  "description": "Creative Logo Designs top premium illustration design Company, crafting bespoke artwork tailored to capture the essence of brands and bring creative ideas to life.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/illustration-design-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "289"
-                  }
+                  "headline": "Illustration Design Company",
+                  "description": "illustration design company, best illustration design company, top illustration design company, leading illustration design company, professional illustration design company, trusted illustration design company, illustration designers, illustration design services, hire illustration designers",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "illustration design company, best illustration design company, top illustration design company, leading illustration design company, professional illustration design company, trusted illustration design company, illustration designers, illustration design services, hire illustration designers",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "illustration design company, best illustration design company, top illustration design company, leading illustration design company, professional illustration design company, trusted illustration design company, illustration designers, illustration design services, hire illustration designers",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );

@@ -95,25 +95,35 @@ const Page = () => {
         <Weare />
         <Contact />
         <Footer />
-        {/* <Script id="general-schema" type="application/ld+json">
+        <Script id="general-schema" type="application/ld+json">
           {`
               {
-                  "@context": "http://schema.org",
-                  "@type": "Product",
-                  "name": "Seo Company",
-                  "description": "Creative Logo Designs world's best SEO Company, employing cutting-edge techniques and strategies to enhance website visibility, drive organic traffic, and boost conversions.",
-                  "brand": {
-                      "@type": "brand",
-                      "name": "Creative Logo Designs"
+                  "@context": "https://schema.org",
+                  "@type": "BlogPosting",
+                  "mainEntityOfPage": {
+                      "@type": "WebPage",
+                      "@id": "https://www.creativelogodesigns.io/seo-company"
                   },
-                  "aggregateRating": {
-                      "@type": "AggregateRating",
-                      "ratingValue": "5",
-                      "ratingCount": "641"
-                  }
+                  "headline": "SEO Company",
+                  "description": "seo company, best seo company, top seo company, leading seo company, professional seo company, seo agency, seo services, best seo services, best seo agency",
+                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "author": {
+                      "@type": "Organization",
+                      "name": "seo company, best seo company, top seo company, leading seo company, professional seo company, seo agency, seo services, best seo services, best seo agency",
+                      "url": "https://www.creativelogodesigns.io/"
+                  },
+                  "publisher": {
+                      "@type": "Organization",
+                      "name": "seo company, best seo company, top seo company, leading seo company, professional seo company, seo agency, seo services, best seo services, best seo agency",
+                      "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                      }
+                  },
+                  "datePublished": ""
               }
           `}
-        </Script> */}
+        </Script>
       </main>
     </>
   );
