@@ -24,6 +24,9 @@ const Hero = () => {
     const swiperRef = useRef(null);
     const [isSlider, setIsSlider] = useState(false)
     useEffect(() => {
+        setTimeout(() => {
+            setIsSlider(true);
+        }, 2000);
         register();
         const params = {
             effect: "coverflow",
@@ -43,9 +46,6 @@ const Hero = () => {
         Object.assign(swiperRef.current, params);
         // initialize swiper
         swiperRef.current.initialize();
-        return () => {
-            setIsSlider(true)
-        }
     }, []);
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
