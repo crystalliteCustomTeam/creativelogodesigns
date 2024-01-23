@@ -149,7 +149,7 @@ const Hero = () => {
     }
     return (
         <section>
-            <div className="pt-[130px] lg:pt-[200px] pb-[100px] bg-[url('../../public/lp-two/hero/bg.webp')] bg-cover bg-no-repeat bg-center">
+            <div className="pt-[130px] lg:pt-[200px] pb-[100px] bg-[#0d213d] md:bg-[url('../../public/lp-two/hero/bg.webp')] bg-cover bg-no-repeat bg-center">
                 <div className="container">
                     <div className="flex items-center justify-between flex-wrap lg:flex-nowrap gap-x-5 gap-y-10 lg:gap-y-0">
                         <div className="basis-full lg:basis-1/2 relative">
@@ -235,8 +235,8 @@ const Hero = () => {
                             <swiper-container
                                 init={false}
                                 ref={swiperRef}
-                                autoplay-delay="2500"
-                                autoplay-disable-on-interaction="false"
+                                // autoplay-delay="2500"
+                                // autoplay-disable-on-interaction="false"
                             >
                                 <swiper-slide class={`${styles.swiperSlides}`}>
                                     <Image src={One} alt="slides" className="w-full h-full" />
