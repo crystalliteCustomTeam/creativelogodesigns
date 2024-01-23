@@ -15,13 +15,14 @@ import Input from "@/components/Input";
 import Button from "@/components/Button";
 // Swiper
 import { register } from 'swiper/element/bundle';
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./hero.module.css";
 import { usePathname } from "next/navigation";
 import Axios from "axios";
 
 const Hero = () => {
     const swiperRef = useRef(null);
+    const [isSlider, setIsSlider] = useState(false)
     useEffect(() => {
         register();
         const params = {
@@ -42,6 +43,9 @@ const Hero = () => {
         Object.assign(swiperRef.current, params);
         // initialize swiper
         swiperRef.current.initialize();
+        return () => {
+            setIsSlider(true)
+        }
     }, []);
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -231,12 +235,12 @@ const Hero = () => {
                             </div>
                             <Image src="/lp-one/hero/badge.png" alt="hero" className="absolute top-[-50px] right-[-50px] hidden lg:block" width={145} height={139} />
                         </div>
-                        <div className="basis-full hidden lg:block lg:basis-[40%] overflow-hidden">
+                        <div className={`basis-full hidden lg:basis-[40%] overflow-hidden ${isSlider ? "lg:block" : ""}`}>
                             <swiper-container
                                 init={false}
                                 ref={swiperRef}
-                                // autoplay-delay="2500"
-                                // autoplay-disable-on-interaction="false"
+                                autoplay-delay="2500"
+                                autoplay-disable-on-interaction="false"
                             >
                                 <swiper-slide class={`${styles.swiperSlides}`}>
                                     <Image src={One} alt="slides" className="w-full h-full" />
