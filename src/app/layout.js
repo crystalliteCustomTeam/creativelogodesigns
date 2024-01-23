@@ -48,16 +48,16 @@ export default function RootLayout({ children }) {
                 <Script
                     id="ze-snippet"
                     src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
-                    strategy="afterInteractive"
+                    strategy="lazyOnload"
                 >
                 </Script>
                 {/* <Script
                     id="google-analytics-script"
                     src="https://www.googletagmanager.com/gtag/js?id=G-7TVYY8KVVW"
-                    strategy="afterInteractive"
+                    strategy="lazyOnload"
                 >
                 </Script> */}
-                {/* <Script id="google-analytics-code" strategy="afterInteractive">
+                {/* <Script id="google-analytics-code" strategy="lazyOnload">
                     {`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
                     `}
                 </Script> */}
                 <GoogleAnalytics gaId="G-7TVYY8KVVW" />
-                <Script id="facebook-manager-snippet" strategy="afterInteractive">
+                <Script id="facebook-manager-snippet" strategy="lazyOnload">
                     {`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
                     fbq('track', 'PageView');
                 `}
                 </Script>
-                {/* <Script id="google-tag-manager" strategy="afterInteractive">
+                {/* <Script id="google-tag-manager" strategy="lazyOnload">
                     {`
                         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
