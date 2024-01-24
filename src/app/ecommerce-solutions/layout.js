@@ -15,7 +15,7 @@ export const metadata = {
         canonical: 'https://www.creativelogodesigns.io/ecommerce-solutions',
     },
     other: {
-        "DC.title": 'seo company, seo services, seo agency',
+        "DC.title": 'custom ecommerce solutions, best custom ecommerce solutions',
         "geo.region": 'US',
         "geo.position": '39.78373;-100.445882',
         "ICBM": '39.78373, -100.445882',
