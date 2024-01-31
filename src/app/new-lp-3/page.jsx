@@ -1,16 +1,16 @@
 "use client"
 
 import React from 'react'
-import Banner from '../new-lp-3/components/Banner'
-import Header from '../new-lp-3/components/header/Header'
-import Services from '../new-lp-3/components/tabs/Tabs'
-import Features from '../new-lp-3/components/features/Features'
-import Packages from '../new-lp-3/components/packages/packages'
-import Combo from '../new-lp-3/components/combo/Combo'
-import Stream from '../new-lp-3/components/streamlined/Stream'
+import Banner from './components/Banner'
+import Header from './components/header/Header'
+import Services from './components/tabs/Tabs'
+import Features from './components/features/Features'
+import Packages from './components/packages/Packages'
+import Combo from './components/combo/Combo'
+import Stream from './components/streamlined/Stream'
 import Target from './components/target/Target'
 import CustomLogo from './components/customlogo/CustomLogo'
-import Footer from './components/footer/footer'
+import Footer from './components/footer/Footer'
 
 const page = () => {
     // Array for Packages Component Props 
