@@ -22,35 +22,35 @@ const Portfolio = () => {
     return (
         <>
             <section className={`${styles.portfolio}  font-poppins py-[100px]`}>
-                <div class="container mx-auto">
-                    <div class="grid grid-cols-1">
-                    <div className={`${styles.longa}`}>
-                        <h2 className="lg:text-[66px] md:text-[35px] sm:text-[35px] text-[23px]   font-[700] text-center mb-10 text-[#00142d]">Our Portfolio</h2>
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-1">
+                        <div className={`${styles.longa}`}>
+                            <h2 className="lg:text-[66px] md:text-[35px] sm:text-[35px] text-[23px]   font-[700] text-center mb-10 text-[#00142d]">Our Portfolio</h2>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-3 gap-2">
-                        <div class="...">
-                            <Image src={logo1} className="w-full" />
+                    <div className="grid grid-cols-3 gap-2">
+                        <div className="...">
+                            <Image alt="logos" src={logo1} className="w-full" />
                         </div>
-                        <div class="col-span-2 ...">
-                            <Image src={logo2} className="w-full" />
+                        <div className="col-span-2 ...">
+                            <Image alt="logos" src={logo2} className="w-full" />
                         </div>
-                        <div class="...">
-                            <Image src={logo3} className="w-full" />
+                        <div className="...">
+                            <Image alt="logos" src={logo3} className="w-full" />
                         </div>
-                        <div class="...">
-                            <Image src={logo4} className="w-full" />
+                        <div className="...">
+                            <Image alt="logos" src={logo4} className="w-full" />
 
                         </div>
-                        <div class="...">
-                            <Image src={logo5} className="w-full" />
+                        <div className="...">
+                            <Image alt="logos" src={logo5} className="w-full" />
                         </div>
-                        <div class="col-span-2 ...">
-                            <Image src={logo6} className="w-full" />
+                        <div className="col-span-2 ...">
+                            <Image alt="logos" src={logo6} className="w-full" />
                         </div>
-                        <div class="...">
-                            <Image src={logo7} className="w-full" />
+                        <div className="...">
+                            <Image alt="logos" src={logo7} className="w-full" />
                         </div>
 
                     </div>

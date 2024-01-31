@@ -141,9 +141,97 @@ body {
     content: url(../../public/leftArrowSlick.svg);
 }
 
-/* .__reviewsCmp .slick-slide {
-    min-height: 300px;
-} */
+.drop_shadow {
+    text-shadow: 0px 7px 5px #8e6a27;
+}
+
+.inp_bg {
+    background-image: linear-gradient(to bottom, #dfdede, #fff);
+}
+
+/* scale transition */
+
+
+.btn:hover {
+    animation: get-std 1s ease infinite;
+}
+
+
+@keyframes get-std {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+
+.translate_btn:hover {
+    transform: rotateX(360deg);
+}
+
+
+.btn {
+    animation: get-std 1s ease infinite;
+    animation-play-state: running;
+    /* Yeh line add karen */
+}
+
+@keyframes get-std {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* btn hover start*/
+
+.btn_hover:hover {
+    animation: get-std 1s ease infinite;
+}
+
+
+@keyframes get-std {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* btn hover end*/
+
+/* Image Hover start */
+
+.element {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transition: all .1s;
+}
+
+/* Image Hover end */
 
 .__reviewsCmp ul.slick-dots {
     bottom: 10px;
@@ -330,11 +418,13 @@ body {
     display: flex;
     gap: 30px;
 }
+
 @media (max-width: 639px) {
     .pricingnewtown .slick-track {
         gap: 10px;
     }
 }
+
 .pricingnewtown ::-webkit-scrollbar {
     width: 10px;
 }

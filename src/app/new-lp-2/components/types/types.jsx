@@ -63,7 +63,7 @@ const Types = () => {
     ]
     return (
         <div className="md:bg-[#f7f7f7] md:mt-0 mt-10 bg-red md:bg-[url('../../public/new-lp-2/bg.png')] bg-center bg-contain bg-no-repeat">
-            <swiper-container init={false} ref={swiperRef} class="divide-x-2">
+            <swiper-container init={false} ref={swiperRef} className="divide-x-2">
                 {
                     logos && logos.map((e, i) => (
                         <swiper-slide key={i}>

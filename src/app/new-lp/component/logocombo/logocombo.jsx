@@ -22,13 +22,13 @@ const Logocombo = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         customPaging: function (i) {
-          return (
-            <div className="custom-dot">
-              
-            </div>
-          );
+            return (
+                <div className="custom-dot">
+
+                </div>
+            );
         },
-      };
+    };
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openModal = () => {
@@ -42,16 +42,16 @@ const Logocombo = () => {
     return (
         <>
             <section className={`${styles.logocombo} bg-[#fbfbfb] font-poppins py-[80px] newloop`}>
-                <div class="container mx-auto">
-                    <div class="grid grid-cols-1">
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-1">
                         <Slider {...settings} className="newtown">
                             <div>
-                                <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 sm:gap-10 gap-10">
+                                <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 sm:gap-10 gap-10">
                                     <div>
                                         <h2 className="lg:text-[30px] md:text-[30px] sm:text-[30px] text-[23px] font-[700] text-[#ffff] capitalize">Logo Infinite</h2>
                                         <h4 className="text-[20px] font-[600] text-[#ffff] mt-4 mb-5">Crafting your brand to completion!</h4>
                                         <div className="flex lg:gap-5 md:gap-5 lg:flex-row md:flex-row sm:flex-col flex-col sm:gap-0 gap-0">
-                                            <ul class="">
+                                            <ul className="">
                                                 <li className="sm:text-[13px] text-[15px] font-[400] text-[#ffff] py-[4px] border-b border-[#6e6e6ede]"> Unlimited Original Logo Concepts</li>
                                                 <li className="sm:text-[13px] text-[15px] font-[400] text-[#ffff] py-[4px] border-b border-[#6e6e6ede]"> 8 Dedicated Logo Designer (Industry Specific)</li>
                                                 <li className="sm:text-[13px] text-[15px] font-[400] text-[#ffff] py-[4px] border-b border-[#6e6e6ede]"> Unlimited Revisions</li>
@@ -80,21 +80,21 @@ const Logocombo = () => {
 
                                     </div>
                                     <div className="flex flex-col items-center">
-                                        <Image src={logo1} />
+                                        <Image alt="Logos" src={logo1} />
                                         <div className="md:mt-0 sm:mt-5 mt-10">
-                                            <Link onClick={openModal} class="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='javascript:;'>Order Now</Link>
+                                            <Link onClick={openModal} className="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='javascript:;'>Order Now</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div>
-                            <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 sm:gap-10 gap-10">
+                                <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 sm:gap-10 gap-10">
                                     <div>
                                         <h2 className="lg:text-[30px] md:text-[30px] sm:text-[30px] text-[23px] font-[700] text-[#ffff] capitalize">Logo Combo</h2>
                                         <h4 className="text-[20px] font-[600] text-[#ffff] mt-4 mb-5">Crafting your brand to completion!
                                         </h4>
                                         <div className="flex lg:gap-5 md:gap-5 lg:flex-row md:flex-row sm:flex-col flex-col sm:gap-0 gap-0">
-                                            <ul class="">
+                                            <ul className="">
 
                                                 <li className="sm:text-[13px] text-[15px]  font-[400] text-[#ffff] py-[4px] border-b border-[#6e6e6ede]">Unlimited Original Logo Concepts </li>
                                                 <li className="sm:text-[13px] text-[15px]  font-[400] text-[#ffff] py-[4px] border-b border-[#6e6e6ede]">12 Dedicated Logo Designer (Industry Specific) </li>
@@ -125,14 +125,14 @@ const Logocombo = () => {
 
                                     </div>
                                     <div className="flex flex-col items-center">
-                                        <Image src={logo2} />
+                                        <Image alt="Logos" src={logo2} />
                                         <div className="md:mt-0 sm:mt-5 mt-10">
-                                            <Link onClick={openModal} class="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='javascript:;'>Order Now</Link>
+                                            <Link onClick={openModal} className="bg-[#dd1920] text-[#fff] py-4 px-14 md:rounded-[10px] text-[16px] font-[400] block text-center" href='javascript:;'>Order Now</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                         
+
                         </Slider>
                     </div>
 

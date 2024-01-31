@@ -163,9 +163,8 @@ const Banner = () => {
     return (
         <>
             <section className={`${styles.banner}  font-poppins pt-36 pb-20`}>
-                <div class="container mx-auto">
-                    <div class="md:grid md:grid-cols-2 md:pt-8 sm:pt-20 pt-20">
-
+                <div className="container mx-auto">
+                    <div className="md:grid md:grid-cols-2 md:pt-8 sm:pt-20 pt-20">
                         <div>
                             <h2 className="text-[25px] font-medium text-[#153b6b]">Premiumly Crafted</h2>
                             <h1 className="lg:text-[65px] md:text-[35px] sm:text-[35px] text-[35px] leading-[40px] font-bold lg:leading-[70px] md:leading-[40px] py-3"> <span className="text-[#dd1920]">Custom Logo</span> <br></br>

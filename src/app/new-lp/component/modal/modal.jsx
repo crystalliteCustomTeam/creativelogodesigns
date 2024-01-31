@@ -119,12 +119,12 @@ const Modal = ({ isOpen, onClose }) => {
                     <button onClick={onClose} className="font-poppins px-4 mt-2 font-[800]  text-[#fff] rounded-full text-[28px] w-[37px] h-[37px] absolute right-[10px] top-25px" > x </button>
                     <div
                         className="bg-[#dd1920] bg-red-700 rounded-t-3xl text-center font-bold shadow-md">
-                        <h2 class=" text-white lg:text-[30px] md:text-[30px] sm:text-[30px] text-[27px] py-2 font-poppins text-shadow">PLACE YOUR ORDER
+                        <h2 className=" text-white lg:text-[30px] md:text-[30px] sm:text-[30px] text-[27px] py-2 font-poppins text-shadow">PLACE YOUR ORDER
                         </h2>
                     </div>
-                    <div class="font-poppins relative bg-red-700 rounded-t-3xl text-center font-semibold shadow-md ">
+                    <div className="font-poppins relative bg-red-700 rounded-t-3xl text-center font-semibold shadow-md ">
                         <div
-                            class="bg-[#000] uppercase text-bold leading-7 pt-[16px] pb-[9px] text-black text-[25px] relative">
+                            className="bg-[#000] uppercase text-bold leading-7 pt-[16px] pb-[9px] text-black text-[25px] relative">
                             <h3 className={styles.rix}>
                                 <span className='bg-[#000] text-[#dd1920] font-[700] lg:text-[22px] md:text-[22px] sm:text-[18px] text-[16px]'>SIGN UP NOW AND GET UP TO</span><br /> <span className='text-[#fff] text-[22px] font-[700]'>70% OFF</span> <br />
                                 
@@ -135,7 +135,7 @@ const Modal = ({ isOpen, onClose }) => {
                     </div>
                     <div className="bg-[#000] pb-5 pt-1 px-3 rounded-b-3xl ">
                         <form className={`${styles.omn} px-4`}>
-                            <div class="w-full">
+                            <div className="w-full">
                                 <input onChange={handleDataChange} type="text" placeholder="Your Name" name="name" required
                                     className="placeholder:text-[#6E6E6E] placeholder:pl-[10px] w-full px-4 py-3 my-[5px] border border-gray-400 rounded-md focus:outline-none text-[#000] focus:ring focus:border-gray-800 placeholder:font-poppins" />
                                 {
@@ -144,7 +144,7 @@ const Modal = ({ isOpen, onClose }) => {
                                     </span>
                                 }
                             </div>
-                            <div class="w-full">
+                            <div className="w-full">
                                 <input onChange={handleDataChange} type="email" placeholder="Your Email" name="email" required
                                     className="placeholder:text-[#6E6E6E] placeholder:pl-[10px] w-full px-4 py-3 my-[5px] border border-gray-400 rounded-md focus:outline-none text-[#000] focus:ring focus:border-blue-300 placeholder:font-poppins" />
                                 {
@@ -153,7 +153,7 @@ const Modal = ({ isOpen, onClose }) => {
                                     </span>
                                 }
                             </div>
-                            <div class="w-full">
+                            <div className="w-full">
                                 <input onChange={handleDataChange} type="number" placeholder="Your Phone" name="phone" required
                                     className="placeholder:text-[#6E6E6E] placeholder:pl-[10px] w-full px-4 py-3 my-[5px] border border-gray-400 rounded-md focus:outline-none text-[#000] focus:ring focus:border-blue-300 placeholder:font-poppins" />
                                 {
@@ -162,7 +162,7 @@ const Modal = ({ isOpen, onClose }) => {
                                     </span>
                                 }
                             </div>
-                            <div class="w-full text-center mt-4">
+                            <div className="w-full text-center mt-4">
                                 <button onClick={handleFormSubmit}
                                     className="bg-[#dd1920] text-[16px] text-white font-[600] text-center py-[10px] rounded-[50px] font-poppins uppercase w-[210px]"
                                     id="signupBtn" type="submit" value={formStatus} disabled={isDisabled}>

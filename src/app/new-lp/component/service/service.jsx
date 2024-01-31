@@ -24,19 +24,19 @@ const Service = () => {
     return (
         <>
             <section className={`${styles.service}  font-poppins bg-[#fbfbfb] lg:pt-[100px] md:pt-[100px] pt-[50px] pb-10`}>
-                <div class="container mx-auto">
-                    <div class="grid grid-cols-1">
+                <div className="container mx-auto">
+                    <div className="grid grid-cols-1">
                         <div className={`${styles.longa}`}>
                             <h2 className={`lg:text-[66px] md:text-[35px] sm:text-[35px] text-[23px] font-bold text-center text-[#00142d] mb-10`}>Our Services</h2>
                         </div>
                     </div>
 
-                    <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 justify-items-center md:gap-10 sm:gap-10">
+                    <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 justify-items-center md:gap-10 sm:gap-10">
 
                         {data == 'tab1' &&
                             <div className={styles.pst}>
                                 <div className={data == 'tab1' && styles.fristhove} >
-                                    <Image src={logo1} />
+                                    <Image alt="logos" src={logo1} />
                                 </div>
                             </div>
                         }
@@ -44,21 +44,21 @@ const Service = () => {
                         {data == 'tab2' &&
                             <div className={styles.pst}>
                                 <div className={data == 'tab2' && styles.fristhove}>
-                                    <Image src={logo2} />
+                                    <Image alt="logos" src={logo2} />
                                 </div>
                             </div>
                         }
                         {data == 'tab3' &&
                             <div className={styles.pst}>
                                 <div className={data == 'tab3' && styles.fristhove}>
-                                    <Image src={logo3} />
+                                    <Image alt="logos" src={logo3} />
                                 </div>
                             </div>
                         }
                         {data == 'tab4' &&
                             <div className={styles.pst}>
                                 <div className={data == 'tab4' && styles.fristhove}>
-                                    <Image src={logo4} />
+                                    <Image alt="logos" src={logo4} />
                                 </div>
                             </div>
                         }

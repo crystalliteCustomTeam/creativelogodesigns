@@ -61,7 +61,7 @@ const Packages = () => {
           </div>
           <swiper-container ref={swiperRef} init={false}>
             {data[0].packages.map((e, i) => (
-              <swiper-slide key={i} class="pb-[80px]">
+              <swiper-slide key={i} className="pb-[80px]">
                 <div className="bg-white xl:w-[90%] cursor-pointer m-auto hover:bg-[#000] group py-5 rounded-lg border-[1px] border-[#b4b8bd] hover:border-[#173d6b] relative">
                   <div className="px-3">
                     <div>
@@ -116,11 +116,10 @@ const Packages = () => {
                     <div className="text-center py-3 font-poppins">
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: `<a href=${
-                            e.paymentURL == "" || e.paymentURL == undefined
+                          __html: `<a href=${e.paymentURL == "" || e.paymentURL == undefined
                               ? "javascript:$zopim.livechat.window.show();"
                               : e.paymentURL
-                          } class="text-white h-[40px] text-[14px] flex items-center justify-center rounded-[5px] group-hover:text-white bg-[#dd1e4b]">Select Package</a>`,
+                            } class="text-white h-[40px] text-[14px] flex items-center justify-center rounded-[5px] group-hover:text-white bg-[#dd1e4b]">Select Package</a>`,
                         }}
                       />
                     </div>

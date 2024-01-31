@@ -14,10 +14,10 @@ const Logos = () => {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const openModal = () => {
-      setIsModalOpen(true);
+        setIsModalOpen(true);
     };
     const closeModal = () => {
-      setIsModalOpen(false);
+        setIsModalOpen(false);
     };
 
 
@@ -31,13 +31,13 @@ const Logos = () => {
 
                     <div className="grid ld:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-10 items-center">
                         <div className="...">
-                            <Image src={onep} />
+                            <Image alt="Onep" src={onep} />
                         </div>
                         <div className="col-span-2 ...">
                             <div className="... max-w-[750px]" >
                                 <div>
-                                <div className={`${styles.longa}`}>
-                                    <h2 className="lg:text-[32px] md:lg:text-[32px] sm:lg:text-[32px] text-[23px] font-bold leading-[38px] text-[#00142d]">IMPRESSIVE LOGOS, CREATING EVERLASTING IMPRESSION ON YOUR TARGET AUDIENCE.</h2>
+                                    <div className={`${styles.longa}`}>
+                                        <h2 className="lg:text-[32px] md:lg:text-[32px] sm:lg:text-[32px] text-[23px] font-bold leading-[38px] text-[#00142d]">IMPRESSIVE LOGOS, CREATING EVERLASTING IMPRESSION ON YOUR TARGET AUDIENCE.</h2>
                                     </div>
                                     <p className="text-[17px] font-[400] text-[#506b8f] font-poppins mt-3">Creative Logo Designs is a digital agency that not only strives to provide its customers with top-notch logo design services, but also the best customer service that they have experienced. Comprising of a team of dedicated professionals, the team has to its credit thousands of completed project deliveries and more.</p>
                                     <div className="sm:mt-5 mt-7 flex gap-x-5">

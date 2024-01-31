@@ -61,7 +61,7 @@ const Packages = () => {
           </div>
           <swiper-container ref={swiperRef} init={false}>
             {data[0].packages.map((e, i) => (
-              <swiper-slide key={i} class="pb-[80px]">
+              <swiper-slide key={i} className="pb-[80px]">
                 <div className="bg-white xl:w-[90%] cursor-pointer m-auto hover:bg-[#173d6b] group py-5 rounded-lg border-[1px] border-[#b4b8bd] hover:border-[#173d6b] relative">
                   <div className="px-3">
                     <div>

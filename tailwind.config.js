@@ -42,8 +42,9 @@ module.exports = withMT({
         "purple-blue": "#5750E4",
         'red': '#CA4140',
         "light-yellow": "#cab99a",
-        "ahsan":"pink"
-      }
+        "ahsan": "pink"
+      },
+      translate: ['group-hover'],
     }
   },
   plugins: [],
