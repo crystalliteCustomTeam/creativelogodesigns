@@ -14,7 +14,8 @@ const Button = ({
     fontWeight = "font-extrabold",
     icon,
     iconWidth = 15,
-    iconHeight = 19
+    iconHeight = 19,
+    id=""
 }) => {
     return (
         <button
@@ -22,6 +23,7 @@ const Button = ({
             onClick={handle}
             disabled={disabled}
             className={`flex items-center gap-3 justify-center text-[18px] font-megat ${fontWeight} ${rounded} ${color} ${border} transition-all ${bg} ${height} ${width} ${css}`}
+            id={id}
         >
             {icon && <Image src={icon} width={iconWidth} height={iconHeight} alt="icon" />}
             {text}

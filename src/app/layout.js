@@ -33,7 +33,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-
             <meta name="google-site-verification" content="oRRvrt9HL1PkpQakQCE0ITO-MCwT2yAORGOsdwEcLEo" />
             <meta name='dmca-site-verification' content='VHcyT2lwK0ZaOXczUzAvUy9oZ3VoYVpUUEFiOXJNYndYSVR5OHlCK1pQYz01' />
             <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
@@ -51,22 +50,8 @@ export default function RootLayout({ children }) {
                     strategy="lazyOnload"
                 >
                 </Script>
-                {/* <Script
-                    id="google-analytics-script"
-                    src="https://www.googletagmanager.com/gtag/js?id=G-7TVYY8KVVW"
-                    strategy="lazyOnload"
-                >
-                </Script> */}
-                {/* <Script id="google-analytics-code" strategy="lazyOnload">
-                    {`
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                    
-                        gtag('config', 'G-7TVYY8KVVW');                  
-                    `}
-                </Script> */}
                 <GoogleAnalytics gaId="G-7TVYY8KVVW" />
+                <GoogleAnalytics gaId="G-9T47T1JW4C" />
                 <Script id="facebook-manager-snippet" strategy="lazyOnload">
                     {`
                     !function(f,b,e,v,n,t,s)
@@ -81,15 +66,6 @@ export default function RootLayout({ children }) {
                     fbq('track', 'PageView');
                 `}
                 </Script>
-                {/* <Script id="google-tag-manager" strategy="lazyOnload">
-                    {`
-                        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                        })(window,document,'script','dataLayer','GTM-58LZ82L9');                                    
-                    `}
-                </Script> */}
                 <GoogleTagManager gtmId="GTM-58LZ82L9" />
             </body>
         </html >

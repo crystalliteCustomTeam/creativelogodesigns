@@ -238,6 +238,7 @@ const Form = () => {
             bg="bg-red"
             handle={handleFormSubmit}
             disabled={isDisabled}
+            id="heroFormSubmit"
           />
         </form>
       </div>
