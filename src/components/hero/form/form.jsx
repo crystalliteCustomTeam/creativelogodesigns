@@ -62,7 +62,7 @@ const Form = () => {
     setErrors(errors);
 
     if (Object.keys(errors).length === 0) {
-      let headersList = {
+      let headersList = { 
         Accept: "*/*",
         "Content-Type": "application/json",
       };

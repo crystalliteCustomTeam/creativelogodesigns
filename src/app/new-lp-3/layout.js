@@ -1,7 +1,7 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "New LP 2 - Custom Logo Design",
+    title: "New LP 3 - Custom Logo Design",
     description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
     // Google Varification
     verification: {

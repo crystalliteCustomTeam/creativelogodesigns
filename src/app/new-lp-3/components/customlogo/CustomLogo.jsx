@@ -15,8 +15,8 @@ const CustomLogo = () => {
             {/* custom logo start */}
 
             <section className="bg-[url('../../public/icons/lp-3/combo/register_bg.jpg')] bg-cover bg-no-repeat py-[50px] relative">
-                <div className="absolute left-0 top-[-140px] z-0 xl:block hidden">
-                    <Image src={LeftImage} alt="Left-Image" quality={80} />
+                <div className="absolute left-0 top-[-107px] z-0 xl:block hidden">
+                    <Image src={LeftImage} alt="Left-Image" width={306} height={356} quality={80} />
                 </div>
                 <div className="container">
                     <div className="grid grid-cols-12">

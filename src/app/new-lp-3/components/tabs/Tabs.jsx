@@ -42,7 +42,7 @@ const Services = ({ content }) => {
                                 tabs.map(({ value, label }) => {
                                     return (
                                         <Tab value={value} key={value} onClick={() => setActiveTab(value)}
-                                            className={`${activeTab === value ? "bg-[#ff004a] text-white" : "text-black border-[#ff004a] "} text-[9px] 2xl:text-[14px] font-[800] py-[9px] px-[32px] rounded-[40px] mx-[5px] border hover:bg-[#ff004a] hover:text-white`}>
+                                            className={`${activeTab === value ? "bg-[#ff004a] text-white" : "text-black border-[#ff004a] "} text-[12px] lg:text-[14px] font-[800] py-[9px] px-[20px] 2xl:px-[32px] rounded-[40px] mx-[5px] border hover:bg-[#ff004a] hover:text-white`}>
                                             {label}
                                         </Tab>
                                     );
