@@ -63,21 +63,21 @@ const Weare = () => {
                   </h3>
                 </div>
                 <div className="basis-full md:basis-[30%]">
-                  <Link
+                  <a
                     href="tel:8556666675"
                     className="text-xl lg:text-2xl font-medium font-sans text-black"
                   >
                     Call Us (TOLL FREE) <br /> (855) 666-6675
-                  </Link>
+                  </a>
                 </div>
                 <div className="basis-full md:basis-[30%]">
-                  <Link
-                    href="mailto:info@creativelogodesigns.io"
+                  <a
+                    href="mailto:info(@)creativelogodesigns(.)io"
                     className="text-xl lg:text-2xl font-medium font-sans text-black"
                   >
                     Discuss Your Ideas <br />
                     Info@creativelogodesigns.io
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

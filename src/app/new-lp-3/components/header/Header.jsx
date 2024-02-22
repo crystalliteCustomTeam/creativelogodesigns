@@ -26,7 +26,7 @@ const Header = () => {
                         <div className="nav-items w-[60%]">
                             <div className='flex gap-8 items-center md:justify-around justify-end sm:pt-5 pt-5'>
                                 <div>
-                                    <Link href="mailto:abc@gmail.com" className="flex items-center gap-2 xl:gap-4">
+                                    <Link href="mailto:info(@)creativelogodesigns(.)io" className="flex items-center gap-2 xl:gap-4">
                                         <div className="icon">
                                             <Image src={Email} alt="EmailIcon" className="w-4 h-4" />
                                         </div>

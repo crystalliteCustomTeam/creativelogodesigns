@@ -102,7 +102,7 @@ const Footer = () => {
         },
         {
             text: "info@creativelogodesigns.io",
-            link: "mailto:info@creativelogodesigns.io",
+            link: "mailto:info(@)creativelogodesigns(.)io",
             icon: envelope
         },
     ];
