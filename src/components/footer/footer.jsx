@@ -194,7 +194,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-5 sm:gap-y-0 items-center border-b-[1px] border-[#707070]">
                         <div className="basis-full sm:basis-1/2">
                             <p className="text-sm font-light text-white leading-6 text-center sm:text-left">
-                                Copyright © 2024 <Link href="/">creativelogodesigns.io</Link> | <Link href="https://bhaooinc.com/" target="_blank">Brand Of Bhaoo Incorporation Company</Link>
+                                Copyright © 2024 <Link href="/">creativelogodesigns.io</Link> | <a href="https://bhaooinc.com/" target="_blank" rel="noopener noreferrer" >Brand Of Bhaoo Incorporation Company</a>
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">
@@ -203,9 +203,9 @@ const Footer = () => {
                                     socialLinks.map((e, i) => {
                                         return (
                                             <li key={i} className="bg-red w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
-                                                <Link href={e.link} target="_blank">
+                                                <a href={e.link} target="_blank" rel="noopener noreferrer">
                                                     <Image src={e.icon} alt={e.icon} />
-                                                </Link>
+                                                </a>
                                             </li>
                                         );
                                     })
