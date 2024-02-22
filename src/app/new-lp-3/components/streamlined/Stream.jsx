@@ -95,7 +95,7 @@ const Stream = () => {
                         </div>
                         <div className="col-span-12 xl:col-span-6">
                             <div className="image">
-                                <Image src={ComboTwo} className="combo-image w-full sm:w-5/12 xl:w-10/12 mx-auto block xl:ml-[40px]" quality={80} />
+                                <Image src={ComboTwo} alt="creativelogodesigns.io" className="combo-image w-full sm:w-5/12 xl:w-10/12 mx-auto block xl:ml-[40px]" quality={80} />
                             </div>
                         </div>
                     </div>

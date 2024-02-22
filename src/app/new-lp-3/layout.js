@@ -5,14 +5,13 @@ export const metadata = {
     description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
     // Google Varification
     verification: {
-        // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
         other: {
             "facebook-domain-verification": ['9mgotld2pcip5yvdv6yajdqx71xfvt'],
         },
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/new-lp-2',
+        canonical: 'https://www.creativelogodesigns.io/new-lp-3',
     },
     robots: {
         index: false,
@@ -26,6 +25,12 @@ export const metadata = {
             'max-image-preview': 'large',
             'max-snippet': -1,
         },
+    },
+    openGraph: {
+        title: "New LP 3 - Custom Logo Design",
+        description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
+        images: ["/logo.png"],
+        url: "https://www.creativelogodesigns.io/new-lp-3"
     },
 }
 export default function RootLayout({ children }) {

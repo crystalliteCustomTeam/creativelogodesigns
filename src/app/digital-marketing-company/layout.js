@@ -5,7 +5,6 @@ export const metadata = {
     description: "Creative Logo Designs: The go-to digital marketing company for tailored strategies. Boost your online presence, traffic, and achieve ROI-focused results. Contact us!",
     // Google Varification
     verification: {
-        // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
         other: {
             "facebook-domain-verification": ['9mgotld2pcip5yvdv6yajdqx71xfvt'],
         },
@@ -13,7 +12,13 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/digital-marketing-company',
-    }
+    },
+    openGraph: {
+        title: "Leading Digital Marketing Company Services | Creative Logo Designs",
+        description: "Creative Logo Designs: The go-to digital marketing company for tailored strategies. Boost your online presence, traffic, and achieve ROI-focused results. Contact us!",
+        images: ["/logo.png"],
+        url: "https://www.creativelogodesigns.io/digital-marketing-company"
+    },
 }
 
 export default function RootLayout({ children }) {

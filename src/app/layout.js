@@ -13,7 +13,6 @@ export const metadata = {
     description: "Creative Logo Designs offers exceptional custom logo design services that help individuals catapult their brand’s image to a whole new level.",
     // Google Varification
     verification: {
-        // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
         other: {
             "facebook-domain-verification": ['9mgotld2pcip5yvdv6yajdqx71xfvt'],
         },
@@ -27,6 +26,12 @@ export const metadata = {
         "geo.region": 'US',
         "geo.position": '39.78373;-100.445882',
         "ICBM": '39.78373, -100.445882',
+    },
+    openGraph: {
+        title: "Logo Design Company Available for Hire | Creative Logo Designs",
+        description: "Creative Logo Designs offers exceptional custom logo design services that help individuals catapult their brand’s image to a whole new level.",
+        images: ["/logo.png"],
+        url: "https://www.creativelogodesigns.io"
     },
 }
 

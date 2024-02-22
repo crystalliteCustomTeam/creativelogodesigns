@@ -5,7 +5,6 @@ export const metadata = {
     description: "Creative Logo Designs is the highest-ranking mobile app design agency in the United States. They employ only the finest mobile app designers for flawless results.",
     // Google Varification
     verification: {
-        // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
         other: {
             "facebook-domain-verification": ['9mgotld2pcip5yvdv6yajdqx71xfvt'],
         },
@@ -19,6 +18,12 @@ export const metadata = {
         "geo.region": 'US',
         "geo.position": '39.78373;-100.445882',
         "ICBM": '39.78373, -100.445882',
+    },
+    openGraph: {
+        title: "Hire the Foremost Mobile App Design Company | Creative Logo Designs",
+        description: "Creative Logo Designs is the highest-ranking mobile app design agency in the United States. They employ only the finest mobile app designers for flawless results.",
+        images: ["/logo.png"],
+        url: "https://www.creativelogodesigns.io/mobile-app-design-company"
     },
 }
 

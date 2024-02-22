@@ -5,7 +5,6 @@ export const metadata = {
     description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
     // Google Varification
     verification: {
-        // google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
         other: {
             "facebook-domain-verification": ['9mgotld2pcip5yvdv6yajdqx71xfvt'],
         },
@@ -13,7 +12,13 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/thank-you',
-    }
+    },
+    openGraph: {
+        title: "Thank You - Creative Logo Designs",
+        description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
+        images: ["/logo.png"],
+        url: "https://www.creativelogodesigns.io/thank-you"
+    },
 }
 
 export default function RootLayout({ children }) {

@@ -234,9 +234,9 @@ const Contact = () => {
             <div className="basis-full lg:basis-[35%] xl:basis-[40%]">
               <div className="grid grid-cols-1 gap-10">
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
+                  <h3 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                     GIVE US A CALL!
-                  </h2>
+                  </h3>
                   <div
                     dangerouslySetInnerHTML={{
                       __html: `<a href="tel:8556666675" class="text-[18px] font-medium text-[#ffffffc4]">(855) 666-6675</a>`,
@@ -244,9 +244,9 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
+                  <h3 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                     WRITE TO US!
-                  </h2>
+                  </h3>
                   <div
                     dangerouslySetInnerHTML={{
                       __html: `<a href="mailto:info@creativelogodesigns.io" class="text-[18px] font-medium text-[#ffffffc4]">Info@creativelogodesigns.io</a>`,
@@ -254,9 +254,9 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
+                  <h3 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                     MEET US IN PERSON!
-                  </h2>
+                  </h3>
                   <div
                     dangerouslySetInnerHTML={{
                       __html: `<a href="javascript:;" class="text-[18px] font-medium text-[#ffffffc4]">One World Trade Center, Suite 8500, <br /> New York, 10007,<br /> United States</a>`,

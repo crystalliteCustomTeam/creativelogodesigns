@@ -13,7 +13,13 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.creativelogodesigns.io/logo-design-company',
-    }
+    },
+    openGraph: {
+        title: "Custom Logo Design",
+        description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
+        images: ["/logo.png"],
+        url: "https://www.creativelogodesigns.io/logo-design-company"
+    },
 }
 
 export default function RootLayout({ children }) {
