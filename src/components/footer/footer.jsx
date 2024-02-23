@@ -180,9 +180,9 @@ const Footer = () => {
                                         return (
                                             <li key={i} className="flex items-center gap-2 mb-3 last:mb-0">
                                                 <Image src={e.icon} alt={e.icon} />
-                                                <Link href={e.link} className="text-sm xl:text-base text-white font-normal hover:opacity-50">
-                                                    {e.text}
-                                                </Link>
+                                                <div dangerouslySetInnerHTML={{__html: `<a href=${e.link} class="text-sm xl:text-base text-white font-normal hover:opacity-50">
+                                                    ${e.text}
+                                                </a>`}} />
                                             </li>
                                         );
                                     })
