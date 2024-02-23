@@ -8,7 +8,7 @@ import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 import "./global.css";
 // Meta Data
 export const metadata = {
-    metadataBase: new URL('https://creativelogodesigns.io'),
+    metadataBase: new URL('https://www.creativelogodesigns.io'),
     // Title & Descriptions
     title: "Logo Design Company Available for Hire | Creative Logo Designs",
     description: "Creative Logo Designs offers exceptional custom logo design services that help individuals catapult their brand’s image to a whole new level.",
