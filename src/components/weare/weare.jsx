@@ -72,11 +72,11 @@ const Weare = () => {
                 </div>
                 <div className="basis-full md:basis-[30%]">
                   <a
-                    href="mailto:info(@)creativelogodesigns(.)io"
+                    href="mailto:info&#64;creativelogodesigns&#46;io"
                     className="text-xl lg:text-2xl font-medium font-sans text-black"
                   >
                     Discuss Your Ideas <br />
-                    Info@creativelogodesigns.io
+                    Info&#64;creativelogodesigns&#46;io
                   </a>
                 </div>
               </div>

@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/marketing-collateral-company',
+        canonical: '/marketing-collateral-company',
     },
     other: {
         "DC.title": 'marketing collateral company, marketing collateral services, marketing collateral',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "The Finest and Effortless Marketing Collateral Services Available",
         description: "Creative Logo Designs is a leading marketing collateral company in the United States specializing in marketing collateral services. Hire them today to find out more.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/marketing-collateral-company"
+        images: "/logo.png",
+        url: "/marketing-collateral-company"
     },
 }
 

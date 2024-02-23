@@ -249,7 +249,7 @@ const Contact = () => {
                   </h3>
                   <div
                     dangerouslySetInnerHTML={{
-                      __html: `<a href="mailto:info(@)creativelogodesigns(.)io" class="text-[18px] font-medium text-[#ffffffc4]">Info@creativelogodesigns.io</a>`,
+                      __html: `<a href="mailto:info&#64;creativelogodesigns&#46;io" class="text-[18px] font-medium text-[#ffffffc4]">Info&#64;creativelogodesigns&#46;io</a>`,
                     }}
                   />
                 </div>

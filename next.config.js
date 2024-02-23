@@ -1,9 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // images: {
+    //     domains: [
+    //         'www.logodesignscenter.com',
+    //         'http://localhost:3000/',
+    //     ],
+    // },
     images: {
-        domains: [
-            'www.logodesignscenter.com',
-            'http://localhost:3000/',
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'www.logodesignscenter.com',
+                pathname: '**',
+            },
         ],
     },
 }

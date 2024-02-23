@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/digital-marketing-company',
+        canonical: '/digital-marketing-company',
     },
     openGraph: {
         title: "Leading Digital Marketing Company Services | Creative Logo Designs",
         description: "Creative Logo Designs: The go-to digital marketing company for tailored strategies. Boost your online presence, traffic, and achieve ROI-focused results. Contact us!",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/digital-marketing-company"
+        images: "/logo.png",
+        url: "/digital-marketing-company"
     },
 }
 

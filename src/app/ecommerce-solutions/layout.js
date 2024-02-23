@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/ecommerce-solutions',
+        canonical: '/ecommerce-solutions',
     },
     other: {
         "DC.title": 'custom ecommerce solutions, best custom ecommerce solutions',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Custom Ecommerce Solutions Available | Creative Logo Designs",
         description: "Revamp retail spaces with the best custom ecommerce solutions that cater to online platforms such as Shopify that seek to utilize the prospect of ecommerce.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/ecommerce-solutions"
+        images: "/logo.png",
+        url: "/ecommerce-solutions"
     },
 }
 

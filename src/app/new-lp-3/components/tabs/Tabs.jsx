@@ -24,8 +24,8 @@ const Services = ({ content }) => {
         },
         {
             icon: Mail,
-            href: "mailto:info(@)creativelogodesigns(.)io",
-            links: "Info@creativelogodesigns.io",
+            href: "mailto:info&#64;creativelogodesigns&#46;io",
+            links: "Info&#64;creativelogodesigns&#46;io",
         },
     ]
     return (

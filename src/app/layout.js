@@ -8,6 +8,7 @@ import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 import "./global.css";
 // Meta Data
 export const metadata = {
+    metadataBase: new URL('https://creativelogodesigns.io'),
     // Title & Descriptions
     title: "Logo Design Company Available for Hire | Creative Logo Designs",
     description: "Creative Logo Designs offers exceptional custom logo design services that help individuals catapult their brand’s image to a whole new level.",
@@ -19,7 +20,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io',
+        canonical: '/',
     },
     other: {
         "DC.title": 'logo design company, logo design services, best logo design company, logo design agency',
@@ -30,8 +31,8 @@ export const metadata = {
     openGraph: {
         title: "Logo Design Company Available for Hire | Creative Logo Designs",
         description: "Creative Logo Designs offers exceptional custom logo design services that help individuals catapult their brand’s image to a whole new level.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io"
+        images: "/logo.png",
+        url: "/"
     },
 }
 

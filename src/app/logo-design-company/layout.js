@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/logo-design-company',
+        canonical: '/logo-design-company',
     },
     other: {
         "DC.title": 'custom logo design company, custom logo design, custom logo design services',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Hire Custom Logo Design Services | Creative Logo Designs",
         description: "Creative Logo Designs is a custom logo design company that offers the best custom logo design services in the United States. Hire them today for your brand’s logo.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/logo-design-company"
+        images: "/logo.png",
+        url: "/logo-design-company"
     },
 }
 

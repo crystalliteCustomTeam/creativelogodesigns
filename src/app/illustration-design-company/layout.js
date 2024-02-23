@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/illustration-design-company',
+        canonical: '/illustration-design-company',
     },
     other: {
         "DC.title": 'illustration design company, illustration design services, illustration designers',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Hire the Best Illustration Design Company | Creative Logo Designs",
         description: "If you want to add vivid and zestful illustrations to your brand’s image, hire illustration designers at Creative Logo Designs, a leading illustration design company.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/illustration-design-company"
+        images: "/logo.png",
+        url: "/illustration-design-company"
     },
 }
 

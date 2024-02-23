@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/terms-and-conditions',
+        canonical: '/terms-and-conditions',
     },
     openGraph: {
         title: "Terms & Conditions - Creative Logo Designs",
         description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/terms-and-conditions"
+        images: "/logo.png",
+        url: "/terms-and-conditions"
     },
 }
 

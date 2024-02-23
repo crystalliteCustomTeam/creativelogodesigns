@@ -11,13 +11,26 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/new-lp',
+        canonical: '/new-lp',
+    },
+    robots: {
+        index: false,
+        follow: true,
+        nocache: true,
+        googleBot: {
+            index: false,
+            follow: false,
+            noimageindex: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
     },
     openGraph: {
         title: "New LP - Creative Logo Designs",
         description: "Discover Creative Logo Designs's journey and ethos. Driven by innovation and expertise, we're committed to bringing you unparalleled digital solutions. Know our story.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/new-lp"
+        images: "/logo.png",
+        url: "/new-lp"
     },
 }
 

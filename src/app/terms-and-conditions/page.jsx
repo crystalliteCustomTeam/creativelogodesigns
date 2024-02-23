@@ -234,7 +234,7 @@ const Page = () => {
                                     </li>
                                     <li>
                                         <span>
-                                            <a href="mailto:info(@)creativelogodesigns(.)io" className="text-[#0F2847]">info@creativelogodesigns.io</a>
+                                            <a href="mailto:info&#64;creativelogodesigns&#46;io" className="text-[#0F2847]">Info&#64;creativelogodesigns&#46;io</a>
                                         </span>
                                     </li>
                                 </ul>
@@ -251,7 +251,7 @@ const Page = () => {
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal">
                                 <span>
-                                    Working in collaboration with the Government Copyright Agencies, Creative Logo Designs would share Copyright Acquisition information for the refunded designs that would restrict the re-use of the website as its original layout in the future. If you have any questions or concerns about our Refund Policy, please contact us by clicking here <a href="mailto:info(@)creativelogodesigns(.)io" className="text-[#0F2847]">info@creativelogodesigns.io</a>
+                                    Working in collaboration with the Government Copyright Agencies, Creative Logo Designs would share Copyright Acquisition information for the refunded designs that would restrict the re-use of the website as its original layout in the future. If you have any questions or concerns about our Refund Policy, please contact us by clicking here <a href="mailto:info&#64;creativelogodesigns&#46;io" className="text-[#0F2847]">Info&#64;creativelogodesigns&#46;io</a>
                                 </span>
                             </li>
                         </ul>
@@ -267,7 +267,7 @@ const Page = () => {
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Emails Sent back and forth through official emails that are "<a href="mailto:info(@)creativelogodesigns(.)io" className="text-[#0F2847]">info@creativelogodesigns.io</a>" are to be only considered forms of valid communication.
+                                    Emails Sent back and forth through official emails that are "<a href="mailto:info&#64;creativelogodesigns&#46;io" className="text-[#0F2847]">Info&#64;creativelogodesigns&#46;io</a>" are to be only considered forms of valid communication.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
@@ -599,7 +599,7 @@ const Page = () => {
                             Contact Us
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal">
-                            if you have any questions or concerns regarding this policy, please contact us at <a href="mailto:info(@)creativelogodesigns(.)io" className="text-[#0F2847] font-bold">info@creativelogodesigns.io</a>
+                            if you have any questions or concerns regarding this policy, please contact us at <a href="mailto:info&#64;creativelogodesigns&#46;io" className="text-[#0F2847] font-bold">Info&#64;creativelogodesigns&#46;io</a>
                         </p>
                     </div>
                 </div>

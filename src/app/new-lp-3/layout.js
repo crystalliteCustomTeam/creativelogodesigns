@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/new-lp-3',
+        canonical: '/new-lp-3',
     },
     robots: {
         index: false,
@@ -29,8 +29,8 @@ export const metadata = {
     openGraph: {
         title: "New LP 3 - Custom Logo Design",
         description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/new-lp-3"
+        images: "/logo.png",
+        url: "/new-lp-3"
     },
 }
 export default function RootLayout({ children }) {

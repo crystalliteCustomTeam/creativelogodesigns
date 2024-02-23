@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/mobile-app-design-company',
+        canonical: '/mobile-app-design-company',
     },
     other: {
         "DC.title": 'mobile app design company, mobile app design services, mobile app design agency',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Hire the Foremost Mobile App Design Company | Creative Logo Designs",
         description: "Creative Logo Designs is the highest-ranking mobile app design agency in the United States. They employ only the finest mobile app designers for flawless results.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/mobile-app-design-company"
+        images: "/logo.png",
+        url: "/mobile-app-design-company"
     },
 }
 

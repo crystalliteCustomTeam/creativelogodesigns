@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/website-development-company',
+        canonical: '/website-development-company',
     },
     other: {
         "DC.title": 'website development company, web development company, website development agency',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Website Development Agency at Your Service | Creative Logo Designs",
         description: "Hire the best website development company and revamp your brand’s website to a new level. Whether you are a startup or an established brand, we have you covered.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/website-development-company"
+        images: "/logo.png",
+        url: "/website-development-company"
     },
 }
 

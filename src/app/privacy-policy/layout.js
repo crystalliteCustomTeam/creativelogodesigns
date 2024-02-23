@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/privacy-policy',
+        canonical: '/privacy-policy',
     },
     openGraph: {
         title: "Privacy Policy - Creative Logo Designs",
         description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/privacy-policy"
+        images: "/logo.png",
+        url: "/privacy-policy"
     },
 }
 

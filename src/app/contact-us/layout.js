@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/contact-us',
+        canonical: '/contact-us',
     },
     openGraph: {
         title: "Lift Up the Receiver | Contact Us | Creative Logo Designs",
         description: "We are anxiously waiting to hear your great ideas. Contact us today and transform your ideas into a never-ending form of success. What are you waiting for?",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/contact-us"
+        images: "/logo.png",
+        url: "/contact-us"
     },
 }
 

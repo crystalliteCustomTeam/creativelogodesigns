@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/seo-company',
+        canonical: '/seo-company',
     },
     other: {
         "DC.title": 'seo company, seo services, seo agency',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Hire the Best SEO Agency for Premium Search Engine Optimization",
         description: "Creative Logo Designs is a leading SEO company that offers the best SEO services to brands that wish to break the conventional clutter and echo with success.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/seo-company"
+        images: "/logo.png",
+        url: "/seo-company"
     },
 }
 

@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/creative-copywriting-company',
+        canonical: '/creative-copywriting-company',
     },
     other: {
         "DC.title": 'creative copywriting company, copywriting services, copywriting company',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Hire the Best Creative Copywriting Company | Creative Logo Designs",
         description: "As a leading copywriting agency, Creative Logo Designs offers copywriting services that employ only the best wordsmiths for your brand’s image and identity.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/contact-us"
+        images: "/logo.png",
+        url: "/creative-copywriting-company"
     },
 }
 

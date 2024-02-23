@@ -11,7 +11,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/motion-graphic-design-company',
+        canonical: '/motion-graphic-design-company',
     },
     other: {
         "DC.title": 'motion graphics design company, motion graphics design services, motion graphics designer',
@@ -22,8 +22,8 @@ export const metadata = {
     openGraph: {
         title: "Motion Graphics Design Services Available | Creative Logo Designs",
         description: "The leading motion graphics design company in the United States offers the best results for the most affordable prices. Hire a motion graphics designer today.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/motion-graphic-design-company"
+        images: "/logo.png",
+        url: "/motion-graphic-design-company"
     },
 }
 

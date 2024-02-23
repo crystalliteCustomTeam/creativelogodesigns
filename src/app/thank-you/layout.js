@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/thank-you',
+        canonical: '/thank-you',
     },
     openGraph: {
         title: "Thank You - Creative Logo Designs",
         description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/thank-you"
+        images: "/logo.png",
+        url: "/thank-you"
     },
 }
 

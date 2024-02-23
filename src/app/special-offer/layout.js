@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/logo-design-company',
+        canonical: '/logo-design-company',
     },
     openGraph: {
         title: "Special Offer",
         description: "Discover premium logo design services from our top logo design company. Elevate your brand with custom logos with Creative Logo Designs, a trusted logo design agency.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/logo-design-company"
+        images: "/logo.png",
+        url: "/logo-design-company"
     },
 }
 

@@ -11,13 +11,13 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.creativelogodesigns.io/about-us',
+        canonical: '/about-us',
     },
     openGraph: {
         title: "Creative Logo Designs | Logo Design Agency | About Us",
         description: "Discover how the best logo design company in the United States harvests the power of creativity and infuses it with impeccable and creative logo designs.",
-        images: ["/logo.png"],
-        url: "https://www.creativelogodesigns.io/https://www.creativelogodesigns.io/about-us"
+        images: "/logo.png",
+        url: "/about-us"
     },
 }
 
