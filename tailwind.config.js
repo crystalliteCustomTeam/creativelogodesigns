@@ -12,7 +12,7 @@ module.exports = withMT({
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
+    extend: { 
       container: {
         center: true,
         padding: '1rem',
