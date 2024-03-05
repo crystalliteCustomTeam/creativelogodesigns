@@ -14,15 +14,9 @@ const Hero = ({ content }) => {
                 <div className="container">
                     <div className="flex items-center gap-x-5">
                         <div className="basis-[100%] md:basis-[60%]">
-                            <span className="text-[16px] text-red leading-none block font-bold mb-2">
-                                {subtitle}
-                            </span>
-                            <h1 className="text-[25px] md:text-[30px] xl:text-[40px] font-megat font-extrabold leading-tight text-black mb-5 hover:text-red transition-all">
-                                {title}
-                            </h1>
-                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal mb-5 text-justify sm:text-left">
-                                {desc}
-                            </p>
+                            <span className="text-[16px] text-red leading-none block font-bold mb-2" dangerouslySetInnerHTML={{ __html: subtitle }} />
+                            <h1 className="text-[25px] md:text-[30px] xl:text-[40px] font-megat font-extrabold leading-tight text-black mb-5 hover:text-red transition-all" dangerouslySetInnerHTML={{ __html: title }} />
+                            <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal mb-5 text-justify sm:text-left" dangerouslySetInnerHTML={{ __html: desc }} />
                             <Image src={Awards} alt="awards" priority />
                             <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                                 <CTA

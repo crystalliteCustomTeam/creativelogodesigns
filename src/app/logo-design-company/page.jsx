@@ -17,9 +17,9 @@ const Page = () => {
   // Array for Hero Component Props
   const hero = {
     page: "logoDesign",
-    subtitle: "Custom Logo Design Services",
-    title: "A CUSTOM LOGO DESIGN AGENCY FOR EVERYONE ",
-    desc: "Creative Logo Designs is a leading custom logo design company specializing in idyllic logo design services. We are dedicated to creating unique and personalized logos that perfectly represent your brand's identity and values. Our team of experienced designers collaborates closely with clients to understand their vision and craft one-of-a-kind logos that leave a lasting impression.",
+    subtitle: "<a href='/logo-design-company'>Custom Logo Design Services<a/>",
+    title: "A <a href='/logo-design-company'>CUSTOM LOGO DESIGN AGENCY</a> FOR EVERYONE ",
+    desc: "Creative Logo Designs is a leading <a href='/logo-design-company'>custom logo design company</a> specializing in idyllic <a href='/'>logo design services</a>. We are dedicated to creating unique and personalized logos that perfectly represent your brand's identity and values. Our team of experienced designers collaborates closely with clients to understand their vision and craft one-of-a-kind logos that leave a lasting impression.",
     img: {
       src: "/logo-design/hero/hero.png",
       width: "508",
@@ -30,9 +30,8 @@ const Page = () => {
   // Array for Small Banner Component Props
   const smallbanner = {
     page: "logoDesign",
-    title:
-      "WE OFFER CUSTOM LOGO DESIGN SERVICES THAT SPEAK VOLUMES FOR YOUR BRAND",
-    desc: "Our professional custom logo designers are driven to produce results that will resonate not only with your vision, but they will resonate with your brand’s image as well. ",
+    title: "WE OFFER <a href='/logo-design-company'>CUSTOM LOGO DESIGN<a/> SERVICES THAT SPEAK VOLUMES FOR YOUR BRAND",
+    desc: "Our professional <a href='/logo-design-company'>custom logo designers</a> are driven to produce results that will resonate not only with your vision, but they will resonate with your brand’s image as well. ",
     img: {
       src: "/logo-design/smallBanner.png",
       width: "565",
