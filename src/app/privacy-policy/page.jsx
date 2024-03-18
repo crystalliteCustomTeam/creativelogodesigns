@@ -170,7 +170,7 @@ const Page = () => {
                             Introduction
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            This Privacy Policy explains how Creative Logo Designs collects, uses, and protects the email addresses and mobile numbers provided by users on our website. We are committed to ensuring that your privacy is protected and that we comply with all relevant data protection laws.
+                            This Privacy Policy explains how <a href="/">Creative Logo Designs</a> collects, uses, and protects the email addresses and mobile numbers provided by users on our website. We are committed to ensuring that your privacy is protected and that we comply with all relevant data protection laws.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             Information We Collect

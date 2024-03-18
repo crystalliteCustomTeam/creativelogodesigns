@@ -17,7 +17,7 @@ const Page = () => {
     page: "seoServices",
     subtitle: "From Optimization to Conversion",
     title: "HIRE THE BEST SEO SERVICES TO BOOST ENGAGEMENT! ",
-    desc: "Creative Logo Designs is a leading SEO agency that prioritizes search engine optimization when it comes to engagement and conversion ratio. Our SEO services ensure that your brand’s website captures maximum traffic and more opportunities and converts prospects into customers.",
+    desc: "<a href='/'>Creative Logo Designs</a> is a leading SEO agency that prioritizes search engine optimization when it comes to engagement and conversion ratio. Our SEO services ensure that your brand’s website captures maximum traffic and more opportunities and converts prospects into customers.",
     img: {
       src: "/seo-services/hero/hero.png",
       width: "623",

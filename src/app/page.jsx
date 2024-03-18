@@ -29,7 +29,7 @@ const Page = () => {
     page: "home",
     subtitle: "Leading Logo Design Company",
     title: "CREATIVE LOGO DESIGNS FOR EVERY PURPOSE",
-    desc: "Are you eager to witness what lies beyond the mundane? As a premier of custom logo design services, Creative Logo Designs believes that creativity is the ultimate competitive advantage. We create logos that not only stand out but help individuals succeed. ",
+    desc: "Are you eager to witness what lies beyond the mundane? As a premier of <a href='/logo-design-company'>custom logo design services</a>, Creative Logo Designs believes that creativity is the ultimate competitive advantage. We create logos that not only stand out but help individuals succeed. ",
     img: {
       src: "/home/new/hero/hero.png",
       width: "508",

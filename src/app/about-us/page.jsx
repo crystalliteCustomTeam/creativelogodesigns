@@ -15,7 +15,7 @@ const Page = () => {
     page: "single",
     subtitle: "Welcome to Creative Logo Designs",
     title: "A PARAGON OF LOGO DESIGN SERVICES",
-    desc: "With new businesses emerging daily, it’s important to ensure that your brand stands out from the competition. To add that zestful flavor of distinction, we at Creative Logo Designs firmly believe that you and your brand deserve only the best.",
+    desc: "With new businesses emerging daily, it’s important to ensure that your brand stands out from the competition. To add that zestful flavor of distinction, we at <a href='/'>Creative Logo Designs</a> firmly believe that you and your brand deserve only the best.",
     img: {
       src: "/about-us/hero/hero.png",
       width: "453",

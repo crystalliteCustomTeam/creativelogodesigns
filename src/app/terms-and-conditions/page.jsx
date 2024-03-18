@@ -36,7 +36,7 @@ const Page = () => {
                             Turn Around Time
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Creative Logo Designs have a turnaround time of 48-72 hours for most web development services. Note that this is not the complete time frame for a project. It is only the turnaround time for a single iteration of the development stage. Depending on the kind of service, the time required for revisions could vary from a minimum of 48 hours to 72 hours which means two working days.
+                            <a href="/">Creative Logo Designs</a> have a turnaround time of 48-72 hours for most web development services. Note that this is not the complete time frame for a project. It is only the turnaround time for a single iteration of the development stage. Depending on the kind of service, the time required for revisions could vary from a minimum of 48 hours to 72 hours which means two working days.
                         </p>
                         <h3 className="text-md sm:text-lg font-sans text-[#202020] font-semibold leading-none mb-2">
                             For Example:

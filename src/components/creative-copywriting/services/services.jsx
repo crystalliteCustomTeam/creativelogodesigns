@@ -18,7 +18,7 @@ const Services = () => {
               WE PRODUCE COPIES THAT SWAY, PERSUADE, AND CONVERT.
             </h2>
             <p className="text-base text-black font-normal">
-            Hiring a copywriter at Creative Logo Designs is like hiring the best painter for your canvas. Our team of driven copywriters orchestrates impeccable copywriting services that fit like a glove.
+            Hiring a copywriter at <a href="/">Creative Logo Designs</a> is like hiring the best painter for your canvas. Our team of driven copywriters orchestrates impeccable copywriting services that fit like a glove.
             </p>
           </div>
           <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
