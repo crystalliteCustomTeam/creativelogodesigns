@@ -17,6 +17,7 @@ module.exports = withMT({
         center: true,
         padding: '1rem',
         screens: {
+          "xs": { "max": "640px" },
           sm: '640px',
           md: '768px',
           lg: '1024px',
@@ -25,6 +26,7 @@ module.exports = withMT({
         }
       },
       screens: {
+        "xs": { "max": "640px" },
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',
