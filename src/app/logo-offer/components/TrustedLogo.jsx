@@ -1,5 +1,5 @@
 // Next
-import Image from "next/image";
+import Image from "next/image"
 // Images
 import Logo1 from "media/logo-offer-lp/trusted-logo/1.png"
 import Logo2 from "media/logo-offer-lp/trusted-logo/2.png"
@@ -35,4 +35,4 @@ const TrustedLogo = () => {
     )
 }
 
-export default TrustedLogo;
+export default TrustedLogo
