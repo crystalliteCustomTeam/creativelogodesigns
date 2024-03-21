@@ -9,6 +9,7 @@ import heroAward2 from "media/logo-offer-lp/hero-award-2.webp"
 import heroAward3 from "media/logo-offer-lp/hero-award-3.webp"
 // Components
 import { CTA, HeroSlider } from "./components"
+import TrustedLogo from "./components/TrustedLogo"
 
 export default function Page() {
     return (
@@ -59,6 +60,9 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <TrustedLogo/>
             </section>
         </main>
     )
