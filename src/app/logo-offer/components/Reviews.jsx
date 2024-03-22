@@ -22,8 +22,8 @@ const Reviews = () => {
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow: <Image alt="logos" src={logo11} className='img-fluid cursor-pointer' />,
-        prevArrow: <Image alt="logos" src={logo2} className='img-fluid cursor-pointer' />,
+        nextArrow: <Image alt="logos" src={logo11} className='img-fluid' />,
+        prevArrow: <Image alt="logos" src={logo2} className='img-fluid' />,
 
         responsive: [
             {

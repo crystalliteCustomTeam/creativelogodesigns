@@ -36,9 +36,6 @@
     z-index: -1;
 }
 
-.limpo .newarrr img.slick-arrow.slick-next,.limpo .newarrr img.slick-arrow.slick-prev{
-    cursor: pointer;
-}
 @media screen and (max-width: 991px) {
 
     .limpo:before {
