@@ -4,9 +4,7 @@ import Image from "next/image"
 import logo from "media/logo.png"
 import heroBG from "media/logo-offer-lp/hero-bg.png"
 import check from "media/packages/checkCircle.png"
-import heroAward1 from "media/logo-offer-lp/hero-award-1.webp"
-import heroAward2 from "media/logo-offer-lp/hero-award-2.webp"
-import heroAward3 from "media/logo-offer-lp/hero-award-3.webp"
+import Awards from "media/awards/three.svg";
 import portsecIcon1 from "media/logo-offer-lp/portsec-icon1.png"
 import portsecIcon2 from "media/logo-offer-lp/portsec-icon2.png"
 import portsecIcon3 from "media/logo-offer-lp/portsec-icon3.png"
@@ -49,12 +47,8 @@ export default function Page() {
                                         <CTA text="Call Now" href="tel:(855)666-6675" variant="primary" />
                                         <CTA text="Live Chat" href="javascript:$zopim.livechat.window.show();" variant="secondary" />
                                     </div>
-                                    <div className="flex gap-5">
-                                        {
-                                            [heroAward3, heroAward2, heroAward1].map((img, i) => (
-                                                <Image src={img} alt="img" key={i} className="xs:h-[70px] xs:w-auto" />
-                                            ))
-                                        }
+                                    <div className="2xl:mt-10 md:mt-8 mt-5">
+                                        <Image src={Awards} alt="awards" className="block me-auto brightness-0 invert" />
                                     </div>
                                 </div>
                             </div>
