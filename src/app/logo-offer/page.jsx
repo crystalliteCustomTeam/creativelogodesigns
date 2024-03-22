@@ -12,11 +12,12 @@ import portsecIcon2 from "media/logo-offer-lp/portsec-icon2.png"
 import portsecIcon3 from "media/logo-offer-lp/portsec-icon3.png"
 import portsecIcon4 from "media/logo-offer-lp/portsec-icon4.png"
 // Components
-import { CTA, Clients, Combo, Contact, Footer, HeroSlider, LogoConsultants, Packages, OurProcess, OurWork, Reviews, TrustedLogo, YourLogoTabs } from "./components"
+import { CTA, Clients, Combo, Contact, Footer, HeroSlider, LogoConsultants, Packages, OurProcess, OurWork, Reviews, TrustedLogo, YourLogoTabs, Popup } from "./components"
 
 export default function Page() {
     return (
         <main className="font-poppins">
+            <Popup />
             <section>
                 <div className="relative z-10">
                     <Image src={heroBG} alt="heroBG" className="absolute top-0 left-0 right-0 bottom-0 -z-10 w-full h-full object-cover object-bottom" priority />
@@ -118,7 +119,7 @@ export default function Page() {
                 desc={`Get 2 unique mock up logos within 24 hours by consulting our experts`}
             />
             <OurProcess />
-            <Reviews/>
+            <Reviews />
             <Clients />
             <Contact />
             <Footer />

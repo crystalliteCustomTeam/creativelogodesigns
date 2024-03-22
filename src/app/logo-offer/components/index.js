@@ -11,6 +11,7 @@ import Combo from "./Combo"
 import Clients from "./Clients"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import Popup from "./Popup/Popup"
 
 export {
     CTA,
@@ -25,5 +26,6 @@ export {
     Combo,
     Clients,
     Contact,
-    Footer
+    Footer,
+    Popup
 }
