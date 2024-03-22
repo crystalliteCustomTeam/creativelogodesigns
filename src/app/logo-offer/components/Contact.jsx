@@ -8,7 +8,7 @@ import Axios from "axios";
 import contactImg from "media/lp-three/contact.png"
 import formSecBg from "media/logo-offer-lp/form-sec-bg.png"
 import Image from "next/image";
- 
+
 const Contact = () => {
     const [ip, setIP] = useState('');
     //creating function to load ip address from the API
@@ -127,7 +127,7 @@ const Contact = () => {
     return (
         <section>
             <div className="py-[50px] lg:py-[100px] relative z-10" id="contactForm">
-                <Image src={formSecBg} alt="formSecBg" className="absolute top-0 left-0 right-0 bottom-0 -z-10 w-full h-full object-cover object-bottom" priority/>
+                <Image src={formSecBg} alt="formSecBg" className="absolute top-0 left-0 right-0 bottom-0 -z-10 w-full h-full object-cover object-bottom" priority />
                 <div className="container">
                     <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-10 gap-y-5">
                         <div>
