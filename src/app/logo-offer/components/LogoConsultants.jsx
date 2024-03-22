@@ -16,7 +16,7 @@ const LogoConsultants = ({
                 <div className="container">
                     <div className="md:flex lg:gap-x-5 gap-x-3 justify-center items-center">
                         <div className="lg:basis-[55%] md:basis-[60%] text-white">
-                            <h2 className="2xl:text-[40px] sm:text-[28px] leading-tight md:text-[25px] text-[20px] font-bold mb-2" dangerouslySetInnerHTML={{__html : title}} />
+                            <h2 className="2xl:text-[40px] lg:text-[30px] sm:text-[28px] leading-tight md:text-[25px] text-[20px] font-bold mb-2" dangerouslySetInnerHTML={{__html : title}} />
                             <p className="2xl:text-[22px] md:text-lg text-sm font-normal leading-normal" dangerouslySetInnerHTML={{__html: desc}} />
                         </div>
                         <div className="md:basis-[40%] md:mt-0 sm:mt-10 mt-8">

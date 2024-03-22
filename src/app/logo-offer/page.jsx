@@ -87,8 +87,8 @@ export default function Page() {
                 </div>
             </section>
             <LogoConsultants
-                title={`Get professional logo designs at <br className="2xl:block hidden" /> lowest prices`}
-                desc={`Start with a quick <span className="text-[#f5ca37]"><strong>request</strong></span> form and discuss your project with our logo <br className="2xl:hidden xl:block hidden" /> consultants`}
+                title={`Get professional logo designs at <br class="2xl:block hidden" /> lowest prices`}
+                desc={`Start with a quick <span class="text-[#f5ca37]"><strong>request</strong></span> form and discuss your project with our logo <br class="2xl:hidden xl:block hidden" /> consultants`}
             />
             <Packages />
             <Combo />
