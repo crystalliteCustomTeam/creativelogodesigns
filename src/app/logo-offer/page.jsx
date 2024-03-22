@@ -114,6 +114,7 @@ export default function Page() {
                 </div>
             </section>
             <OurProcess />
+            <Reviews/>
             <LogoConsultants
                 title={`Ready to discuss your professional logo design @ a low-cost price?`}
                 desc={`Get 2 unique mock up logos within 24 hours by consulting our experts`}
