@@ -15,15 +15,15 @@ const Packages = () => {
                     {data[0].packages.map((e, i) => (
                         <div key={i} className="text-center bg-white shadow-xl p-[30px] border-2 border-transparent rounded-[0_16px_16px_16px] hover:border-[#2732453b] group">
                             <div className="border-b border-[#000] mb-5">
-                                <h2 className="text-3xl leading-tight font-bold pb-3">{e.name}</h2>
-                                <h2 className="text-[60px] leading-tight font-extrabold pb-3 text-[#333]">{e.discountedPrice}</h2>
+                                <h2 className="md:text-3xl text-2xl leading-tight font-bold pb-3">{e.name}</h2>
+                                <h2 className="lg:text-[60px] md:text-[50px] text-[40px] leading-tight font-extrabold pb-3 text-[#333]">{e.discountedPrice}</h2>
                             </div>
                             <div className="text-start h-[200px] overflow-y-scroll">
                                 <ul>
                                     {e.list &&
                                         e.list.map((e, i) => (
                                             <li key={i} className="flex items-center gap-x-3 mb-3">
-                                                <Image src={check} alt="check" className="block brightness-100 invert" />
+                                                <Image src={check} alt="check" className="block brightness-100 invert w-[19px] h-[19px]" />
                                                 <span className="block leading-normal text-sm">{e}</span></li>
                                         ))}
                                 </ul>
@@ -33,11 +33,11 @@ const Packages = () => {
                             </div>
                             <div className="border-t border-[#e0dbdb7d] pt-4">
                                 <div className="flex justify-between">
-                                    <a href="tel:(332) 282-5383" className="block text-base font-medium text-[#666]">
+                                    <a href="tel:(332) 282-5383" className="block md:text-base text-sm font-medium text-[#666]">
                                         <small className="block text-black">Share your idea?</small>
                                         (855)666-6675
                                     </a>
-                                    <a href="javascript:$zopim.livechat.window.show();" className="block text-base font-medium text-[#666]">
+                                    <a href="javascript:$zopim.livechat.window.show();" className="block md:text-base text-sm font-medium text-[#666]">
                                         <small className="block text-black">Want to discuss?</small>
                                         Live Chat Now
                                     </a>

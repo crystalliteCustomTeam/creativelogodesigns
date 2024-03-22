@@ -83,7 +83,7 @@ const Combo = () => {
                                             {combo1A && combo1A.map((e, i) => (
                                                 <li className="font-poppins text-[14px] text-white font-normal flex items-start gap-2 leading-[24px] mb-3"
                                                     key={i}>
-                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1" />
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 w-[19px] h-[19px]" />
                                                     <span>{e}</span>
                                                 </li>
                                             ))}
@@ -92,13 +92,13 @@ const Combo = () => {
                                             {combo1B && combo1B.map((e, i) => (
                                                 <li className="font-poppins text-[14px] text-white font-normal flex items-start gap-2 leading-[24px] mb-3"
                                                     key={i}>
-                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1" />
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 w-[19px] h-[19px]" />
                                                     <span>{e}</span>
                                                 </li>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                                    <div className="flex items-center flex-row gap-3 sm:gap-5 md:mt-5 mt-8">
                                         <CTA text="Order Now" href="https://app.creativelogodesigns.io/creative/order/68" variant="primary" />
                                         <CTA text="Live Chat" href="javascript:$zopim.livechat.window.show();" variant="secondary" />
                                     </div>
@@ -120,7 +120,7 @@ const Combo = () => {
                                             {combo2A && combo2A.map((e, i) => (
                                                 <li className="font-poppins text-[14px] text-white font-normal flex items-start gap-2 leading-[24px] mb-3"
                                                     key={i}>
-                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1" />
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 w-[19px] h-[19px]" />
                                                     <span>{e}</span>
                                                 </li>
                                             ))}
@@ -129,13 +129,13 @@ const Combo = () => {
                                             {combo2B && combo2B.map((e, i) => (
                                                 <li className="font-poppins text-[14px] text-white font-normal flex items-start gap-2 leading-[24px] mb-3"
                                                     key={i}>
-                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1" />
+                                                    <Image src={checkCircle} alt="checkCircle" className="mt-1 w-[19px] h-[19px]" />
                                                     <span>{e}</span>
                                                 </li>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                                    <div className="flex items-center flex-row gap-3 sm:gap-5 md:mt-5 mt-8">
                                         <CTA text="Order Now" href="https://app.creativelogodesigns.io/creative/order/69" variant="primary" />
                                         <CTA text="Live Chat" href="javascript:$zopim.livechat.window.show();" variant="secondary" />
                                     </div>

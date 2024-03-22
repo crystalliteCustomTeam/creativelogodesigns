@@ -7,9 +7,9 @@ import logo22 from 'media/new-lp/happy/2.webp'
 import logo3 from 'media/new-lp/happy/3.webp'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-
-import logo11 from 'media/new-lp/happy/arr1.png'
-import logo2 from 'media/new-lp/happy/arr2.png'
+import TestiBG from "media/logo-offer-lp/testi-bg.webp"
+import logo11 from 'media/logo-offer-lp/arr1.png'
+import logo2 from 'media/logo-offer-lp/arr2.png'
 
 const Reviews = () => {
 
@@ -22,8 +22,8 @@ const Reviews = () => {
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow: <Image alt="logos" src={logo11} className='img-fluid' />,
-        prevArrow: <Image alt="logos" src={logo2} className='img-fluid' />,
+        nextArrow: <Image alt="logos" src={logo11} className='img-fluid cursor-pointer' />,
+        prevArrow: <Image alt="logos" src={logo2} className='img-fluid cursor-pointer' />,
 
         responsive: [
             {
@@ -58,11 +58,12 @@ const Reviews = () => {
 
     return (
         <>
-            <section className={`${styles.happy} bg-[#fbfbfb] font-poppins lg:py-[80px] md:py-[80px] sm:py-[80px] py-[50px]`}>
+            <section className={`relative z-10 font-poppins lg:py-[80px] md:py-[80px] sm:py-[80px] py-[50px]`}>
+                <Image src={TestiBG} alt="banner" className="absolute top-0 left-0 right-0 bottom-0 -z-10 w-full h-full object-cover object-bottom" priority />
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1">
                         <div className={styles.longa}>
-                            <h2 className="lg:text-[66px] md:text-[35px] sm:text-[35px] text-[23px] font-[700] text-center mb-10 text-[#ffff]">Words from Happy Clients </h2>
+                            <h2 className="lg:text-[50px] md:text-[35px] sm:text-[35px] text-[23px] font-[700] text-center mb-10 text-[#ffff]">Words from Happy Clients </h2>
 
                         </div>
                         <Slider {...settings} className={`${styles.limpo} newarrr`}>
