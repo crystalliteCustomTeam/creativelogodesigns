@@ -21,8 +21,8 @@ const TrustedLogo = () => {
                         [Logo5],
                         [Logo6]
                     ].map(([icon], i) => (
-                            <Image key={i} src={icon} alt="logos" />
-                        ))
+                        <Image key={i} src={icon} alt="logos" />
+                    ))
                     }
                 </div>
             </div>
