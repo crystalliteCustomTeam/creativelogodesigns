@@ -38,7 +38,7 @@ const OurWork = () => {
     ])
     return (
         <section>
-            <div className="py-[40px] md:py-[60px]">
+            <div className="pt-[40px] md:pt-[60px]">
                 <div className="container">
                     <div className="text-center text-black mb-10">
                         <h2 className="xs:text-[25px] text-[30px] lg:text-[40px] font-bold leading-tight">
