@@ -1,6 +1,8 @@
 import CTA from "./CTA"
 import HeroSlider from "./HeroSlider"
+import OurProcess from "./OurProcess"
 import OurWork from "./OurWork"
+import Reviews from "./Reviews"
 import TrustedLogo from "./TrustedLogo"
 import YourLogoTabs from "./YourLogoTabs"
 
@@ -9,5 +11,7 @@ export {
     HeroSlider,
     OurWork,
     TrustedLogo,
-    YourLogoTabs
+    YourLogoTabs,
+    OurProcess,
+    Reviews
 }
