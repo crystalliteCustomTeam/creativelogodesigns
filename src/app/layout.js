@@ -34,6 +34,19 @@ export const metadata = {
         images: "/logo.png",
         url: "/"
     },
+    robots: {
+        index: false,
+        follow: false,
+        nocache: true,
+        googleBot: {
+            index: false,
+            follow: false,
+            noimageindex: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        },
+    },
 }
 
 export default function RootLayout({ children }) {
@@ -41,7 +54,6 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <meta name="google-site-verification" content="oRRvrt9HL1PkpQakQCE0ITO-MCwT2yAORGOsdwEcLEo" />
             <meta name='dmca-site-verification' content='VHcyT2lwK0ZaOXczUzAvUy9oZ3VoYVpUUEFiOXJNYndYSVR5OHlCK1pQYz01' />
-            <meta name="robots" content="noindex,nofollow" />
             <body className={`${primary.variable} ${integralCF.variable}  ${poppins.variable}`}>
                 <noscript>
                     <iframe src="https://www.facebook.com/tr?id=3404182666490229&ev=PageView&noscript=1" className="hidden">
