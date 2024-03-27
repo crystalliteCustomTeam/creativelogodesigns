@@ -1,0 +1,49 @@
+.longa {
+    position: relative;
+    z-index: 1;
+}
+
+.longa:before {
+    content: '';
+    background: url(/_next/static/media/testimonials-text.b78f6b09.webp);
+    position: absolute;
+    left: 13%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 17%;
+    width: 243px;
+    height: 100px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.limpo {
+    position: relative;
+    z-index: 1;
+}
+
+.limpo:before {
+    content: '';
+    background: url(../../../../public/new-lp/happy/qoite-bg.webp);
+    position: absolute;
+    left: 0%;
+    right: 0;
+    margin: 0 auto;
+    bottom: 19%;
+    width: 380px;
+    height: 292px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+@media screen and (max-width: 991px) {
+
+    .limpo:before {
+        display: none;
+    }
+
+    .longa:before {
+        display: none;
+    }
+
+}
