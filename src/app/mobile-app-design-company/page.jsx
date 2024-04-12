@@ -17,7 +17,7 @@ const page = () => {
     page: "mobileApplication",
     subtitle: "Mobile App Design Agency",
     title: "EXPERIENCE THE OPTIMAL MOBILE APP DESIGN SERVICES EFFORTLESSLY",
-    desc: "Creative Logo Designs is a leading mobile app design company that specializes in providing exceptional mobile app design services. As a premier mobile app design agency, we take pride in our team of highly skilled and creative mobile app designers.",
+    desc: "<a href='/'>Creative Logo Designs</a> is a leading mobile app design company that specializes in providing exceptional mobile app design services. As a premier mobile app design agency, we take pride in our team of highly skilled and creative mobile app designers.",
     img: {
       src: "/mobile-application/hero/hero.png",
       width: "373",

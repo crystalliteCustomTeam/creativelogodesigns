@@ -15,7 +15,7 @@ const Services = () => {
                         <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-2">
                         LOGO DESIGN SERVICES LIKE NEVER BEFORE
                         </h2>
-                        <p className="text-base text-black font-normal">Our logo design agency is armed with designers passionate about infusing innovation with creativity.  They excel in various avenues, such as creative logo designs, website design, illustration design, application design, and branding.</p>
+                        <p className="text-base text-black font-normal">Our <a href="/">logo design agency</a> is armed with designers passionate about infusing innovation with creativity.  They excel in various avenues, such as creative logo designs, website design, illustration design, application design, and branding.</p>
                     </div>
                     <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                         <CTA

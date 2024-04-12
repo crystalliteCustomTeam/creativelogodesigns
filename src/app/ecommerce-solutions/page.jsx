@@ -18,7 +18,7 @@ const Page = () => {
     page: "ecommerce",
     subtitle: "Offering Innovative Ecommerce Solutions",
     title: "REVOLUTIONIZING RETAIL SPACES WITH CUSTOM ECOMMERCE SOLUTIONS",
-    desc: "As an ecommerce website design company, Creative Logo Designs aims to deliver ecommerce solutions that cater to various platforms such as Shopify, WooCommerce, Magento, and others.",
+    desc: "As an ecommerce website design company, <a href='/'>Creative Logo Designs</a> aims to deliver ecommerce solutions that cater to various platforms such as Shopify, WooCommerce, Magento, and others.",
     img: {
       src: "/ecommerce/hero/hero.png",
       width: "513",

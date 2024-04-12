@@ -18,7 +18,7 @@ const Services = () => {
               ADDING EXTRAORDINARY MOTION TO MOTIONLESS VISUALS
             </h2>
             <p className="text-base text-black font-normal">
-              At Creative Logo Designs, we aim to deliver the best motion
+              At <a href="/">Creative Logo Designs</a>, we aim to deliver the best motion
               graphics design services that will allow your brand to express its
               image how you intended it to be. Hire motion graphic designers to
               unravel the secrets of success and prosperity.

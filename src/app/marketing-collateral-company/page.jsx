@@ -18,7 +18,7 @@ const Page = () => {
     page: "marketingCollateral",
     subtitle: "Optimum Marketing Collateral Services",
     title: "A MARKETING COLLATERAL COMPANY WARRANTS SUPERIOR ENGAGEMENT",
-    desc: "We understand the critical role marketing collateral plays in promoting your brand and products. That's why our thorough strategies complement marketing collateral services including designing brochures, flyers, banners, product packaging, and more to help you communicate.",
+    desc: "<a href='/'>Creative Logo Designs</a> understand the critical role marketing collateral plays in promoting your brand and products. That's why our thorough strategies complement marketing collateral services including designing brochures, flyers, banners, product packaging, and more to help you communicate.",
     img: {
       src: "/marketing-collateral/hero/hero.png",
       width: "489",

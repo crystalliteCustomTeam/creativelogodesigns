@@ -18,7 +18,7 @@ const Page = () => {
     page: "illustrationDesign",
     subtitle: "Illustration Design Services",
     title: "THE HIGHLY RECOMMENDED ILLUSTRATION DESIGN COMPANY",
-    desc: "Creative Logo Designs is your premier illustration design company, staffed by a team of passionate and skilled illustration designers. We specialize in providing top-notch illustration design services that cater to your unique needs and preferences. Our dedicated professionals are here to help.",
+    desc: "<a href='/'>Creative Logo Designs</a> is your premier illustration design company, staffed by a team of passionate and skilled illustration designers. We specialize in providing top-notch illustration design services that cater to your unique needs and preferences. Our dedicated professionals are here to help.",
     img: {
       src: "/illustration-design/hero/hero.png",
       width: "638",

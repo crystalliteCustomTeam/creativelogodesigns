@@ -13,7 +13,7 @@ const Page = () => {
         page: "single",
         subtitle: "Web Design & Development",
         title: "Comprehensive Design Solutions at Affordable Prices",
-        desc: "Creative Logo Designs: Your Destination for High-Quality Design and Development Services, Crafted to Fit Your Budget.",
+        desc: "<a href='/'>Creative Logo Designs</a>: Your Destination for High-Quality Design and Development Services, Crafted to Fit Your Budget.",
         img: {
             src: "/packages/hero.png",
             width: "508",

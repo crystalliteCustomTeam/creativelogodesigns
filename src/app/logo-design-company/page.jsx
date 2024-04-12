@@ -19,7 +19,7 @@ const Page = () => {
     page: "logoDesign",
     subtitle: "Custom Logo Design Services",
     title: "A CUSTOM LOGO DESIGN AGENCY FOR EVERYONE ",
-    desc: "Creative Logo Designs is a leading custom logo design company specializing in idyllic logo design services. We are dedicated to creating unique and personalized logos that perfectly represent your brand's identity and values. Our team of experienced designers collaborates closely with clients to understand their vision and craft one-of-a-kind logos that leave a lasting impression.",
+    desc: "<a href='/'>Creative Logo Designs</a> is a leading custom logo design company specializing in idyllic <a href='/'>logo design services</a>. We are dedicated to creating unique and personalized logos that perfectly represent your brand's identity and values. Our team of experienced designers collaborates closely with clients to understand their vision and craft one-of-a-kind logos that leave a lasting impression.",
     img: {
       src: "/logo-design/hero/hero.png",
       width: "508",

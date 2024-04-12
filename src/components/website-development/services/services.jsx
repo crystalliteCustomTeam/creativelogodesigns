@@ -20,7 +20,7 @@ const Services = () => {
             <p className="text-base text-black font-normal">
               Every brand requires representation, but if your brand has a
               boring website, you can forget about converting prospects and
-              gathering enough traffic. At Creative Logo Designs, we specialize
+              gathering enough traffic. At <a href="/">Creative Logo Designs</a>, we specialize
               in website design and development that breaks the mundane clutter
               of creativity.
             </p>
