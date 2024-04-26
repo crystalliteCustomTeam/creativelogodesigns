@@ -30,8 +30,8 @@ const Hero = ({ content }) => {
                             <div className="flex items-center gap-5">
                                 {
                                     [[AwardLogo1, "https://www.trustpilot.com/review/creativelogodesigns.io/"], [AwardLogo2, "https://clutch.co/profile/creative-logo-designs/"], [AwardLogo3, "javascript:;"]].map(([e, o], i) => (
-                                        <Link href={o}>
-                                            <Image key={i} src={e} alt="awards" priority />
+                                        <Link key={i} href={o}>
+                                            <Image src={e} alt="awards" priority />
                                         </Link>
                                     ))
                                 }
