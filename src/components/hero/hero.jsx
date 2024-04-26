@@ -2,9 +2,13 @@
 import Image from "next/image";
 // Images
 import Awards from "media/awards/three.svg";
+import AwardLogo1 from "media/hero/logos/1.png";
+import AwardLogo2 from "media/hero/logos/2.png";
+import AwardLogo3 from "media/hero/logos/3.png";
 // Components
 import CTA from "C/CTA";
 import Form from "C/hero/form/form";
+import Link from "next/link";
 
 const Hero = ({ content }) => {
     const { subtitle, title, desc, img, form, page } = content;
@@ -23,7 +27,15 @@ const Hero = ({ content }) => {
                             <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal mb-5 text-justify sm:text-left">
                                 {desc}
                             </p>
-                            <Image src={Awards} alt="awards" priority />
+                            <div className="flex items-center gap-5">
+                                {
+                                    [[AwardLogo1, "https://www.trustpilot.com/review/creativelogodesigns.io/"], [AwardLogo2, "https://clutch.co/profile/creative-logo-designs/"], [AwardLogo3, "javascript:;"]].map(([e, o], i) => (
+                                        <Link href={o}>
+                                            <Image key={i} src={e} alt="awards" priority />
+                                        </Link>
+                                    ))
+                                }
+                            </div>
                             <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                                 <CTA
                                     text="Start Live Chat"

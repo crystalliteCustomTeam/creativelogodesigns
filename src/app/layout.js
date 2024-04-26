@@ -53,12 +53,11 @@ export default function RootLayout({ children }) {
                 <Script
                     id="ze-snippet"
                     src="https://static.zdassets.com/ekr/snippet.js?key=fbc0fae5-0759-4e3e-bc7f-920b1acc2d5d"
-                    strategy="lazyOnload"
                 >
                 </Script>
                 <GoogleAnalytics gaId="G-7TVYY8KVVW" />
                 <GoogleAnalytics gaId="G-9T47T1JW4C" />
-                <Script id="facebook-manager-snippet" strategy="lazyOnload">
+                <Script id="facebook-manager-snippet">
                     {`
                     !function(f,b,e,v,n,t,s)
                     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?

@@ -56,7 +56,7 @@ const OurWork = () => {
                                 [ourWorks1, ourWorks2, ourWorks3, ourWorks4, ourWorks5, ourWorks6].map((e, i) => (
                                     <div key={i} className={`${style.embla__slide}`}>
                                         <div>
-                                            <Image src={e} alt={i} className="w-full h-full rounded-[15px] md:rounded-[25px] !rounded-tl-none" />
+                                            <Image src={e} alt="creativelogodesigns" className="w-full h-full rounded-[15px] md:rounded-[25px] !rounded-tl-none" />
                                         </div>
                                     </div>
                                 ))
@@ -69,7 +69,7 @@ const OurWork = () => {
                                 [ourWorks7, ourWorks8, ourWorks9, ourWorks10, ourWorks11, ourWorks12].map((e, i) => (
                                     <div key={i} className={`${style.embla__slide}`}>
                                         <div>
-                                            <Image src={e} alt={i} className="w-full h-full rounded-[15px] md:rounded-[25px] !rounded-tl-none" />
+                                            <Image src={e} alt="creativelogodesigns" className="w-full h-full rounded-[15px] md:rounded-[25px] !rounded-tl-none" />
                                         </div>
                                     </div>
                                 ))
@@ -82,7 +82,7 @@ const OurWork = () => {
                                 [ourWorks13, ourWorks14, ourWorks15, ourWorks16, ourWorks17, ourWorks18].map((e, i) => (
                                     <div key={i} className={`${style.embla__slide}`}>
                                         <div>
-                                            <Image src={e} alt={i} className="w-full h-full rounded-[15px] md:rounded-[25px] !rounded-tl-none" />
+                                            <Image src={e} alt="creativelogodesigns" className="w-full h-full rounded-[15px] md:rounded-[25px] !rounded-tl-none" />
                                         </div>
                                     </div>
                                 ))

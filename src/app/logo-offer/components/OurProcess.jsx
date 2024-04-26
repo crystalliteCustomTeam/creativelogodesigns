@@ -26,7 +26,7 @@ const Thumb = ({ onClick, img, text, selected, index }) => {
                 className={`p-5 text-center rounded-[15px] md:rounded-[25px] !rounded-tl-none md:h-[300px] grid grid-cols-1 items-center border-2 border-[#efe9e9] bg-white ${selected ? "[box-shadow:0_14px_20px_10px_rgba(47,36,129,.13)]" : ""}`}
             >
                 <span className={`hidden lg:block leading-[0.8] -z-10 absolute top-[-60px] left-0 right-0 text-[150px] font-extrabold ${selected ? "text-yellow-500" : "text-[#efe9e9]"}`}>{index}</span>
-                <Image src={img} alt="img" className={`inline-block`} />
+                <Image src={img} alt="creativelogodesigns" className={`inline-block`} />
                 <h4 className="block text-[14px] lg:text-[12px] xl:text-[16px] font-bold text-black">{text}</h4>
             </div>
         </div>
