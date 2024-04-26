@@ -26,7 +26,7 @@ const HeroSlider = () => {
                     {
                         [portfolios1, portfolios2, portfolios3, portfolios4, portfolios5, portfolios6].map((e, i) => (
                             <div key={i} className="h-[350px] mb-5">
-                                <Image src={e} alt={i} className="h-full max-w-[90%] mx-auto" />
+                                <Image src={e} alt="creativelogodesigns" className="h-full max-w-[90%] mx-auto" />
                             </div>
                         ))
                     }
@@ -37,7 +37,7 @@ const HeroSlider = () => {
                     {
                         [portfolios6, portfolios5, portfolios4, portfolios3, portfolios2, portfolios1].map((e, i) => (
                             <div key={i} className="h-[350px] mb-5">
-                                <Image src={e} alt={i} className="h-full max-w-[90%] mx-auto" />
+                                <Image src={e} alt="creativelogodesigns" className="h-full max-w-[90%] mx-auto" />
                             </div>
                         ))
                     }

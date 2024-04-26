@@ -55,7 +55,7 @@ const Services = ({ content }) => {
                                     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-6 gap-y-3">
                                         {images.map((e, i) => {
                                             return <div key={i}>
-                                                <Image src={e} alt={i} width={217} height={217} className="block m-auto rounded-xl border border-[#cccccc38]" />
+                                                <Image src={e} alt="creativelogodesigns" width={217} height={217} className="block m-auto rounded-xl border border-[#cccccc38]" />
                                             </div>
                                         })}
                                     </div>

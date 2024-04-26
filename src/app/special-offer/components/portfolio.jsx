@@ -103,7 +103,7 @@ const Portfolio = () => {
                                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-3">
                                         {images.map((e, i) => {
                                             return <div key={i}>
-                                                <Image src={e} alt={i} width={800} height={300} className="block m-auto border-[10px] border-light-yellow" />
+                                                <Image src={e} alt="creativelogodesigns" width={800} height={300} className="block m-auto border-[10px] border-light-yellow" />
                                             </div>
                                         })}
                                     </div>

@@ -62,7 +62,7 @@ const Form = () => {
     setErrors(errors);
 
     if (Object.keys(errors).length === 0) {
-      let headersList = { 
+      let headersList = {
         Accept: "*/*",
         "Content-Type": "application/json",
       };
@@ -130,9 +130,9 @@ const Form = () => {
     <section>
       <div className="container">
         <div className="bg-red h-[150px] lg:h-[200px] flex items-center justify-center text-center rotate-[2deg] relative mt-[50px] lg:mt-0">
-          <h2 className="text-[25px] md:text-[30px] xl:text-[45px] font-megat font-extrabold leading-tight text-white">
+          <h3 className="text-[25px] md:text-[30px] xl:text-[45px] font-megat font-extrabold leading-tight text-white">
             YOUR CONVENIENCE IS OUR <br /> UTMOST PRIORITY
-          </h2>
+          </h3>
           <Image
             src="/icons/bannerArrow.png"
             width={112}

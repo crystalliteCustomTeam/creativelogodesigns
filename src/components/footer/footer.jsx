@@ -179,7 +179,7 @@ const Footer = () => {
                                     contactLinks.map((e, i) => {
                                         return (
                                             <li key={i} className="flex items-center gap-2 mb-3 last:mb-0">
-                                                <Image src={e.icon} alt={e.icon} />
+                                                <Image src={e.icon} alt="creativelogodesigns" />
                                                 <div dangerouslySetInnerHTML={{__html: `<a href=${e.link} class="text-sm xl:text-base text-white font-normal hover:opacity-50">
                                                     ${e.text}
                                                 </a>`}} />
@@ -204,7 +204,7 @@ const Footer = () => {
                                         return (
                                             <li key={i} className="bg-red w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
                                                 <a href={e.link} target="_blank" rel="noopener noreferrer">
-                                                    <Image src={e.icon} alt={e.icon} />
+                                                    <Image src={e.icon} alt="creativelogodesigns" />
                                                 </a>
                                             </li>
                                         );
@@ -215,7 +215,7 @@ const Footer = () => {
                     </div>
                     <div className="py-5">
                         <p className="text-[12px] font-light text-white leading-[22px]">
-                            <span className="font-semibold">Disclaimer</span>: Logo, name and graphic representation of Creative Logo Designs and its products and services are trademarks of Creative Logo Designs. All other company names, trademarks and logos mentioned on this website are the property of their respective owners and do not represent or imply endorsement, sponsorship or recommendation by Creative Logo Designs and constitute or imply endorsement, sponsorship or recommendation thereof by Creative Logo Designs and do not constitute or imply endorsement, sponsorship or recommendation of Creative Logo Designs by the respective trademark owner.
+                            <span className="font-semibold">Disclaimer</span>: The logo, name, and graphic representation of Creative Logo Designs and its products and services are trademarks of Creative Logo Designs. All other company names, trademarks, and logos mentioned on this website are the property of their respective owners and do not represent or imply endorsement, sponsorship, or recommendation by Creative Logo Designs by the respective trademark owner.
                         </p>
                     </div>
                 </div>
