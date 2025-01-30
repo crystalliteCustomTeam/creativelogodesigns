@@ -162,22 +162,22 @@ const Page = () => {
                   "@type": "BlogPosting",
                   "mainEntityOfPage": {
                       "@type": "WebPage",
-                      "@id": "https://www.creativelogodesigns.io/"
+                      "@id": "https://www.creativelogodesigns.us/"
                   },
                   "headline": "Logo Design Company",
                   "description": "logo design company, best logo design company, top logo design company, professional logo design company, logo design services, logo design agency, logo designer, creative logo designs",
-                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
                   "author": {
                       "@type": "Organization",
                       "name": "logo design company, best logo design company, top logo design company, professional logo design company, logo design services, logo design agency, logo designer, creative logo designs",
-                      "url": "https://www.creativelogodesigns.io/"
+                      "url": "https://www.creativelogodesigns.us/"
                   },
                   "publisher": {
                       "@type": "Organization",
                       "name": "logo design company, best logo design company, top logo design company, professional logo design company, logo design services, logo design agency, logo designer, creative logo designs",
                       "logo": {
                           "@type": "ImageObject",
-                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                          "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                       }
                   },
                   "datePublished": ""

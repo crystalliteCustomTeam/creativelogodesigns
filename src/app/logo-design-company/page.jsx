@@ -172,22 +172,22 @@ const Page = () => {
                   "@type": "BlogPosting",
                   "mainEntityOfPage": {
                       "@type": "WebPage",
-                      "@id": "https://www.creativelogodesigns.io/logo-design-company"
+                      "@id": "https://www.creativelogodesigns.us/logo-design-company"
                   },
                   "headline": "Custom Logo Design Company",
                   "description": "custom logo design company, best custom logo design company, top custom logo design company, professional custom logo design company, leading custom logo design company, custom logo design, custom logo designer, custom logo design services, custom logo design agency",
-                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
                   "author": {
                       "@type": "Organization",
                       "name": "custom logo design company, best custom logo design company, top custom logo design company, professional custom logo design company, leading custom logo design company, custom logo design, custom logo designer, custom logo design services, custom logo design agency",
-                      "url": "https://www.creativelogodesigns.io/"
+                      "url": "https://www.creativelogodesigns.us/"
                   },
                   "publisher": {
                       "@type": "Organization",
                       "name": "custom logo design company, best custom logo design company, top custom logo design company, professional custom logo design company, leading custom logo design company, custom logo design, custom logo designer, custom logo design services, custom logo design agency",
                       "logo": {
                           "@type": "ImageObject",
-                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                          "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                       }
                   },
                   "datePublished": ""

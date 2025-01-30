@@ -134,7 +134,7 @@ const Combo = () => {
                                     <div className="flex items-center justify-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                                         <CTA
                                             text="Order Now"
-                                            href="https://app.creativelogodesigns.io/creative/order/68"
+                                            href="https://app.creativelogodesigns.us/creative/order/68"
                                             bg="bg-white"
                                             rounded="rounded-none"
                                             color="text-black"
@@ -204,7 +204,7 @@ const Combo = () => {
                                     <div className="flex items-center justify-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                                         <CTA
                                             text="Order Now"
-                                            href="https://app.creativelogodesigns.io/creative/order/68"
+                                            href="https://app.creativelogodesigns.us/creative/order/68"
                                             bg="bg-white"
                                             rounded="rounded-none"
                                             color="text-black"

@@ -29,7 +29,7 @@ const Hero = ({ content }) => {
                             </p>
                             <div className="flex items-center gap-5">
                                 {
-                                    [[AwardLogo1, "https://www.trustpilot.com/review/creativelogodesigns.io/"], [AwardLogo2, "https://clutch.co/profile/creative-logo-designs/"], [AwardLogo3, "javascript:;"]].map(([e, o], i) => (
+                                    [[AwardLogo1, "https://www.trustpilot.com/review/creativelogodesigns.us/"], [AwardLogo2, "https://clutch.co/profile/creative-logo-designs/"], [AwardLogo3, "javascript:;"]].map(([e, o], i) => (
                                         <Link key={i} href={o}>
                                             <Image src={e} alt="awards" priority />
                                         </Link>

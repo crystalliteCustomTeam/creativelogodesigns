@@ -102,22 +102,22 @@ const Page = () => {
                   "@type": "BlogPosting",
                   "mainEntityOfPage": {
                       "@type": "WebPage",
-                      "@id": "https://www.creativelogodesigns.io/ecommerce-solutions"
+                      "@id": "https://www.creativelogodesigns.us/ecommerce-solutions"
                   },
                   "headline": "Custom Ecommerce Solutions",
                   "description": "custom ecommerce solutions, best custom ecommerce solutions, top custom ecommerce solutions, leading custom ecommerce solutions, professional custom ecommerce solutions, ecommerce solutions, ecommerce website design , ecommerce website design company",
-                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
                   "author": {
                       "@type": "Organization",
                       "name": "custom ecommerce solutions, best custom ecommerce solutions, top custom ecommerce solutions, leading custom ecommerce solutions, professional custom ecommerce solutions, ecommerce solutions, ecommerce website design , ecommerce website design company",
-                      "url": "https://www.creativelogodesigns.io/"
+                      "url": "https://www.creativelogodesigns.us/"
                   },
                   "publisher": {
                       "@type": "Organization",
                       "name": "custom ecommerce solutions, best custom ecommerce solutions, top custom ecommerce solutions, leading custom ecommerce solutions, professional custom ecommerce solutions, ecommerce solutions, ecommerce website design , ecommerce website design company",
                       "logo": {
                           "@type": "ImageObject",
-                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                          "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                       }
                   },
                   "datePublished": ""

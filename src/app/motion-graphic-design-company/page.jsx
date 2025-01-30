@@ -169,22 +169,22 @@ const Page = () => {
                   "@type": "BlogPosting",
                   "mainEntityOfPage": {
                       "@type": "WebPage",
-                      "@id": "https://www.creativelogodesigns.io/motion-graphic-design-company"
+                      "@id": "https://www.creativelogodesigns.us/motion-graphic-design-company"
                   },
                   "headline": "Motion Graphics Design Company",
                   "description": "motion graphics design company, best motion graphics design company, top motion graphics design company, leading motion graphics design company, trusted motion graphics design company, professional motion graphics design company, motion graphics designer, motion graphics design services, hire motion graphic designers",
-                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
                   "author": {
                       "@type": "Organization",
                       "name": "motion graphics design company, best motion graphics design company, top motion graphics design company, leading motion graphics design company, trusted motion graphics design company, professional motion graphics design company, motion graphics designer, motion graphics design services, hire motion graphic designers",
-                      "url": "https://www.creativelogodesigns.io/"
+                      "url": "https://www.creativelogodesigns.us/"
                   },
                   "publisher": {
                       "@type": "Organization",
                       "name": "motion graphics design company, best motion graphics design company, top motion graphics design company, leading motion graphics design company, trusted motion graphics design company, professional motion graphics design company, motion graphics designer, motion graphics design services, hire motion graphic designers",
                       "logo": {
                           "@type": "ImageObject",
-                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                          "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                       }
                   },
                   "datePublished": ""

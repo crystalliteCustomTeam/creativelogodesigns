@@ -143,8 +143,8 @@ const Page = () => {
                             "@context": "https://schema.org",
                             "@type": "Organization",
                             "name": "Creative Logo Designs",
-                            "url": "https://www.creativelogodesigns.io",
-                            "logo": "https://www.creativelogodesigns.io/_next/static/media/logo.0278bd76.svg",
+                            "url": "https://www.creativelogodesigns.us",
+                            "logo": "https://www.creativelogodesigns.us/_next/static/media/logo.0278bd76.svg",
                             "contactPoint": {
                                 "@type": "ContactPoint",
                                 "telephone": "855 888-8399",

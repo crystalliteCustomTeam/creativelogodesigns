@@ -149,14 +149,14 @@ const Portfolios = () => {
                                                 <div className="col-span-2 md:col-span-1">
                                                     <div className="rounded-[10px] mb-5 h-[300px] lg:h-[400px] xl:h-[600px] overflow-hidden group relative">
                                                         <Link href={links[0]} target="_blank" rel="noopener noreferrer">
-                                                            <Image src={images[0]} alt="creativelogodesigns.io" className="rounded-[10px] w-full" />
+                                                            <Image src={images[0]} alt="creativelogodesigns.us" className="rounded-[10px] w-full" />
                                                             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 group-hover:opacity-50">
                                                             </div>
                                                         </Link>
                                                     </div>
                                                     <div className="rounded-[10px] h-[200px] lg:h-[250px] xl:h-[400px] overflow-hidden group relative">
                                                         <Link href={links[1]} target="_blank" rel="noopener noreferrer">
-                                                            <Image src={images[1]} alt="creativelogodesigns.io" className="rounded-[10px] w-full" />
+                                                            <Image src={images[1]} alt="creativelogodesigns.us" className="rounded-[10px] w-full" />
                                                             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 group-hover:opacity-50">
                                                             </div>
                                                         </Link>
@@ -165,7 +165,7 @@ const Portfolios = () => {
                                                 <div className="col-span-2 md:col-span-1">
                                                     <div className="rounded-[10px] h-[520px] lg:h-[670px] xl:h-[1020px] overflow-hidden group relative">
                                                         <Link href={links[2]} target="_blank" rel="noopener noreferrer">
-                                                            <Image src={images[2]} alt="creativelogodesigns.io" className="rounded-[10px] w-full" />
+                                                            <Image src={images[2]} alt="creativelogodesigns.us" className="rounded-[10px] w-full" />
                                                             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 group-hover:opacity-50">
                                                             </div>
                                                         </Link>
@@ -174,7 +174,7 @@ const Portfolios = () => {
                                                 <div className="col-span-2">
                                                     <div className="rounded-[10px] h-[150px] lg:h-[400px] xl:h-[600px] overflow-hidden group relative">
                                                         <Link href={links[3]} target="_blank" rel="noopener noreferrer">
-                                                            <Image src={images[3]} alt="creativelogodesigns.io" className="rounded-[10px] w-full" />
+                                                            <Image src={images[3]} alt="creativelogodesigns.us" className="rounded-[10px] w-full" />
                                                             <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 group-hover:opacity-50">
                                                             </div>
                                                         </Link>

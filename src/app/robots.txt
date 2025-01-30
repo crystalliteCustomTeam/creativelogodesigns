@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://www.creativelogodesigns.io/sitemap.xml
+Sitemap: https://www.creativelogodesigns.us/sitemap.xml

@@ -99,7 +99,7 @@ const Combo = () => {
                                         </ul>
                                     </div>
                                     <div className="flex items-center flex-row gap-3 sm:gap-5 md:mt-5 mt-8">
-                                        <CTA text="Order Now" href="https://app.creativelogodesigns.io/creative/order/68" variant="primary" />
+                                        <CTA text="Order Now" href="https://app.creativelogodesigns.us/creative/order/68" variant="primary" />
                                         <CTA text="Live Chat" href="javascript:$zopim.livechat.window.show();" variant="secondary" />
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@ const Combo = () => {
                                         </ul>
                                     </div>
                                     <div className="flex items-center flex-row gap-3 sm:gap-5 md:mt-5 mt-8">
-                                        <CTA text="Order Now" href="https://app.creativelogodesigns.io/creative/order/69" variant="primary" />
+                                        <CTA text="Order Now" href="https://app.creativelogodesigns.us/creative/order/69" variant="primary" />
                                         <CTA text="Live Chat" href="javascript:$zopim.livechat.window.show();" variant="secondary" />
                                     </div>
                                 </div>

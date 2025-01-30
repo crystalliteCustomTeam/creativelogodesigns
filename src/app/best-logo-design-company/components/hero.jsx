@@ -110,7 +110,7 @@ const Hero = () => {
                 data: bodyContent,
             }
             await Axios.request(reqOptions);
-            window.location.href = "https://app.creativelogodesigns.io/creative/order/64";
+            window.location.href = "https://app.creativelogodesigns.us/creative/order/64";
         }
     }
     let list = [

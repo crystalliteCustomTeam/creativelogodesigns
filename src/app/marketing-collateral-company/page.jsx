@@ -125,22 +125,22 @@ const Page = () => {
                   "@type": "BlogPosting",
                   "mainEntityOfPage": {
                       "@type": "WebPage",
-                      "@id": "https://www.creativelogodesigns.io/marketing-collateral-company"
+                      "@id": "https://www.creativelogodesigns.us/marketing-collateral-company"
                   },
                   "headline": "Marketing Collateral Company",
                   "description": "marketing collateral company, best marketing collateral company, leading marketing collateral company, top marketing collateral company, professional marketing collateral company, trusted marketing collateral company, marketing collateral services, collateral marketing, marketing collateral",
-                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
                   "author": {
                       "@type": "Organization",
                       "name": "marketing collateral company, best marketing collateral company, leading marketing collateral company, top marketing collateral company, professional marketing collateral company, trusted marketing collateral company, marketing collateral services, collateral marketing, marketing collateral",
-                      "url": "https://www.creativelogodesigns.io/"
+                      "url": "https://www.creativelogodesigns.us/"
                   },
                   "publisher": {
                       "@type": "Organization",
                       "name": "marketing collateral company, best marketing collateral company, leading marketing collateral company, top marketing collateral company, professional marketing collateral company, trusted marketing collateral company, marketing collateral services, collateral marketing, marketing collateral",
                       "logo": {
                           "@type": "ImageObject",
-                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                          "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                       }
                   },
                   "datePublished": ""

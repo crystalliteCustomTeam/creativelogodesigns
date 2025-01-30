@@ -160,22 +160,22 @@ const page = () => {
                   "@type": "BlogPosting",
                   "mainEntityOfPage": {
                       "@type": "WebPage",
-                      "@id": "https://www.creativelogodesigns.io/mobile-app-design-company"
+                      "@id": "https://www.creativelogodesigns.us/mobile-app-design-company"
                   },
                   "headline": "Mobile App Design Company",
                   "description": "mobile app design company, best mobile app design company, top mobile app design company, leading mobile app design company, professional mobile app design company, trusted mobile app design company, mobile app design agency, mobile app design services, mobile app designers",
-                  "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
+                  "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",
                   "author": {
                       "@type": "Organization",
                       "name": "mobile app design company, best mobile app design company, top mobile app design company, leading mobile app design company, professional mobile app design company, trusted mobile app design company, mobile app design agency, mobile app design services, mobile app designers",
-                      "url": "https://www.creativelogodesigns.io/"
+                      "url": "https://www.creativelogodesigns.us/"
                   },
                   "publisher": {
                       "@type": "Organization",
                       "name": "mobile app design company, best mobile app design company, top mobile app design company, leading mobile app design company, professional mobile app design company, trusted mobile app design company, mobile app design agency, mobile app design services, mobile app designers",
                       "logo": {
                           "@type": "ImageObject",
-                          "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                          "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                       }
                   },
                   "datePublished": ""

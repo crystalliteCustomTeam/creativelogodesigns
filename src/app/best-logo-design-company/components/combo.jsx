@@ -99,7 +99,7 @@ const Combo = () => {
                                     <div className="flex items-center flex-wrap sm:flex-nowrap gap-3 mt-5 relative z-10">
                                         <CTA
                                             text="Order Now"
-                                            href="https://app.creativelogodesigns.io/creative/order/68"
+                                            href="https://app.creativelogodesigns.us/creative/order/68"
                                             bg="bg-[#2d2d2d]"
                                             icon="/icons/chat.svg"
                                             css="hover:bg-light-yellow  font-poppins"
@@ -150,7 +150,7 @@ const Combo = () => {
                                     <div className="flex items-center flex-wrap sm:flex-nowrap gap-3 mt-5 relative z-10">
                                         <CTA
                                             text="Order Now"
-                                            href="https://app.creativelogodesigns.io/creative/order/69"
+                                            href="https://app.creativelogodesigns.us/creative/order/69"
                                             bg="bg-[#2d2d2d]"
                                             icon="/icons/chat.svg"
                                             css="hover:bg-light-yellow  font-poppins"

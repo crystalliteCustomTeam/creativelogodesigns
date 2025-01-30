@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div className="text-center border-t-2 border-[#8e8e8e2e] pt-5">
                         <p className="font-poppins font-medium text-[14px] leading-tight text-[#8e8e8e] text-center">
-                            Copyright © 2024 creativelogodesigns.io | <a href="https://bhaooinc.com/" target="_blank" rel="noopener noreferrer">Brand Of Bhaoo Incorporation Company</a>
+                            Copyright © 2024 creativelogodesigns.us | <a href="https://bhaooinc.com/" target="_blank" rel="noopener noreferrer">Brand Of Bhaoo Incorporation Company</a>
                         </p>
                     </div>
                 </div>

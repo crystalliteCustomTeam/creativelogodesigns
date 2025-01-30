@@ -100,22 +100,22 @@ const Page = () => {
                 "@type": "BlogPosting",
                 "mainEntityOfPage": {
                   "@type": "WebPage",
-                  "@id": "https://www.creativelogodesigns.io/creative-copywriting-company"
+                  "@id": "https://www.creativelogodesigns.us/creative-copywriting-company"
                 },
                 "headline": "Creative Copywriting Company",
                 "description": "creative copywriting company, best creative copywriting company, top creative copywriting company, leading creative copywriting company, professional creative copywriting company, copywriter, copywriting services, copywriting agency, copywriting company, creative copywriting services",
-                "image": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",  
+                "image": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75",  
                 "author": {
                   "@type": "Organization",
                   "name": "creative copywriting company, best creative copywriting company, top creative copywriting company, leading creative copywriting company, professional creative copywriting company, copywriter, copywriting services, copywriting agency, copywriting company, creative copywriting services",
-                  "url": "https://www.creativelogodesigns.io/"
+                  "url": "https://www.creativelogodesigns.us/"
                 },  
                 "publisher": {
                   "@type": "Organization",
                   "name": "creative copywriting company, best creative copywriting company, top creative copywriting company, leading creative copywriting company, professional creative copywriting company, copywriter, copywriting services, copywriting agency, copywriting company, creative copywriting services",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.creativelogodesigns.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
+                    "url": "https://www.creativelogodesigns.us/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.8080cd64.png&w=640&q=75"
                   }
                 },
                 "datePublished": ""

@@ -49,7 +49,7 @@ const Form = () => {
 
         // Router usage
         if (router.pathname === router.pathname) {
-            window.location.href = 'https://www.creativelogodesigns.io/thank-you';
+            window.location.href = 'https://www.creativelogodesigns.us/thank-you';
         }
     };
     //===== Form End =======\\

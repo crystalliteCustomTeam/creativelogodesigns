@@ -109,7 +109,7 @@ const Form = () => {
             }
             await Axios.request(reqOptions);
             console.log(bodyContent)
-            window.location.href = "https://app.creativelogodesigns.io/creative/order/64";
+            window.location.href = "https://app.creativelogodesigns.us/creative/order/64";
         }
     }
     return (
