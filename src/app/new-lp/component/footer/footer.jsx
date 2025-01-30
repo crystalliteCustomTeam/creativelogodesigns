@@ -22,7 +22,7 @@ const Footer = () => {
                             <Link className="text-[14px] font-[500] text-[#ffff]" href='/terms-and-conditions'>Terms & Conditions</Link> | <Link className="text-[14px] font-[500] text-[#ffff]" href='/privacy-policy'>Privacy Policy</Link>
                         </div>
                         <div>
-                            <p className="text-[12px] font-[600] text-[#ffff] text-center">Copyright © 2024 <Link href="/">creativelogodesigns.us</Link> </p>
+                            <p className="text-[12px] font-[600] text-[#ffff] text-center">Copyright © 2025 <Link href="/">creativelogodesigns.us</Link> </p>
                         </div>
                         <div className="flex lg:justify-end md:justify-center sm:justify-center justify-center">
                             <Image alt="logo1" src={logo1} />

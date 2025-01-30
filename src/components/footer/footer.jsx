@@ -194,7 +194,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-5 sm:gap-y-0 items-center border-b-[1px] border-[#707070]">
                         <div className="basis-full sm:basis-1/2">
                             <p className="text-sm font-light text-white leading-6 text-center sm:text-left">
-                                Copyright © 2024 <Link href="/">creativelogodesigns.us</Link> | <a href="https://bhaooinc.com/" target="_blank" rel="noopener noreferrer" >Brand Of Bhaoo Incorporation Company</a>
+                                Copyright © 2025 <Link href="/">creativelogodesigns.us</Link> | <a href="https://bhaooinc.com/" target="_blank" rel="noopener noreferrer" >Brand Of Bhaoo Incorporation Company</a>
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">
