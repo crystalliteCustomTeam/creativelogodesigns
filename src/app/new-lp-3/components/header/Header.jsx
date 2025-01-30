@@ -26,12 +26,12 @@ const Header = () => {
                         <div className="nav-items w-[60%]">
                             <div className='flex gap-8 items-center md:justify-around justify-end sm:pt-5 pt-5'>
                                 <div>
-                                    <a href="mailto:info&#64;creativelogodesigns&#46;io" className="flex items-center gap-2 xl:gap-4">
+                                    <a href="mailto:info&#64;creativelogodesigns&#46;us" className="flex items-center gap-2 xl:gap-4">
                                         <div className="icon">
                                             <Image src={Email} alt="EmailIcon" className="w-4 h-4" />
                                         </div>
                                         <div className="sm:block hidden email text-[12px] xl:text-[14px] font-[500]">
-                                            Info&#64;creativelogodesigns&#46;io
+                                            info&#64;creativelogodesigns&#46;us
                                         </div>
                                     </a>
                                     <Link href="tel:844-423-5302;" className="flex items-center gap-2 xl:gap-4 mt-2">

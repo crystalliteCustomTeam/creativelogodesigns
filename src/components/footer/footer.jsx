@@ -101,8 +101,8 @@ const Footer = () => {
             icon: telephone
         },
         {
-            text: "Info&#64;creativelogodesigns&#46;io",
-            link: "mailto:info&#64;creativelogodesigns&#46;io",
+            text: "info&#64;creativelogodesigns&#46;us",
+            link: "mailto:info&#64;creativelogodesigns&#46;us",
             icon: envelope
         },
     ];
